@@ -1,0 +1,63 @@
+Also known as censurfridns.
+By https://ahadns.com/ Server statistics can be seen at: https://statistics.ahadns.com/?server=la
+By https://cleanbrowsing.org/
+Cached via Cloudflare.
+ControlD Free DNS.
+Encrypted DNS Server image by jedisct1, maintaned by DeffeR.
+for your pleasure.
+From experimental &mu;ODNS project https://junkurihara.github.io/dns/.
+Globally cached via Cloudflare.
+Helsinki, Finland.
+Homepage: https://alidns.com
+Homepage: https://artikel10.org
+Homepage: https://dns4all.eu
+Homepage: https://dnspod.cn
+Homepage: https://dns.sb
+Homepage: https://sdns.360.net
+Homepage: https://www.aa.net.uk/dns/
+Homepage: https://www.restena.lu
+Homepage: https://www.switch.ch
+Hosted in Adelaide, Australia.
+Hosted in Bettembourg, Luxembourg.
+Hosted in Germany.
+Hosted in London UK on Digital Ocean https://www.dnscrypt.uk
+Hosted in Los Angeles, USA.
+Hosted in Nuremberg, Germany.
+Hosted in Paris, running on a 1-XS server donated by Scaleway.com
+Hosted in Perth, Australia.
+Hosted in Sydney, Australia.
+Hosted in Vienna, Austria.
+Hosted in Zurich, Switzerland.
+Hosted on ConoHa VPS Tokyo region.
+Hosted on Vultr, jlongua.github.io/plan9-dns
+- https://controld.com/free-dns
+(https://dns.brahma.world)
+https://dnscrypt.ca/
+https://dns.njal.la/
+https://ffmuc.net/
+https://libredns.gr/
+https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/
+https://open.dns0.eu/
+https://www.bortzmeyer.org/doh-bortzmeyer-fr-policy.html
+https://www.dns0.eu/
+https://www.dnscry.pt
+https://www.iij.ad.jp/
+https://www.nextdns.io/
+Location: Hungary
+Maintained by Frank Denis.
+Maintained by Frank Denis - https://fr.dnscrypt.info/sfw.html
+Mexico City, MX.
+Miami Florida, USA.
+More info on the [homepage](https://dnslow.me) and [GitHub](https://github.com/PeterDaveHello/dnslow.me)
+Operating for 4 years now.
+Piscataway New Jersey, USA.
+Provided by: https://dnsforfamily.com
+Resolver in Amsterdam.
+Running privately by ibksturm in Thurgau, Switzerland
+Sites like Reddit are allowed.
+So Google, YouTube, Bing, DuckDuckGo and Yandex are completely accessible without any restriction.
+Take CONTROL of your Internet.
+This DNS unblocks censored domains from various countries.
+To select the server location, the "-ultralow" variant relies on bootstrap servers instead of anycast.
+Wikimedia DNS (formerly called Wikidough), is a caching, recursive, public resolver service that is run and managed by the Site Reliability Engineering (Traffic) team at the Foundation.
+Wikimedia DNS helps prevent some surveillance and censorship of our wikis and other websites by securing DNS lookups.
