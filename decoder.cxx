@@ -8,6 +8,7 @@
 #include <algorithm>
 #include <string>
 #include <string_view>
+#include <regex>
 #include <vector>
 #include <array>
 #include <optional>
@@ -89,10 +90,10 @@ std::optional<std::vector<std::byte>> decode_url_safe_base64(std::string_view en
     // Convert characters to their 6-bit values.
     b[0] = decoding_table[static_cast<unsigned char>(c1)];
     b[1] = decoding_table[static_cast<unsigned char>(c2)];
-    // b[2] and b[3] might be padding chars, which map to -1
+    // b[2] and b[3] might be padding chars, which map to 0xff in the decoding table.
     // but we handle them based on char value '=' instead.
 
-    if (b[0] == -1 || b[1] == -1)
+    if (b[0] == 0xff || b[1] == 0xff)
       return std::nullopt; // First two characters of a quartet must be valid Base64 chars.
 
     // Assemble the 24-bit value from the first two 6-bit values.
@@ -110,7 +111,7 @@ std::optional<std::vector<std::byte>> decode_url_safe_base64(std::string_view en
       break; // End of data, processed 1 byte from this quartet.
     }
     b[2] = decoding_table[static_cast<unsigned char>(c3)];
-    if (b[2] == -1)
+    if (b[2] == 0xff)
       return std::nullopt; // c3 must be valid if not padding.
     triplet |= (static_cast<uint32_t>(b[2]) << 6);
 
@@ -121,7 +122,7 @@ std::optional<std::vector<std::byte>> decode_url_safe_base64(std::string_view en
     if (c4 == '=')
       break; // End of data, processed 2 bytes from this quartet.
     b[3] = decoding_table[static_cast<unsigned char>(c4)];
-    if (b[3] == -1)
+    if (b[3] == 0xff)
       return std::nullopt; // c4 must be valid if not padding.
     triplet |= static_cast<uint32_t>(b[3]);
 
@@ -182,26 +183,26 @@ enum class ResolverFlags : uint32_t
   NoLog                = 1 << 1,  // "no logs", "non-logging", "zero logs"
   NoPersistentLogs     = 1 << 2,  // "No persistent logs"
   DNSSEC               = 1 << 3,  // "dnssec", "supports dnssec"
-  PlainDNS             = 1 << 4,  // Plain DNS server.
-  DoH                  = 1 << 5,  // DoH, "DNS-over-HTTPS"
-  DoT                  = 1 << 6,  // DoT, "DNS-over-TLS"
-  DoQ                  = 1 << 7,  // DoQ - DNS-over-QUIC
-  oDoHRelay            = 1 << 8,  // oDoH relay
-  oDoHTarget           = 1 << 9,  // oDoH target
-  DNSCryptRelay        = 1 << 10, // DNSCrypt relay
-  IPv4                 = 1 << 11, // "ipv4"
-  IPv6                 = 1 << 12, // "ipv6"
-  NoECS                = 1 << 13, // "no ecs", "no edns client-subnet"
-  IncompatibleWithAnon = 1 << 14, // "incompatible with dns anonymization", "incompatible with anonymization"
-  GFWFiltering         = 1 << 15, // "gfw filtering", "gfw poisoning"
-  HTTP3                = 1 << 16, // "http/3", "doh3"
-  QNAMEMinimization    = 1 << 17, // "qname minimization"
-  MalwareBlocking      = 1 << 18, // "malware blocking", "malicious domains", "phishing"
-  AdBlocking           = 1 << 19, // "adblock", "blocks ads", "ad-filtering"
-  TrackingBlocking     = 1 << 20, // "blocks trackers"
-  SocialMediaBlocking  = 1 << 21, // "blocks social media"
-  FamilyFilter         = 1 << 22, // "adult content blocking", "family safety", "parental control"
-  DNSCrypt             = 1 << 23, // "dnscrypt"
+  Do53                 = 1 << 4,  // Plain DNS server.
+  DNSCrypt             = 1 << 5,  // "dnscrypt"
+  DoH                  = 1 << 6,  // DoH, "DNS-over-HTTPS"
+  DoT                  = 1 << 7,  // DoT, "DNS-over-TLS"
+  DoQ                  = 1 << 8,  // DoQ - DNS-over-QUIC
+  oDoHRelay            = 1 << 9,  // oDoH relay
+  oDoHTarget           = 1 << 10,  // oDoH target
+  DNSCryptRelay        = 1 << 11, // DNSCrypt relay
+  IPv4                 = 1 << 12, // "ipv4"
+  IPv6                 = 1 << 13, // "ipv6"
+  NoECS                = 1 << 14, // "no ecs", "no edns client-subnet"
+  IncompatibleWithAnon = 1 << 15, // "incompatible with dns anonymization", "incompatible with anonymization"
+  GFWFiltering         = 1 << 16, // "gfw filtering", "gfw poisoning"
+  HTTP3                = 1 << 17, // "http/3", "doh3"
+  QNAMEMinimization    = 1 << 18, // "qname minimization"
+  MalwareBlocking      = 1 << 19, // "malware blocking", "malicious domains", "phishing"
+  AdBlocking           = 1 << 20, // "adblock", "blocks ads", "ad-filtering"
+  TrackingBlocking     = 1 << 21, // "blocks trackers"
+  SocialMediaBlocking  = 1 << 22, // "blocks social media"
+  FamilyFilter         = 1 << 23, // "adult content blocking", "family safety", "parental control"
   Anycast              = 1 << 24, // "anycast"
   NoPadding            = 1 << 25, // "no padding" - it is very unclear if servers not mentioning padding DO have padding however.
 };
@@ -216,11 +217,12 @@ char const* to_string(ResolverFlags flag)
     AI_CASE_RETURN(NoLog);
     AI_CASE_RETURN(NoPersistentLogs);
     AI_CASE_RETURN(DNSSEC);
-    AI_CASE_RETURN(PlainDNS);
+    AI_CASE_RETURN(Do53);
     AI_CASE_RETURN(DoH);
     AI_CASE_RETURN(DoT);
     AI_CASE_RETURN(DoQ);
     AI_CASE_RETURN(oDoHRelay);
+    AI_CASE_RETURN(oDoHTarget);
     AI_CASE_RETURN(DNSCryptRelay);
     AI_CASE_RETURN(IPv4);
     AI_CASE_RETURN(IPv6);
@@ -262,21 +264,35 @@ std::string print_flags(ResolverFlags flags)
 }
 
 // Helper operators for bitmask manipulation.
-inline ResolverFlags operator|(ResolverFlags a, ResolverFlags b)
+constexpr inline ResolverFlags operator|(ResolverFlags a, ResolverFlags b)
 {
   return static_cast<ResolverFlags>(static_cast<uint32_t>(a) | static_cast<uint32_t>(b));
 }
 
-inline ResolverFlags& operator|=(ResolverFlags& a, ResolverFlags b)
+constexpr inline ResolverFlags& operator|=(ResolverFlags& a, ResolverFlags b)
 {
   a = a | b;
   return a;
 }
 
-inline bool operator&(ResolverFlags a, ResolverFlags b)
+constexpr inline ResolverFlags operator&(ResolverFlags a, ResolverFlags b)
 {
-  return (static_cast<uint32_t>(a) & static_cast<uint32_t>(b)) != 0;
+  return static_cast<ResolverFlags>(static_cast<uint32_t>(a) & static_cast<uint32_t>(b));
 }
+
+constexpr inline ResolverFlags& operator&=(ResolverFlags& a, ResolverFlags b)
+{
+  a = a & b;
+  return a;
+}
+
+constexpr inline ResolverFlags operator~(ResolverFlags a)
+{
+  return static_cast<ResolverFlags>(~static_cast<uint32_t>(a));
+}
+
+constexpr ResolverFlags protocols = ResolverFlags::Do53 | ResolverFlags::DNSCrypt | ResolverFlags::DoH | ResolverFlags::DoT | ResolverFlags::DoQ |
+  ResolverFlags::oDoHRelay | ResolverFlags::oDoHTarget | ResolverFlags::DNSCryptRelay;
 
 // Helper to convert string to lowercase.
 std::string toLower(std::string s)
@@ -286,9 +302,26 @@ std::string toLower(std::string s)
   return s;
 }
 
+// Helper to trim leading/trailing whitespace.
+std::string trim(std::string const& str)
+{
+  std::string const whitespace = " \t\n\r\f\v";
+  size_t start = str.find_first_not_of(whitespace);
+  if (start == std::string::npos) // No non-whitespace content.
+    return {};
+  size_t end = str.find_last_not_of(whitespace);
+  return str.substr(start, end - start + 1);
+}
+
 struct PhraseFlagsMapping
 {
   std::string phrase_;
+  ResolverFlags flags_;
+};
+
+struct RegexFlagsMapping
+{
+  std::regex regex_;
   ResolverFlags flags_;
 };
 
@@ -297,6 +330,7 @@ std::vector<std::string> g_noFlagPhrases;
 
 // Global list of mappings - initialized once
 std::vector<PhraseFlagsMapping> g_phrase_mapping;
+std::vector<RegexFlagsMapping> g_regex_mapping;
 
 void initializeMappings()
 {
@@ -317,8 +351,12 @@ void initializeMappings()
   using enum ResolverFlags;
 
   g_phrase_mapping = {
+    {"AdGuard DNS with safesearch and adult content blocking",
+      FamilyFilter},
     {"AdGuard DNS with safesearch and adult content blocking (over DoH)",
       DoH|FamilyFilter},
+    {"AdGuard DNS with safesearch and adult content blocking (over IPv6)",
+      IPv6|FamilyFilter},
     {"AdGuard DNS with safesearch and adult content blocking (over DoH, over IPv6)",
       DoH|FamilyFilter|IPv6},
     {"AdGuard public DNS servers without filters (over DoH)",
@@ -355,6 +393,8 @@ void initializeMappings()
       MalwareBlocking},
     {"It does not block adult content.",
       None},
+    {"Blocks access to adult, pornographic and explicit sites.",
+      FamilyFilter},
     {"Blocks access to adult, pornographic and explicit sites over DoH.",
       FamilyFilter|DoH},
     {"It also blocks proxy and VPN domains that are used to bypass the filters.",
@@ -433,6 +473,8 @@ void initializeMappings()
       DNSCrypt},
     {"No logs, no filters, DNSSEC.",
       NoLog|NoFilter|DNSSEC},
+    {"DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
+      DoH|HTTP3|NoLog|NoFilter|DNSSEC},
     {"DNSCrypt server.",
       DNSCrypt},
     {"No Logging, filters ads, trackers and malware.",
@@ -719,6 +761,117 @@ void initializeMappings()
       MalwareBlocking|Anycast},
     {"Yandex public DNS server with malware filtering (anycast IPv6)",
       MalwareBlocking|Anycast|IPv6},
+    {"AdGuard public DNS servers without filters",
+      NoFilter},
+    {"AdGuard public DNS servers without filters (over IPv6)",
+      NoFilter|IPv6},
+    {"This version blocks content not suitable for children.",
+      FamilyFilter},
+    {"A public DNS resolver over IPv6 that supports DoH/DoT in mainland China, provided by Alibaba-Cloud.",
+      DoH|DoT|IPv6},
+    {"A public DNS resolver that supports DoH/DoT in mainland China, provided by Alibaba-Cloud.",
+      DoH|DoT},
+    {"A public DNS resolver that supports DoH/DoT in mainland China, provided by dnspod/Tencent-cloud.",
+      DoH|DoT},
+    {"Blocks access to adult, pornographic and explicit sites over IPv6.",
+      FamilyFilter|IPv6},
+    {"Blocks only phishing, spam and malicious domains.",
+      MalwareBlocking},
+    {"Blocks only phishing, spam and malicious domains over IPv6.",
+      MalwareBlocking|IPv6},
+    {"DoH protocol and No logging.",
+      DoH|NoLog},
+    {"Block websites not suitable for children (DNSCrypt protocol)",
+      FamilyFilter|DNSCrypt},
+    {"Block websites not suitable for children (IPv6)",
+      FamilyFilter|IPv6},
+    {"Cisco OpenDNS over IPv6 (DNSCrypt protocol)",
+      IPv6|DNSCrypt},
+    {"Cisco OpenDNS over IPv6 (DoH protocol)",
+      IPv6|DoH},
+    {"Cisco OpenDNS Sandbox (anycast)",
+      Anycast},
+    {"Connects to NextDNS over IPv6.",
+      IPv6},
+    {"DNSSEC, Anycast, Non-logging, NoFilters",
+      DNSSEC|Anycast|NoLog|NoFilter},
+    {"(DNSCrypt Protocol) (Now supports DNSSEC).",
+      DNSCrypt|DNSSEC},
+    {"(DoH Protocol) (Now supports DNSSEC).",
+      DoH|DNSSEC},
+    {"Block adult websites, gambling websites, malwares, trackers and advertisements.",
+      FamilyFilter|MalwareBlocking|AdBlocking|TrackingBlocking},
+    {"(DoH Protocol) (Now supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements.",
+      DoH|DNSSEC|FamilyFilter|MalwareBlocking|AdBlocking|TrackingBlocking},
+    {"(DNSCrypt Protocol) (Now supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements.",
+      DNSCrypt|DNSSEC|FamilyFilter|MalwareBlocking|AdBlocking|TrackingBlocking},
+    {"It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.",
+      SocialMediaBlocking},
+    {"Social websites like Facebook and Instagram are not blocked.",
+      None},
+    {"No DNS queries are logged.",
+      NoLog},
+    {"As of 26-May-2022 5.9 million websites are blocked and new websites are added to blacklist daily.",
+      None},
+    {"Completely free, no ads or any commercial motive.",
+      None},
+    {"Dnscrypt Server, No Logging, No Filters, DNSSEC, OpenNIC",
+      DNSCrypt|NoLog|NoFilter|DNSSEC},
+    {"dnslow.me is an open source project, also your advertisement and threat blocking, privacy-first, encrypted DNS.",
+      AdBlocking|MalwareBlocking},
+    {"All DNS requests will be protected with threat-intelligence feeds and randomly distributed to some other DNS resolvers.",
+      None},
+    {"DoH & DoT Server, No Logging, No Filters, DNSSEC",
+      DoH|DoT|NoLog|NoFilter|DNSSEC},
+    {"DoH server operated by CIRCL, Computer Incident Response Center Luxembourg.",
+      DoH},
+    {"DoH server runned by xTom.com.",
+      DoH},
+    {"No logs, no filtering, supports DNSSEC.",
+      NoLog|NoFilter|DNSSEC},
+    {"Hurricane Electric DoH server (anycast)",
+      DoH|Anycast},
+    {"NextDNS is a cloud-based private DNS service that gives you full control over what is allowed and what is blocked on the Internet.",
+      None},
+    {"DNSSEC, Anycast, Non-logging, NoFilters",
+      DNSSEC|Anycast|NoLog|NoFilter},
+    {"Non-logging DoH server in France operated by Stéphane Bortzmeyer.",
+      NoLog|DoH},
+    {"Non-logging DoH server in France operated by Stéphane Bortzmeyer (IPv6 only).",
+      NoLog|DoH|IPv6},
+    {"Non-logging DoH server in Sweden operated by Njalla.",
+      NoLog|DoH},
+    {"Non Logging, filters ads, trackers and malware.",
+      NoLog|AdBlocking|TrackingBlocking|MalwareBlocking},
+    {"Public DoH resolver operated by the Digital Society (",
+      DoH},
+    {"Public DoH resolver operated by the Foundation for Applied Privacy (",
+      DoH},
+    {"Public DoH resolver running with Pihole for Adblocking (",
+      DoH|AdBlocking},
+    {"Public IPv6 DoH resolver operated by the Digital Society (",
+      IPv6|DoH},
+    {"Remove ads and protect your computer from malware",
+      AdBlocking|MalwareBlocking},
+    {"Remove ads and protect your computer from malware (over IPv6)",
+      AdBlocking|MalwareBlocking|IPv6},
+    {"Remove your DNS blind spot (DNSCrypt protocol)",
+      DNSCrypt},
+    {"Remove your DNS blind spot (DoH protocol)",
+      DoH},
+    {"Uses deep learning to block adult websites.",
+      FamilyFilter},
+    {"Free, DNSSEC, no logs.",
+      DNSSEC|NoLog},
+    {"Wikimedia DNS over IPv6.",
+      IPv6},
+    {"Unlike other dnsforfamily servers, this one does not enforces safe search.",
+      None},
+  };
+
+  g_regex_mapping = {
+    {std::regex(R"(^DNSCry\.pt ([^ ]* ?){1,3} - DNSCrypt, no filter, no logs, DNSSEC support \(IPv4 server\)$)"), DNSCrypt|NoFilter|NoLog|DNSSEC|IPv4},
+    {std::regex(R"(^DNSCry\.pt ([^ ]* ?){1,3} - DNSCrypt, no filter, no logs, DNSSEC support \(IPv6 server\)$)"), DNSCrypt|NoFilter|NoLog|DNSSEC|IPv6},
   };
 }
 
@@ -749,8 +902,19 @@ ResolverFlags getFlagsFromString(std::string& sentence)
     {
       detectedFlags |= mapping.flags_;
       // Mark the sentence as processed.
+      std::cout << "Phrase found! '" << mapping.phrase_ << "'\n";
       sentence.clear();
-      break;
+      return detectedFlags;
+    }
+
+  for (auto const& mapping : g_regex_mapping)
+    if (std::regex_match(sentence, mapping.regex_))
+    {
+      detectedFlags |= mapping.flags_;
+      // Mark the sentence as processed.
+      std::cout << "Regex found!\n";
+      sentence.clear();
+      break;    // Only one regex should be possible.
     }
 
   return detectedFlags;
@@ -760,8 +924,14 @@ struct SDNS
 {
   std::string encoding_;
   ResolverFlags flags_{ResolverFlags::None};
+  std::string address_;
+  // DNSCrypt
   std::string public_key_;
   std::string provider_name_;
+  // DoH, DoT, DoQ, oDoH
+  std::vector<std::string> hashi_;      // Not oDoH target.
+  std::string hostname_port_;
+  std::string path_;                    // Not DoT, DoQ.
 };
 
 // Structure to hold data for each entry.
@@ -770,7 +940,8 @@ struct DnsEntry
   std::string name_;
   ResolverFlags flags_;
   std::vector<SDNS> sdns_;
-  std::string data_;
+  std::vector<std::string> info_;
+  std::string unused_;
 
  public:
   DnsEntry() = default;
@@ -791,14 +962,57 @@ void DnsEntry::print_on(std::ostream& os, char const* indentation) const
   {
     os << sep << "{\"stamp\": \"" << escape_json_string(sdns.encoding_) << "\",\n";
     os << indentation << "          " <<
-      "\"flags\": \"" << escape_json_string(print_flags(sdns.flags_)) << "\", "
-      "\"pk\": \"" << escape_json_string(sdns.public_key_) << "\", "
-      "\"provider\": \"" << escape_json_string(sdns.provider_name_) << "\"}";
+      "\"protocol\": \"" << escape_json_string(print_flags(sdns.flags_ & protocols)) << "\", "
+      "\"flags\": \"" << escape_json_string(print_flags(sdns.flags_ & ~protocols)) << "\", "
+      "\"address\": \"" << escape_json_string(sdns.address_) << "\",\n";
+    sep = std::string{indentation} + "          ";
+    if (!sdns.public_key_.empty())
+    {
+      os << sep << "\"pk\": \"" << escape_json_string(sdns.public_key_) << "\"";
+      sep = ", ";
+    }
+    if (!sdns.provider_name_.empty())
+    {
+      os << sep << "\"provider\": \"" << escape_json_string(sdns.provider_name_) << "\"";
+      sep = ", ";
+    }
+    if (!sdns.hostname_port_.empty())
+    {
+      os << sep << "\"hostname_port\": \"" << escape_json_string(sdns.hostname_port_) << "\"";
+      sep = ", ";
+    }
+    if (!sdns.path_.empty())
+    {
+      os << sep << "\"path\": \"" << escape_json_string(sdns.path_) << "\"";
+      sep = ", ";
+    }
+    if (!sdns.hashi_.empty())
+    {
+      os << "\"hashi\": [";
+      std::string sep2 = "";
+      for (std::string const& hashi : sdns.hashi_)
+      {
+        os << sep2 << "\"" << escape_json_string(hashi) << "\"";
+        sep2 = ", ";
+      }
+      os << "]";
+    }
     sep = ",\n" + std::string(indentation) + "         ";
   }
   os << "],\n";
-  os << indentation << "\"flags\": \"" << escape_json_string(print_flags(flags_)) << "\",\n";
-  os << indentation << "\"data\": \"" << escape_json_string(data_) << "\"\n";
+  os << indentation << "\"info\": [";
+  sep = "";
+  for (std::string const& info : info_)
+  {
+    os << sep << "\"" << escape_json_string(info) << "\"";
+    sep = ",\n" + std::string(indentation) + "         ";
+  }
+  os << "],\n";
+  os << indentation << "\"flags\": \"" << escape_json_string(print_flags(flags_)) << "\"";
+  if (!unused_.empty())
+    os << ",\n" << indentation << "\"unused\": \"" << escape_json_string(unused_) << "\"\n";
+  else
+    os << "\n";
 }
 
 void DnsEntry::process_sentence(std::string& sentence)
@@ -821,10 +1035,10 @@ void DnsEntry::process(std::string const& data)
   // Input: catenated string of lines without empty line in between
   // and not starting with '## ' or 'sdns://'.
   std::cout << std::format("Processing data: '{}'\n", data);
+  info_.push_back(data);
 
   // Split the line up again in sentences with ". " as separator.
   std::string data_copy = data;
-  data_.clear();
   size_t pos;
   while ((pos = data_copy.find(". ")) != std::string::npos)
   {
@@ -832,22 +1046,69 @@ void DnsEntry::process(std::string const& data)
     data_copy.erase(0, pos + 2);        // Remove the processed part.
     process_sentence(sentence);
     if (!sentence.empty())
-      data_ += sentence + " ";          // Keep the unused part.
+    {
+      if (!unused_.empty())
+        unused_ += "|";
+      unused_ += sentence;              // Keep the unused part.
+    }
   }
   if (!data_copy.empty())
   {
     process_sentence(data_copy);        // Process the last part.
-    data_ += data_copy;                 // Keep the unused part.
+    if (!data_copy.empty())
+    {
+      if (!unused_.empty())
+        unused_ += "|";
+      unused_ += data_copy;             // Keep the unused part.
+    }
   }
 }
 
-uint64_t read_props(std::byte const* bytes)
+uint64_t read_props(std::byte const*& bytes)
 {
   uint64_t props = 0;
   // The props is a little-endian 64 bit value.
   for (int i = 0; i < 8; ++i)
     props |= (static_cast<uint64_t>(std::to_integer<uint8_t>(bytes[i])) << (i * 8));
+  bytes += 8;
   return props;
+}
+
+std::string read_LP(std::byte const*& bytes)
+{
+  std::string LP;
+  size_t length = std::to_integer<uint8_t>(bytes[0]);
+  for (size_t i = 1; i <= length; ++i)
+    LP += static_cast<char>(std::to_integer<uint8_t>(bytes[i]));
+  bytes += length + 1;
+  return LP;
+}
+
+std::vector<std::string> read_VLP(std::byte const*& bytes)
+{
+  std::vector<std::string> VLP;
+  for (;;)
+  {
+    std::string LP;
+    int L = std::to_integer<int>(bytes[0]);
+    int length = L & ~0x80;
+    for (int i = 1; i <= length; ++i)
+      LP += static_cast<char>(std::to_integer<uint8_t>(bytes[i]));
+    bytes += length + 1;
+    if (L == length)    // Last element?
+      break;
+  }
+  return VLP;
+}
+
+std::string read_public_key(std::byte const*& bytes)
+{
+  std::string public_key;
+  size_t length = std::to_integer<uint8_t>(bytes[0]);
+  for (int i = 1; i <= length; ++i)
+    public_key += std::format("{:02x}", std::to_integer<uint8_t>(bytes[i]));
+  bytes += length + 1;
+  return public_key;
 }
 
 void DnsEntry::process_sdns(std::string const& sdns)
@@ -865,39 +1126,68 @@ void DnsEntry::process_sdns(std::string const& sdns)
   SDNS new_sdns{sdns};
 
   int protocol = std::to_integer<int>(bytes->at(0));
+  std::byte const* bytes_ptr = bytes->data() + 1;
   uint64_t props = 0;
+  std::string address_port;
   switch (protocol)
   {
     case 0x00: // Plain DNS stamps
-      new_sdns.flags_ |= ResolverFlags::PlainDNS;
-      props = read_props(bytes->data() + 1);
+      new_sdns.flags_ |= ResolverFlags::Do53;
+      props = read_props(bytes_ptr);
+      address_port = read_LP(bytes_ptr);
       break;
     case 0x01: // DNSCrypt stamps
       new_sdns.flags_ |= ResolverFlags::DNSCrypt;
-      props = read_props(bytes->data() + 1);
+      props = read_props(bytes_ptr);
+      address_port = read_LP(bytes_ptr);
+      new_sdns.public_key_ = read_public_key(bytes_ptr);
+      new_sdns.provider_name_ = read_LP(bytes_ptr);
       break;
     case 0x02: // DNS-over-HTTPS stamps
       new_sdns.flags_ |= ResolverFlags::DoH;
-      props = read_props(bytes->data() + 1);
+      props = read_props(bytes_ptr);
+      address_port = read_LP(bytes_ptr);        // Just address.
+      new_sdns.hashi_ = read_VLP(bytes_ptr);
+      new_sdns.hostname_port_ = read_LP(bytes_ptr); // hostname [:port].
+      new_sdns.path_ = read_LP(bytes_ptr);      // path.
+      // Optional bootstrap IP's follow.
       break;
     case 0x03: // DNS-over-TLS stamps
       new_sdns.flags_ |= ResolverFlags::DoT;
-      props = read_props(bytes->data() + 1);
+      props = read_props(bytes_ptr);
+      address_port = read_LP(bytes_ptr);        // Just address.
+      new_sdns.hashi_ = read_VLP(bytes_ptr);
+      new_sdns.hostname_port_ = read_LP(bytes_ptr); // hostname [:port].
+      new_sdns.path_ = read_LP(bytes_ptr);      // path.
+      // Optional bootstrap IP's follow.
       break;
     case 0x04: // DNS-over-QUIC stamps
       new_sdns.flags_ |= ResolverFlags::DoQ;
-      props = read_props(bytes->data() + 1);
+      props = read_props(bytes_ptr);
+      address_port = read_LP(bytes_ptr);        // Just address.
+      new_sdns.hashi_ = read_VLP(bytes_ptr);
+      new_sdns.hostname_port_ = read_LP(bytes_ptr); // hostname [:port].
+      // Optional bootstrap IP's follow.
       break;
     case 0x05: // Oblivious DoH target stamps
       new_sdns.flags_ |= ResolverFlags::oDoHTarget;
-      props = read_props(bytes->data() + 1);
+      props = read_props(bytes_ptr);
+      address_port = read_LP(bytes_ptr);        // hostname [:port].
+      new_sdns.hostname_port_ = read_LP(bytes_ptr); // hostname [:port].
+      new_sdns.path_ = read_LP(bytes_ptr);      // path.
       break;
     case 0x81: // Anonymized DNSCrypt relay stamps
       new_sdns.flags_ |= ResolverFlags::DNSCryptRelay;
+      address_port = read_LP(bytes_ptr);        // Just address.
       break;
     case 0x85: // Oblivious DoH relay stamps
       new_sdns.flags_ |= ResolverFlags::oDoHRelay;
-      props = read_props(bytes->data() + 1);
+      props = read_props(bytes_ptr);
+      address_port = read_LP(bytes_ptr);        // Just address.
+      new_sdns.hashi_ = read_VLP(bytes_ptr);
+      new_sdns.hostname_port_ = read_LP(bytes_ptr); // hostname [:port].
+      new_sdns.path_ = read_LP(bytes_ptr);      // path.
+      // Optional bootstrap IP's follow.
       break;
     default:
       std::cerr << std::format("Error: Unknown protocol in SDNS '{}'.\n", sdns);
@@ -911,18 +1201,8 @@ void DnsEntry::process_sdns(std::string const& sdns)
   if ((props & 0x04))                           // the server doesn’t intentionally block domains
     new_sdns.flags_ |= ResolverFlags::NoFilter;
 
+  new_sdns.address_ = address_port;
   sdns_.push_back(new_sdns);
-}
-
-// Helper to trim leading/trailing whitespace.
-std::string trim(std::string const& str)
-{
-  std::string const whitespace = " \t\n\r\f\v";
-  size_t start = str.find_first_not_of(whitespace);
-  if (start == std::string::npos) // No non-whitespace content.
-    return {};
-  size_t end = str.find_last_not_of(whitespace);
-  return str.substr(start, end - start + 1);
 }
 
 void process_next_entry(DnsEntry& current_entry, std::string& data, std::vector<DnsEntry>& entries)
@@ -932,16 +1212,36 @@ void process_next_entry(DnsEntry& current_entry, std::string& data, std::vector<
     current_entry.process(data);
     data.clear();
   }
-  if (!current_entry.data_.empty())
+  if (!current_entry.unused_.empty())
   {
-    std::cout << std::format("Unprocessed phrase: '{}'\n", current_entry.data_);
-    assert(false);
+    std::cout << std::format("Unprocessed phrase: '{}'\n", current_entry.unused_);
   }
+  // Do a sanity check: any of the SDNS flags that are set in the entry also must be set in the SDNS.
+  using enum ResolverFlags;
+  // The list of flags set by DnsEntry::process_sdns.
+  ResolverFlags sdns_flags = protocols|DNSSEC|NoLog|NoFilter;
+  ResolverFlags current_sdns_flags = None;
+  for (SDNS const& sdns : current_entry.sdns_)
+  {
+    current_sdns_flags |= sdns.flags_;
+    if ((sdns.flags_ & (current_entry.flags_ & sdns_flags)) != (current_entry.flags_ & sdns_flags))
+    {
+      ResolverFlags extra_flags = (current_entry.flags_ & sdns_flags) & ~sdns.flags_;
+      // Lets not print a warning about the description containing DoT or DoQ, because that seems to be kinda normal (only sdns for DoH are given).
+      if ((extra_flags & ~(DoT|DoQ)) == None)
+        continue;
+      std::cerr << "Warning: Inconsistent flags in SDNS '" << sdns.encoding_ << "'. "
+        "The following flags are set in the description but not in the sdns: " << print_flags(extra_flags) << std::endl;
+    }
+  }
+  // Remove flags that are set in any of the SDNS from the entry flags.
+  current_entry.flags_ &= ~current_sdns_flags;
   entries.push_back(current_entry);
 }
 
 int main()
 {
+  Debug(NAMESPACE_DEBUG::init());
   std::string input_filename_str   = "public-resolvers.md";
   std::string output_json_filename = "public-resolvers.json";
 
