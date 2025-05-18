@@ -7,7 +7,8 @@
              {"stamp": "sdns://AgcAAAAAAAAADTIxNy4xNjkuMjAuMjMADWRucy5hYS5uZXQudWsKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "217.169.20.23",
               "hostname_port": "dns.aa.net.uk", "path": "/dns-query", "IP": "217.169.20.23"],
-    "info": ["Non-filtering, No-logging, DNSSEC DoH operated by Andrews & Arnold LTD. Homepage: https://www.aa.net.uk/dns/"],
+    "info": ["Non-filtering, No-logging, DNSSEC DoH operated by Andrews & Arnold LTD.",
+             "Homepage: https://www.aa.net.uk/dns/"],
     "flags": "None"
   },
   {
@@ -18,7 +19,8 @@
              {"stamp": "sdns://AgcAAAAAAAAAEFsyMDAxOjhiMDo6MjAyM10ADWRucy5hYS5uZXQudWsKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:8b0::2023]",
               "hostname_port": "dns.aa.net.uk", "path": "/dns-query", "IP": "2001:8b0::2023"],
-    "info": ["Non-filtering, No-logging, DNSSEC DoH over IPv6 operated by Andrews & Arnold LTD. Homepage: https://www.aa.net.uk/dns/"],
+    "info": ["Non-filtering, No-logging, DNSSEC DoH over IPv6 operated by Andrews & Arnold LTD.",
+             "Homepage: https://www.aa.net.uk/dns/"],
     "flags": "IPv6"
   },
   {
@@ -27,7 +29,10 @@
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "163.47.117.176",
               "hostname_port": "adl.adfilter.net", "path": "/dns-query", "IP": "163.47.117.176"],
     "info": ["Hosted in Adelaide, Australia.",
-             "Blocks ads, malware, trackers and more. No persistent logs. DNSSEC. No EDNS Client-Subnet."],
+             "Blocks ads, malware, trackers and more.",
+             "No persistent logs.",
+             "DNSSEC.",
+             "No EDNS Client-Subnet."],
     "flags": "NoPersistentLogs|NoECS|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -36,7 +41,10 @@
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "[2400:c401::5054:ff:fe1b:b036]",
               "hostname_port": "adl.adfilter.net", "path": "/dns-query", "IP": "2400:c401::5054:ff:fe1b:b036"],
     "info": ["Hosted in Adelaide, Australia.",
-             "Blocks ads, malware, trackers and more. No persistent logs. DNSSEC. No EDNS Client-Subnet."],
+             "Blocks ads, malware, trackers and more.",
+             "No persistent logs.",
+             "DNSSEC.",
+             "No EDNS Client-Subnet."],
     "flags": "NoPersistentLogs|NoECS|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -45,7 +53,10 @@
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "203.29.241.76",
               "hostname_port": "per.adfilter.net", "path": "/dns-query", "IP": "203.29.241.76"],
     "info": ["Hosted in Perth, Australia.",
-             "Blocks ads, malware, trackers and more. No persistent logs. DNSSEC. No EDNS Client-Subnet."],
+             "Blocks ads, malware, trackers and more.",
+             "No persistent logs.",
+             "DNSSEC.",
+             "No EDNS Client-Subnet."],
     "flags": "NoPersistentLogs|NoECS|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -54,7 +65,10 @@
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "[2404:9400:41a9:4800::1]",
               "hostname_port": "per.adfilter.net", "path": "/dns-query", "IP": "2404:9400:41a9:4800::1"],
     "info": ["Hosted in Perth, Australia.",
-             "Blocks ads, malware, trackers and more. No persistent logs. DNSSEC. No EDNS Client-Subnet."],
+             "Blocks ads, malware, trackers and more.",
+             "No persistent logs.",
+             "DNSSEC.",
+             "No EDNS Client-Subnet."],
     "flags": "NoPersistentLogs|NoECS|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -63,7 +77,10 @@
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "112.213.32.219",
               "hostname_port": "syd.adfilter.net", "path": "/dns-query", "IP": "112.213.32.219"],
     "info": ["Hosted in Sydney, Australia.",
-             "Blocks ads, malware, trackers and more. No persistent logs. DNSSEC. No EDNS Client-Subnet."],
+             "Blocks ads, malware, trackers and more.",
+             "No persistent logs.",
+             "DNSSEC.",
+             "No EDNS Client-Subnet."],
     "flags": "NoPersistentLogs|NoECS|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -209,7 +226,12 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAADTQ1LjY3LjIxOS4yMDigzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOag9_WvKIAeh31986K-KP4UnzJ0p-0p8Tb9UDzjmMuoCw2gs14FlQz72CWfk3W6EBhwuMPEwOxaUpdX5jFn6d4mqeigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN986g5kS6aWPjNf52XLmXaxKxDrVClLQkd3ZMyzo6zKOssvwgKq4_t78F5MgcQZTcpEUR1PmvMEeG7BrnIYQJz2Kgg1URZG9oLmxhLmFoYWRucy5uZXQKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "45.67.219.208",
               "hostname_port": "doh.la.ahadns.net", "path": "/dns-query", "IP": "45.67.219.208"],
-    "info": ["A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT). Blocks ads, malware, trackers, viruses, ransomware, telemetry and more. No persistent logs. DNSSEC. Hosted in Los Angeles, USA. By https://ahadns.com/ Server statistics can be seen at: https://statistics.ahadns.com/?server=la"],
+    "info": ["A zero logging DNS with support for DNS-over-HTTPS (DoH) & DNS-over-TLS (DoT).",
+             "Blocks ads, malware, trackers, viruses, ransomware, telemetry and more.",
+             "No persistent logs.",
+             "DNSSEC.",
+             "Hosted in Los Angeles, USA.",
+             "By https://ahadns.com/ Server statistics can be seen at: https://statistics.ahadns.com/?server=la"],
     "flags": "NoPersistentLogs|DoT|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -250,7 +272,8 @@
              {"stamp": "sdns://AgAAAAAAAAAACjEuNzEuMjAuMzcgmOPV5TavKVjNL38U9wTvSidtJeM81l8uZfXk8nJ8EzAKMS43MS4yMC4zNwovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "None", "address": "1.71.20.37",
               "hostname_port": "1.71.20.37", "path": "/dns-query", "IP": "1.71.20.37"],
-    "info": ["A public DNS resolver that supports DoH/DoT in mainland China, provided by Alibaba-Cloud. Homepage: https://alidns.com",
+    "info": ["A public DNS resolver that supports DoH/DoT in mainland China, provided by Alibaba-Cloud.",
+             "Homepage: https://alidns.com",
              "Warning: GFW filtering rules are applied by this resolver."],
     "flags": "DoT|GFWFiltering"
   },
@@ -262,7 +285,8 @@
              {"stamp": "sdns://AgAAAAAAAAAAE1syNDAwOjMyMDA6YmFiYTo6MV0gmOPV5TavKVjNL38U9wTvSidtJeM81l8uZfXk8nJ8EzAJMjIzLjUuNS41Ci9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "None", "address": "[2400:3200:baba::1]",
               "hostname_port": "223.5.5.5", "path": "/dns-query", "IP": "2400:3200:baba::1"],
-    "info": ["A public DNS resolver over IPv6 that supports DoH/DoT in mainland China, provided by Alibaba-Cloud. Homepage: https://alidns.com",
+    "info": ["A public DNS resolver over IPv6 that supports DoH/DoT in mainland China, provided by Alibaba-Cloud.",
+             "Homepage: https://alidns.com",
              "Warning: GFW filtering rules are applied by this resolver."],
     "flags": "DoT|IPv6|GFWFiltering"
   },
@@ -271,7 +295,11 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAADDg5LjM4LjEzMS4zOAAYZG5zbmwtbm9hZHMuYWxla2JlcmcubmV0Ci9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "89.38.131.38",
               "hostname_port": "dnsnl-noads.alekberg.net", "path": "/dns-query", "IP": "89.38.131.38"],
-    "info": ["Resolver in Amsterdam. HTTP/3, DoH protocol. Non-logging. Blocks ads, malware and trackers. DNSSEC enabled."],
+    "info": ["Resolver in Amsterdam.",
+             "HTTP/3, DoH protocol.",
+             "Non-logging.",
+             "Blocks ads, malware and trackers.",
+             "DNSSEC enabled."],
     "flags": "HTTP3|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -279,7 +307,9 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAETg5LjM4LjEzMS4zODo0MzQzIBI197wcfHaxuMFi9_YgoxSJ1yIDWPfO75iztVhWzk0aHzIuZG5zY3J5cHQtY2VydC5hbXMtZG5zY3J5cHQtbmw",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "89.38.131.38:4343",
               "pk": "1235f7bc1c7c76b1b8c162f7f620a31489d7220358f7ceef98b3b55856ce4d1a", "provider": "2.dnscrypt-cert.ams-dnscrypt-nl", "IP": "89.38.131.38"],
-    "info": ["Resolver in Amsterdam. Dnscrypt protocol. Non-logging, non-filtering, DNSSEC."],
+    "info": ["Resolver in Amsterdam.",
+             "Dnscrypt protocol.",
+             "Non-logging, non-filtering, DNSSEC."],
     "flags": "None"
   },
   {
@@ -287,7 +317,9 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAGlsyYTBjOmI5YzA6Zjo0NTFkOjoxXTo0MzQzIBI197wcfHaxuMFi9_YgoxSJ1yIDWPfO75iztVhWzk0aHzIuZG5zY3J5cHQtY2VydC5hbXMtZG5zY3J5cHQtbmw",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2a0c:b9c0:f:451d::1]:4343",
               "pk": "1235f7bc1c7c76b1b8c162f7f620a31489d7220358f7ceef98b3b55856ce4d1a", "provider": "2.dnscrypt-cert.ams-dnscrypt-nl", "IP": "2a0c:b9c0:f:451d::1"],
-    "info": ["Resolver in Amsterdam. Dnscrypt protocol. Non-logging, non-filtering, DNSSEC."],
+    "info": ["Resolver in Amsterdam.",
+             "Dnscrypt protocol.",
+             "Non-logging, non-filtering, DNSSEC."],
     "flags": "None"
   },
   {
@@ -295,7 +327,9 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAADDg5LjM4LjEzMS4zOKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRJkbnNubC5hbGVrYmVyZy5uZXQKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "89.38.131.38",
               "hostname_port": "dnsnl.alekberg.net", "path": "/dns-query", "IP": "89.38.131.38"],
-    "info": ["Resolver in Amsterdam. HTTP/3, DoH protocol. Non-logging, non-filtering, DNSSEC."],
+    "info": ["Resolver in Amsterdam.",
+             "HTTP/3, DoH protocol.",
+             "Non-logging, non-filtering, DNSSEC."],
     "flags": "HTTP3"
   },
   {
@@ -303,7 +337,9 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAFVsyYTBjOmI5YzA6Zjo0NTFkOjoxXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRJkbnNubC5hbGVrYmVyZy5uZXQKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2a0c:b9c0:f:451d::1]",
               "hostname_port": "dnsnl.alekberg.net", "path": "/dns-query", "IP": "2a0c:b9c0:f:451d::1"],
-    "info": ["Resolver in Amsterdam. HTTP/3, DoH protocol. Non-logging, non-filtering, DNSSEC."],
+    "info": ["Resolver in Amsterdam.",
+             "HTTP/3, DoH protocol.",
+             "Non-logging, non-filtering, DNSSEC."],
     "flags": "HTTP3"
   },
   {
@@ -311,7 +347,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAADjIxNy4xOTcuOTEuMTUzoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVEWRucy5hcnRpa2VsMTAub3JnCi9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "217.197.91.153",
               "hostname_port": "dns.artikel10.org", "path": "/dns-query", "IP": "217.197.91.153"],
-    "info": ["DNSSEC, No-filter and No-log DoH resolver operated by Artikel10 association. Homepage: https://artikel10.org"],
+    "info": ["DNSSEC, No-filter and No-log DoH resolver operated by Artikel10 association.",
+             "Homepage: https://artikel10.org"],
     "flags": "None"
   },
   {
@@ -319,7 +356,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAF1syMDAxOjY3YzoxNDAxOjIxMjA6OjFdoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVEWRucy5hcnRpa2VsMTAub3JnCi9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:67c:1401:2120::1]",
               "hostname_port": "dns.artikel10.org", "path": "/dns-query", "IP": "2001:67c:1401:2120::1"],
-    "info": ["DNSSEC, No-filter and No-log DoH resolver (IPv6) operated by Artikel10 association. Homepage: https://artikel10.org"],
+    "info": ["DNSSEC, No-filter and No-log DoH resolver (IPv6) operated by Artikel10 association.",
+             "Homepage: https://artikel10.org"],
     "flags": "IPv6"
   },
   {
@@ -327,7 +365,9 @@
     "sdns": [{"stamp": "sdns://AQMAAAAAAAAAEjc4LjQ2LjI0NC4xNDM6ODQ0MyDwRPCkhRTWv0NpkRQ3nwfF6IP-4Nd5_Xe-78yb9_M6gRsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "78.46.244.143:8443",
               "pk": "f044f0a48514d6bf43699114379f07c5e883fee0d779fd77beefcc9bf7f33a81", "provider": "2.dnscrypt-cert.blahdns.com", "IP": "78.46.244.143"],
-    "info": ["DNSCrypt server. No Logging, filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
+    "info": ["DNSCrypt server.",
+             "No Logging, filters ads, trackers and malware.",
+             "DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
     "flags": "NoECS|QNAMEMinimization|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -335,7 +375,9 @@
     "sdns": [{"stamp": "sdns://AQMAAAAAAAAAG1syYTAxOjRmODpjMTc6ZWM2Nzo6MV06ODQ0MyDwRPCkhRTWv0NpkRQ3nwfF6IP-4Nd5_Xe-78yb9_M6gRsyLmRuc2NyeXB0LWNlcnQuYmxhaGRucy5jb20",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "[2a01:4f8:c17:ec67::1]:8443",
               "pk": "f044f0a48514d6bf43699114379f07c5e883fee0d779fd77beefcc9bf7f33a81", "provider": "2.dnscrypt-cert.blahdns.com", "IP": "2a01:4f8:c17:ec67::1"],
-    "info": ["DNSCrypt server. No Logging, filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
+    "info": ["DNSCrypt server.",
+             "No Logging, filters ads, trackers and malware.",
+             "DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
     "flags": "NoECS|QNAMEMinimization|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -343,7 +385,9 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAADTc4LjQ2LjI0NC4xNDMAEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "78.46.244.143",
               "hostname_port": "doh-de.blahdns.com", "path": "/dns-query", "IP": "78.46.244.143"],
-    "info": ["DNS-over-HTTPS server. No Logging, filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
+    "info": ["DNS-over-HTTPS server.",
+             "No Logging, filters ads, trackers and malware.",
+             "DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
     "flags": "NoECS|QNAMEMinimization|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -351,7 +395,9 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAAFlsyYTAxOjRmODpjMTc6ZWM2Nzo6MV0AEmRvaC1kZS5ibGFoZG5zLmNvbQovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "[2a01:4f8:c17:ec67::1]",
               "hostname_port": "doh-de.blahdns.com", "path": "/dns-query", "IP": "2a01:4f8:c17:ec67::1"],
-    "info": ["DNS-over-HTTPS server. No Logging, filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
+    "info": ["DNS-over-HTTPS server.",
+             "No Logging, filters ads, trackers and malware.",
+             "DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
     "flags": "NoECS|QNAMEMinimization|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -359,7 +405,9 @@
     "sdns": [{"stamp": "sdns://AQMAAAAAAAAAEzQ2LjI1MC4yMjYuMjQyOjg0NDMge4v0PGGlIHzs-ANifiSX0ydVdYWDeoW4focA6NmJrYcbMi5kbnNjcnlwdC1jZXJ0LmJsYWhkbnMuY29t",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "46.250.226.242:8443",
               "pk": "7b8bf43c61a5207cecf803627e2497d327557585837a85b87e8700e8d989ad87", "provider": "2.dnscrypt-cert.blahdns.com", "IP": "46.250.226.242"],
-    "info": ["DNSCrypt server. No Logging, filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
+    "info": ["DNSCrypt server.",
+             "No Logging, filters ads, trackers and malware.",
+             "DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
     "flags": "NoECS|QNAMEMinimization|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -367,7 +415,9 @@
     "sdns": [{"stamp": "sdns://AQMAAAAAAAAAHVsyNDA3OjM2NDA6MjIwNToxNjY4OjoxXTo4NDQzIHuL9DxhpSB87PgDYn4kl9MnVXWFg3qFuH6HAOjZia2HGzIuZG5zY3J5cHQtY2VydC5ibGFoZG5zLmNvbQ",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "[2407:3640:2205:1668::1]:8443",
               "pk": "7b8bf43c61a5207cecf803627e2497d327557585837a85b87e8700e8d989ad87", "provider": "2.dnscrypt-cert.blahdns.com", "IP": "2407:3640:2205:1668::1"],
-    "info": ["DNSCrypt server. No Logging, filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
+    "info": ["DNSCrypt server.",
+             "No Logging, filters ads, trackers and malware.",
+             "DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
     "flags": "NoECS|QNAMEMinimization|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -375,7 +425,9 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAADjQ2LjI1MC4yMjYuMjQyABJkb2gtc2cuYmxhaGRucy5jb20KL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "46.250.226.242",
               "hostname_port": "doh-sg.blahdns.com", "path": "/dns-query", "IP": "46.250.226.242"],
-    "info": ["DNS-over-HTTPS server. No Logging, filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
+    "info": ["DNS-over-HTTPS server.",
+             "No Logging, filters ads, trackers and malware.",
+             "DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
     "flags": "NoECS|QNAMEMinimization|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -383,7 +435,9 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAAGFsyNDA3OjM2NDA6MjIwNToxNjY4OjoxXQASZG9oLXNnLmJsYWhkbnMuY29tCi9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "[2407:3640:2205:1668::1]",
               "hostname_port": "doh-sg.blahdns.com", "path": "/dns-query", "IP": "2407:3640:2205:1668::1"],
-    "info": ["DNS-over-HTTPS server. No Logging, filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
+    "info": ["DNS-over-HTTPS server.",
+             "No Logging, filters ads, trackers and malware.",
+             "DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet."],
     "flags": "NoECS|QNAMEMinimization|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -409,8 +463,11 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAADTE1Ny45MC4xMjQuNjKgzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOag9_WvKIAeh31986K-KP4UnzJ0p-0p8Tb9UDzjmMuoCw2gs14FlQz72CWfk3W6EBhwuMPEwOxaUpdX5jFn6d4mqeigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN986g5kS6aWPjNf52XLmXaxKxDrVClLQkd3ZMyzo6zKOssvwgKq4_t78F5MgcQZTcpEUR1PmvMEeG7BrnIYQJz2Kgg1UQZG5zLmJyYWhtYS53b3JsZAovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "157.90.124.62",
               "hostname_port": "dns.brahma.world", "path": "/dns-query", "IP": "157.90.124.62"],
-    "info": ["DNS-over-HTTPS server. Non Logging, filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet.",
-             "Hosted in Nuremberg, Germany. (https://dns.brahma.world)"],
+    "info": ["DNS-over-HTTPS server.",
+             "Non Logging, filters ads, trackers and malware.",
+             "DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet.",
+             "Hosted in Nuremberg, Germany.",
+             "(https://dns.brahma.world)"],
     "flags": "NoECS|QNAMEMinimization|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -418,8 +475,11 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAAF1syYTAxOjRmODoxYzFjOmY1ZTE6OjFdoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVEGRucy5icmFobWEud29ybGQKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "[2a01:4f8:1c1c:f5e1::1]",
               "hostname_port": "dns.brahma.world", "path": "/dns-query", "IP": "2a01:4f8:1c1c:f5e1::1"],
-    "info": ["DNS-over-HTTPS server. Non Logging, filters ads, trackers and malware. DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet.",
-             "Hosted in Nuremberg, Germany. (https://dns.brahma.world)"],
+    "info": ["DNS-over-HTTPS server.",
+             "Non Logging, filters ads, trackers and malware.",
+             "DNSSEC ready, QNAME Minimization, No EDNS Client-Subnet.",
+             "Hosted in Nuremberg, Germany.",
+             "(https://dns.brahma.world)"],
     "flags": "NoECS|QNAMEMinimization|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -526,7 +586,10 @@
     "sdns": [{"stamp": "sdns://AQMAAAAAAAAAEzE4NS4yMjguMTY4LjEwOjg0NDMgvKwy-tVDaRcfCDLWB1AnwyCM7vDo6Z-UGNx3YGXUjykRY2xlYW5icm93c2luZy5vcmc",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "185.228.168.10:8443",
               "pk": "bcac32fad54369171f0832d6075027c3208ceef0e8e99f9418dc776065d48f29", "provider": "cleanbrowsing.org", "IP": "185.228.168.10"],
-    "info": ["Blocks access to adult, pornographic and explicit sites. It does not block proxy or VPNs, nor mixed-content sites. Sites like Reddit are allowed. Google and Bing are set to the Safe Mode.",
+    "info": ["Blocks access to adult, pornographic and explicit sites.",
+             "It does not block proxy or VPNs, nor mixed-content sites.",
+             "Sites like Reddit are allowed.",
+             "Google and Bing are set to the Safe Mode.",
              "Warning: This server is incompatible with anonymization.",
              "By https://cleanbrowsing.org/"],
     "flags": "IncompatibleWithAnon|FamilyFilter"
@@ -539,7 +602,10 @@
              {"stamp": "sdns://AgMAAAAAAAAADzE4NS4yMjguMTY4LjE2OKD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6EqArKNAFzdZiWdsRGGXqF8u2CzyPVHBoY42QKmS-eEr9-CDmkk3b8D4_7v0YlBk-4ELgamnW8kitniFtpCsojywQGRFjbGVhbmJyb3dzaW5nLm9yZxEvZG9oL2FkdWx0LWZpbHRlcg",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "185.228.168.168",
               "hostname_port": "cleanbrowsing.org", "path": "/doh/adult-filter", "IP": "185.228.168.168"],
-    "info": ["Blocks access to adult, pornographic and explicit sites over DoH. It does not block proxy or VPNs, nor mixed-content sites. Sites like Reddit are allowed. Google and Bing are set to the Safe Mode."],
+    "info": ["Blocks access to adult, pornographic and explicit sites over DoH.",
+             "It does not block proxy or VPNs, nor mixed-content sites.",
+             "Sites like Reddit are allowed.",
+             "Google and Bing are set to the Safe Mode."],
     "flags": "FamilyFilter"
   },
   {
@@ -550,7 +616,10 @@
              {"stamp": "sdns://AQMAAAAAAAAAFVsyYTBkOjJhMDA6Mjo6MV06ODQ0MyC8rDL61UNpFx8IMtYHUCfDIIzu8Ojpn5QY3HdgZdSPKRFjbGVhbmJyb3dzaW5nLm9yZw",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "[2a0d:2a00:2::1]:8443",
               "pk": "bcac32fad54369171f0832d6075027c3208ceef0e8e99f9418dc776065d48f29", "provider": "cleanbrowsing.org", "IP": "2a0d:2a00:2::1"],
-    "info": ["Blocks access to adult, pornographic and explicit sites over IPv6. It does not block proxy or VPNs, nor mixed-content sites. Sites like Reddit are allowed. Google and Bing are set to the Safe Mode.",
+    "info": ["Blocks access to adult, pornographic and explicit sites over IPv6.",
+             "It does not block proxy or VPNs, nor mixed-content sites.",
+             "Sites like Reddit are allowed.",
+             "Google and Bing are set to the Safe Mode.",
              "Warning: This server is incompatible with anonymization."],
     "flags": "IPv6|IncompatibleWithAnon|FamilyFilter"
   },
@@ -559,7 +628,10 @@
     "sdns": [{"stamp": "sdns://AQMAAAAAAAAAFDE4NS4yMjguMTY4LjE2ODo4NDQzILysMvrVQ2kXHwgy1gdQJ8MgjO7w6OmflBjcd2Bl1I8pEWNsZWFuYnJvd3Npbmcub3Jn",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "185.228.168.168:8443",
               "pk": "bcac32fad54369171f0832d6075027c3208ceef0e8e99f9418dc776065d48f29", "provider": "cleanbrowsing.org", "IP": "185.228.168.168"],
-    "info": ["Blocks access to adult, pornographic and explicit sites. It also blocks proxy and VPN domains that are used to bypass the filters. Mixed content sites (like Reddit) are also blocked. Google, Bing and Youtube are set to the Safe Mode.",
+    "info": ["Blocks access to adult, pornographic and explicit sites.",
+             "It also blocks proxy and VPN domains that are used to bypass the filters.",
+             "Mixed content sites (like Reddit) are also blocked.",
+             "Google, Bing and Youtube are set to the Safe Mode.",
              "Warning: This server is incompatible with anonymization.",
              "By https://cleanbrowsing.org/"],
     "flags": "IncompatibleWithAnon|FamilyFilter"
@@ -572,7 +644,10 @@
              {"stamp": "sdns://AgMAAAAAAAAADzE4NS4yMjguMTY4LjE2OKD5_zfwLmMstzhwJcB-V5CKPTcbfJXYzdA5DeIx7ZQ6EqArKNAFzdZiWdsRGGXqF8u2CzyPVHBoY42QKmS-eEr9-CDmkk3b8D4_7v0YlBk-4ELgamnW8kitniFtpCsojywQGRFjbGVhbmJyb3dzaW5nLm9yZxIvZG9oL2ZhbWlseS1maWx0ZXI",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "185.228.168.168",
               "hostname_port": "cleanbrowsing.org", "path": "/doh/family-filter", "IP": "185.228.168.168"],
-    "info": ["Blocks access to adult, pornographic and explicit sites over DoH. It also blocks proxy and VPN domains that are used to bypass the filters. Mixed content sites (like Reddit) are also blocked. Google, Bing and Youtube are set to the Safe Mode."],
+    "info": ["Blocks access to adult, pornographic and explicit sites over DoH.",
+             "It also blocks proxy and VPN domains that are used to bypass the filters.",
+             "Mixed content sites (like Reddit) are also blocked.",
+             "Google, Bing and Youtube are set to the Safe Mode."],
     "flags": "FamilyFilter"
   },
   {
@@ -583,7 +658,10 @@
              {"stamp": "sdns://AQMAAAAAAAAAFFsyYTBkOjJhMDA6Mjo6XTo4NDQzILysMvrVQ2kXHwgy1gdQJ8MgjO7w6OmflBjcd2Bl1I8pEWNsZWFuYnJvd3Npbmcub3Jn",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "[2a0d:2a00:2::]:8443",
               "pk": "bcac32fad54369171f0832d6075027c3208ceef0e8e99f9418dc776065d48f29", "provider": "cleanbrowsing.org", "IP": "2a0d:2a00:2::"],
-    "info": ["Blocks access to adult, pornographic and explicit sites over IPv6. It also blocks proxy and VPN domains that are used to bypass the filters. Mixed content sites (like Reddit) are also blocked. Google, Bing and Youtube are set to the Safe Mode.",
+    "info": ["Blocks access to adult, pornographic and explicit sites over IPv6.",
+             "It also blocks proxy and VPN domains that are used to bypass the filters.",
+             "Mixed content sites (like Reddit) are also blocked.",
+             "Google, Bing and Youtube are set to the Safe Mode.",
              "Warning: This server is incompatible with anonymization."],
     "flags": "IPv6|IncompatibleWithAnon|FamilyFilter"
   },
@@ -745,7 +823,11 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAACjc2Ljc2LjIuMTEAFGZyZWVkbnMuY29udHJvbGQuY29tAy9wMQ",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "76.76.2.11",
               "hostname_port": "freedns.controld.com", "path": "/p1", "IP": "76.76.2.11"],
-    "info": ["ControlD Free DNS. Take CONTROL of your Internet. Block unwanted content, bypass geo-restrictions and be more productive. DoH protocol and No logging. - https://controld.com/free-dns",
+    "info": ["ControlD Free DNS.",
+             "Take CONTROL of your Internet.",
+             "Block unwanted content, bypass geo-restrictions and be more productive.",
+             "DoH protocol and No logging.",
+             "- https://controld.com/free-dns",
              "This DNS blocks Malware domains."],
     "flags": "MalwareBlocking",
     "unused": "Block unwanted content, bypass geo-restrictions and be more productive."
@@ -755,7 +837,11 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAACjc2Ljc2LjIuMTEAFGZyZWVkbnMuY29udHJvbGQuY29tAy9wMg",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "76.76.2.11",
               "hostname_port": "freedns.controld.com", "path": "/p2", "IP": "76.76.2.11"],
-    "info": ["ControlD Free DNS. Take CONTROL of your Internet. Block unwanted content, bypass geo-restrictions and be more productive. DoH protocol and No logging. - https://controld.com/free-dns",
+    "info": ["ControlD Free DNS.",
+             "Take CONTROL of your Internet.",
+             "Block unwanted content, bypass geo-restrictions and be more productive.",
+             "DoH protocol and No logging.",
+             "- https://controld.com/free-dns",
              "This DNS blocks Malware, Ads & Tracking domains."],
     "flags": "MalwareBlocking|AdBlocking|TrackingBlocking",
     "unused": "Block unwanted content, bypass geo-restrictions and be more productive."
@@ -765,7 +851,11 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAACjc2Ljc2LjIuMTEAFGZyZWVkbnMuY29udHJvbGQuY29tAy9wMw",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "76.76.2.11",
               "hostname_port": "freedns.controld.com", "path": "/p3", "IP": "76.76.2.11"],
-    "info": ["ControlD Free DNS. Take CONTROL of your Internet. Block unwanted content, bypass geo-restrictions and be more productive. DoH protocol and No logging. - https://controld.com/free-dns",
+    "info": ["ControlD Free DNS.",
+             "Take CONTROL of your Internet.",
+             "Block unwanted content, bypass geo-restrictions and be more productive.",
+             "DoH protocol and No logging.",
+             "- https://controld.com/free-dns",
              "This DNS blocks Malware, Ads & Tracking and Social Networks domains."],
     "flags": "MalwareBlocking|AdBlocking|TrackingBlocking|SocialMediaBlocking",
     "unused": "Block unwanted content, bypass geo-restrictions and be more productive."
@@ -775,7 +865,11 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAACjc2Ljc2LjIuMTEAFGZyZWVkbnMuY29udHJvbGQuY29tBy9mYW1pbHk",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "76.76.2.11",
               "hostname_port": "freedns.controld.com", "path": "/family", "IP": "76.76.2.11"],
-    "info": ["ControlD Free DNS. Take CONTROL of your Internet. Block unwanted content, bypass geo-restrictions and be more productive. DoH protocol and No logging. - https://controld.com/free-dns",
+    "info": ["ControlD Free DNS.",
+             "Take CONTROL of your Internet.",
+             "Block unwanted content, bypass geo-restrictions and be more productive.",
+             "DoH protocol and No logging.",
+             "- https://controld.com/free-dns",
              "This DNS blocks Malware, Ads & Tracking, Adult Content and Drugs domains."],
     "flags": "MalwareBlocking|AdBlocking|TrackingBlocking|FamilyFilter",
     "unused": "Block unwanted content, bypass geo-restrictions and be more productive."
@@ -785,7 +879,11 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAACjc2Ljc2LjIuMTEAFGZyZWVkbnMuY29udHJvbGQuY29tCy91bmNlbnNvcmVk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "76.76.2.11",
               "hostname_port": "freedns.controld.com", "path": "/uncensored", "IP": "76.76.2.11"],
-    "info": ["ControlD Free DNS. Take CONTROL of your Internet. Block unwanted content, bypass geo-restrictions and be more productive. DoH protocol and No logging. - https://controld.com/free-dns",
+    "info": ["ControlD Free DNS.",
+             "Take CONTROL of your Internet.",
+             "Block unwanted content, bypass geo-restrictions and be more productive.",
+             "DoH protocol and No logging.",
+             "- https://controld.com/free-dns",
              "This DNS unblocks censored domains from various countries."],
     "flags": "None",
     "unused": "Block unwanted content, bypass geo-restrictions and be more productive."
@@ -795,7 +893,11 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAACjc2Ljc2LjIuMTEAFGZyZWVkbnMuY29udHJvbGQuY29tAy9wMA",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "76.76.2.11",
               "hostname_port": "freedns.controld.com", "path": "/p0", "IP": "76.76.2.11"],
-    "info": ["ControlD Free DNS. Take CONTROL of your Internet. Block unwanted content, bypass geo-restrictions and be more productive. DoH protocol and No logging. - https://controld.com/free-dns",
+    "info": ["ControlD Free DNS.",
+             "Take CONTROL of your Internet.",
+             "Block unwanted content, bypass geo-restrictions and be more productive.",
+             "DoH protocol and No logging.",
+             "- https://controld.com/free-dns",
              "This is a Unfiltered DNS, no DNS record blocking or manipulation here, if you want to block Malware, Ads & Tracking or Social Network domains, use the other ControlD DNS configs."],
     "flags": "None",
     "unused": "Block unwanted content, bypass geo-restrictions and be more productive."
@@ -1165,7 +1267,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAADTUyLjY1LjIzNS4xMjkg5Q00RDDBkwx3fUaa0_etjz4iH3lLBOqsg95bYDmV07MdMi5kbnNjcnlwdC1jZXJ0LmRlZmZlci1kbnMuYXU",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "52.65.235.129",
               "pk": "e50d344430c1930c777d469ad3f7ad8f3e221f794b04eaac83de5b603995d3b3", "provider": "2.dnscrypt-cert.deffer-dns.au", "IP": "52.65.235.129"],
-    "info": ["DNSSEC/Non-logged/Uncensored in Sydney (AWS). Encrypted DNS Server image by jedisct1, maintaned by DeffeR."],
+    "info": ["DNSSEC/Non-logged/Uncensored in Sydney (AWS).",
+             "Encrypted DNS Server image by jedisct1, maintaned by DeffeR."],
     "flags": "None"
   },
   {
@@ -1184,7 +1287,8 @@
              {"stamp": "sdns://AgcAAAAAAAAADTE4NS45NS4yMTguNDOgzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOag9_WvKIAeh31986K-KP4UnzJ0p-0p8Tb9UDzjmMuoCw2gs14FlQz72CWfk3W6EBhwuMPEwOxaUpdX5jFn6d4mqeigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN986g5kS6aWPjNf52XLmXaxKxDrVClLQkd3ZMyzo6zKOssvwgKq4_t78F5MgcQZTcpEUR1PmvMEeG7BrnIYQJz2Kgg1UcZG5zLmRpZ2l0YWxlLWdlc2VsbHNjaGFmdC5jaAovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "185.95.218.43",
               "hostname_port": "dns.digitale-gesellschaft.ch", "path": "/dns-query", "IP": "185.95.218.43"],
-    "info": ["Public DoH resolver operated by the Digital Society (https://www.digitale-gesellschaft.ch). Hosted in Zurich, Switzerland.",
+    "info": ["Public DoH resolver operated by the Digital Society (https://www.digitale-gesellschaft.ch).",
+             "Hosted in Zurich, Switzerland.",
              "Non-logging, non-filtering, supports DNSSEC."],
     "flags": "None"
   },
@@ -1196,7 +1300,8 @@
              {"stamp": "sdns://AgcAAAAAAAAAD1syYTA1OmZjODQ6OjQzXaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRxkbnMuZGlnaXRhbGUtZ2VzZWxsc2NoYWZ0LmNoCi9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2a05:fc84::43]",
               "hostname_port": "dns.digitale-gesellschaft.ch", "path": "/dns-query", "IP": "2a05:fc84::43"],
-    "info": ["Public IPv6 DoH resolver operated by the Digital Society (https://www.digitale-gesellschaft.ch). Hosted in Zurich, Switzerland.",
+    "info": ["Public IPv6 DoH resolver operated by the Digital Society (https://www.digitale-gesellschaft.ch).",
+             "Hosted in Zurich, Switzerland.",
              "Non-logging, non-filtering, supports DNSSEC."],
     "flags": "IPv6"
   },
@@ -1205,7 +1310,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAADjk0LjEzMC4xMzUuMjAzoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVE2Rucy5kaWdpdGFsc2l6ZS5uZXQKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "94.130.135.203",
               "hostname_port": "dns.digitalsize.net", "path": "/dns-query", "IP": "94.130.135.203"],
-    "info": ["A public, non-tracking, non-filtering DNS resolver with DNSSEC enabled, QNAME minimization and no EDNS client subnet (https://dns.digitalsize.net). Hosted in Germany."],
+    "info": ["A public, non-tracking, non-filtering DNS resolver with DNSSEC enabled, QNAME minimization and no EDNS client subnet (https://dns.digitalsize.net).",
+             "Hosted in Germany."],
     "flags": "NoECS|QNAMEMinimization"
   },
   {
@@ -1213,7 +1319,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAGVsyYTAxOjRmODoxM2I6MzQwNzo6ZmFjZV2gzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOag9_WvKIAeh31986K-KP4UnzJ0p-0p8Tb9UDzjmMuoCw2gs14FlQz72CWfk3W6EBhwuMPEwOxaUpdX5jFn6d4mqeigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN986g5kS6aWPjNf52XLmXaxKxDrVClLQkd3ZMyzo6zKOssvwgKq4_t78F5MgcQZTcpEUR1PmvMEeG7BrnIYQJz2Kgg1UTZG5zLmRpZ2l0YWxzaXplLm5ldAovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2a01:4f8:13b:3407::face]",
               "hostname_port": "dns.digitalsize.net", "path": "/dns-query", "IP": "2a01:4f8:13b:3407::face"],
-    "info": ["A public, non-tracking, non-filtering DNS resolver with DNSSEC enabled, QNAME minimization and no EDNS client subnet (https://dns.digitalsize.net). Hosted in Germany."],
+    "info": ["A public, non-tracking, non-filtering DNS resolver with DNSSEC enabled, QNAME minimization and no EDNS client subnet (https://dns.digitalsize.net).",
+             "Hosted in Germany."],
     "flags": "NoECS|QNAMEMinimization"
   },
   {
@@ -1224,7 +1331,8 @@
              {"stamp": "sdns://AgcAAAAAAAAACzQ1LjExLjQ1LjExIA6nlK-P6hX4XP7rn7wfZUocsonR6CZ8SCt094BCVQUUCzQ1LjExLjQ1LjExCi9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "45.11.45.11",
               "hostname_port": "45.11.45.11", "path": "/dns-query", "IP": "45.11.45.11"],
-    "info": ["DoH server runned by xTom.com. No logs, no filtering, supports DNSSEC.",
+    "info": ["DoH server runned by xTom.com.",
+             "No logs, no filtering, supports DNSSEC.",
              "Homepage: https://dns.sb"],
     "flags": "None"
   },
@@ -1243,7 +1351,7 @@
     "name": "dns0-kids",
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAAACCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQxraWRzLmRuczAuZXUKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "",
-              "hostname_port": "kids.dns0.eu", "path": "/dns-query", "IP": "212.126.59.63"],
+              "hostname_port": "kids.dns0.eu", "path": "/dns-query", "IP": "37.252.231.163"],
     "info": ["A free, sovereign and GDPR-compliant recursive DNS resolver with a strong focus on security to protect the citizens and organizations of the European Union.",
              "This version blocks content not suitable for children.",
              "Also blocks new domains, dynamic DNS, parked domains, uncommon TLDs, etc.",
@@ -1256,7 +1364,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAACCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQxvcGVuLmRuczAuZXUKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "",
               "hostname_port": "open.dns0.eu", "path": "/dns-query", "IP": "37.252.231.163"],
-    "info": ["The unfiltered version of dns0.eu. https://open.dns0.eu/"],
+    "info": ["The unfiltered version of dns0.eu.",
+             "https://open.dns0.eu/"],
     "flags": "None"
   },
   {
@@ -1267,7 +1376,9 @@
              {"stamp": "sdns://AgcAAAAAAAAACjE5NC4wLjUuNjQAEGRvcTY0LmRuczRhbGwuZXUKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "194.0.5.64",
               "hostname_port": "doq64.dns4all.eu", "path": "/dns-query", "IP": "194.0.5.64"],
-    "info": ["A DoH, DoT and DoQ resolver operated by sidnlabs.nl. No-logs, DNSSEC and No-filter. Homepage: https://dns4all.eu"],
+    "info": ["A DoH, DoT and DoQ resolver operated by sidnlabs.nl.",
+             "No-logs, DNSSEC and No-filter.",
+             "Homepage: https://dns4all.eu"],
     "flags": "DoT|DoQ"
   },
   {
@@ -1278,7 +1389,9 @@
              {"stamp": "sdns://AgcAAAAAAAAAEFsyMDAxOjY3ODo4Ojo2NF0AEGRvcTY0LmRuczRhbGwuZXUKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:678:8::64]",
               "hostname_port": "doq64.dns4all.eu", "path": "/dns-query", "IP": "2001:678:8::64"],
-    "info": ["A DoH, DoT and DoQ resolver operated by sidnlabs.nl over IPv6. No-logs, DNSSEC and No-filter. Homepage: https://dns4all.eu"],
+    "info": ["A DoH, DoT and DoQ resolver operated by sidnlabs.nl over IPv6.",
+             "No-logs, DNSSEC and No-filter.",
+             "Homepage: https://dns4all.eu"],
     "flags": "DoT|DoQ|IPv6"
   },
   {
@@ -3077,7 +3190,9 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAEzE4NS4xMTEuMTg4LjQ2Ojg0NDMgC-tbTwd-08e_JtBJmgsvjAG9i10itE-LBNCwjTflezQiMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LmNhLTEtaXB2NA",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "185.111.188.46:8443",
               "pk": "0beb5b4f077ed3c7bf26d0499a0b2f8c01bd8b5d22b44f8b04d0b08d37e57b34", "provider": "2.dnscrypt-cert.dnscrypt.ca-1-ipv4", "IP": "185.111.188.46"],
-    "info": ["Canadian based, unfiltered, DNSSEC validating, and no logs... for your pleasure. https://dnscrypt.ca/"],
+    "info": ["Canadian based, unfiltered, DNSSEC validating, and no logs...",
+             "for your pleasure.",
+             "https://dnscrypt.ca/"],
     "flags": "None"
   },
   {
@@ -3085,7 +3200,9 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAADjE4NS4xMTEuMTg4LjQ2ID8EEe3pxEdwV9V-V4g7HyBbIM3A8yYxKbHuAmmiZ49jEGRuczEuZG5zY3J5cHQuY2EKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "185.111.188.46",
               "hostname_port": "dns1.dnscrypt.ca", "path": "/dns-query", "IP": "185.111.188.46"],
-    "info": ["Canadian based, unfiltered, DNSSEC validating, and no logs... for your pleasure. https://dnscrypt.ca/"],
+    "info": ["Canadian based, unfiltered, DNSSEC validating, and no logs...",
+             "for your pleasure.",
+             "https://dnscrypt.ca/"],
     "flags": "None"
   },
   {
@@ -3109,7 +3226,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAADTE2NS4yMzIuMzIuOTUgAdMO6A4gTdoYcdOhDyhRVGdlvxS02kQEpP8EbX2paDwbMi5kbnNjcnlwdC1jZXJ0LmRuc2NyeXB0LnVr",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "165.232.32.95",
               "pk": "01d30ee80e204dda1871d3a10f2851546765bf14b4da4404a4ff046d7da9683c", "provider": "2.dnscrypt-cert.dnscrypt.uk", "IP": "165.232.32.95"],
-    "info": ["DNSCrypt, no logs, uncensored, DNSSEC. Hosted in London UK on Digital Ocean https://www.dnscrypt.uk"],
+    "info": ["DNSCrypt, no logs, uncensored, DNSSEC.",
+             "Hosted in London UK on Digital Ocean https://www.dnscrypt.uk"],
     "flags": "None"
   },
   {
@@ -3117,7 +3235,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAGlsyYTAzOmIwYzA6MTplMDo6NDg3OjEwMDFdIAHTDugOIE3aGHHToQ8oUVRnZb8UtNpEBKT_BG19qWg8GzIuZG5zY3J5cHQtY2VydC5kbnNjcnlwdC51aw",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2a03:b0c0:1:e0::487:1001]",
               "pk": "01d30ee80e204dda1871d3a10f2851546765bf14b4da4404a4ff046d7da9683c", "provider": "2.dnscrypt-cert.dnscrypt.uk", "IP": "2a03:b0c0:1:e0::487:1001"],
-    "info": ["DNSCrypt, no logs, uncensored, DNSSEC. Hosted in London UK on Digital Ocean https://www.dnscrypt.uk"],
+    "info": ["DNSCrypt, no logs, uncensored, DNSSEC.",
+             "Hosted in London UK on Digital Ocean https://www.dnscrypt.uk"],
     "flags": "None"
   },
   {
@@ -3125,9 +3244,14 @@
     "sdns": [{"stamp": "sdns://AQMAAAAAAAAADDc4LjQ3LjY0LjE2MSATJeLOABXNSYcSJIoqR5_iUYz87Y4OecMLB84aEAKPrRBkbnNmb3JmYW1pbHkuY29t",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "78.47.64.161",
               "pk": "1325e2ce0015cd498712248a2a479fe2518cfced8e0e79c30b07ce1a10028fad", "provider": "dnsforfamily.com", "IP": "78.47.64.161"],
-    "info": ["(DNSCrypt Protocol) (Now supports DNSSEC). Block adult websites, gambling websites, malwares, trackers and advertisements. It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.",
-             "Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.",
-             "As of 26-May-2022 5.9 million websites are blocked and new websites are added to blacklist daily. Completely free, no ads or any commercial motive. Operating for 4 years now.",
+    "info": ["(DNSCrypt Protocol) (Now supports DNSSEC).",
+             "Block adult websites, gambling websites, malwares, trackers and advertisements.",
+             "It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.",
+             "Social websites like Facebook and Instagram are not blocked.",
+             "No DNS queries are logged.",
+             "As of 26-May-2022 5.9 million websites are blocked and new websites are added to blacklist daily.",
+             "Completely free, no ads or any commercial motive.",
+             "Operating for 4 years now.",
              "Warning: This server is incompatible with anonymization.",
              "Provided by: https://dnsforfamily.com"],
     "flags": "IncompatibleWithAnon|MalwareBlocking|AdBlocking|TrackingBlocking|SocialMediaBlocking|FamilyFilter"
@@ -3137,9 +3261,14 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAADzE2Ny4yMzUuMjM2LjEwN6DMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRhkbnMtZG9oLmRuc2ZvcmZhbWlseS5jb20KL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "167.235.236.107",
               "hostname_port": "dns-doh.dnsforfamily.com", "path": "/dns-query", "IP": "167.235.236.107"],
-    "info": ["(DoH Protocol) (Now supports DNSSEC). Block adult websites, gambling websites, malwares, trackers and advertisements. It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.",
-             "Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.",
-             "As of 26-May-2022 5.9 million websites are blocked and new websites are added to blacklist daily. Completely free, no ads or any commercial motive. Operating for 4 years now.",
+    "info": ["(DoH Protocol) (Now supports DNSSEC).",
+             "Block adult websites, gambling websites, malwares, trackers and advertisements.",
+             "It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.",
+             "Social websites like Facebook and Instagram are not blocked.",
+             "No DNS queries are logged.",
+             "As of 26-May-2022 5.9 million websites are blocked and new websites are added to blacklist daily.",
+             "Completely free, no ads or any commercial motive.",
+             "Operating for 4 years now.",
              "Provided by: https://dnsforfamily.com"],
     "flags": "MalwareBlocking|AdBlocking|TrackingBlocking|SocialMediaBlocking|FamilyFilter"
   },
@@ -3148,9 +3277,14 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAADzE2Ny4yMzUuMjM2LjEwN6DMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVSdkbnMtZG9oLW5vLXNhZmUtc2VhcmNoLmRuc2ZvcmZhbWlseS5jb20KL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "167.235.236.107",
               "hostname_port": "dns-doh-no-safe-search.dnsforfamily.com", "path": "/dns-query", "IP": "167.235.236.107"],
-    "info": ["(DoH Protocol) (Now supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements. Unlike other dnsforfamily servers, this one does not enforces safe search. So Google, YouTube, Bing, DuckDuckGo and Yandex are completely accessible without any restriction.",
-             "Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.",
-             "As of 26-May-2022 5.9 million websites are blocked and new websites are added to blacklist daily. Completely free, no ads or any commercial motive. Operating for 4 years now.",
+    "info": ["(DoH Protocol) (Now supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements.",
+             "Unlike other dnsforfamily servers, this one does not enforces safe search.",
+             "So Google, YouTube, Bing, DuckDuckGo and Yandex are completely accessible without any restriction.",
+             "Social websites like Facebook and Instagram are not blocked.",
+             "No DNS queries are logged.",
+             "As of 26-May-2022 5.9 million websites are blocked and new websites are added to blacklist daily.",
+             "Completely free, no ads or any commercial motive.",
+             "Operating for 4 years now.",
              "Warning: This server is incompatible with anonymization.",
              "Provided by: https://dnsforfamily.com"],
     "flags": "IncompatibleWithAnon|MalwareBlocking|AdBlocking|TrackingBlocking|FamilyFilter"
@@ -3160,9 +3294,14 @@
     "sdns": [{"stamp": "sdns://AQMAAAAAAAAADzEzNS4xODEuMTkzLjIyMiDrxcZ_hFtGE6tfATvQZYjxgl5pTY_e2cRH_ms8bEWofBBkbnNmb3JmYW1pbHkuY29t",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "135.181.193.222",
               "pk": "ebc5c67f845b4613ab5f013bd06588f1825e694d8fded9c447fe6b3c6c45a87c", "provider": "dnsforfamily.com", "IP": "135.181.193.222"],
-    "info": ["(DNSCrypt Protocol) (Now supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements. Unlike other dnsforfamily servers, this one does not enforces safe search. So Google, YouTube, Bing, DuckDuckGo and Yandex are completely accessible without any restriction.",
-             "Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.",
-             "As of 26-May-2022 5.9 million websites are blocked and new websites are added to blacklist daily. Completely free, no ads or any commercial motive. Operating for 4 years now.",
+    "info": ["(DNSCrypt Protocol) (Now supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements.",
+             "Unlike other dnsforfamily servers, this one does not enforces safe search.",
+             "So Google, YouTube, Bing, DuckDuckGo and Yandex are completely accessible without any restriction.",
+             "Social websites like Facebook and Instagram are not blocked.",
+             "No DNS queries are logged.",
+             "As of 26-May-2022 5.9 million websites are blocked and new websites are added to blacklist daily.",
+             "Completely free, no ads or any commercial motive.",
+             "Operating for 4 years now.",
              "Warning: This server is incompatible with anonymization.",
              "Provided by: https://dnsforfamily.com"],
     "flags": "IncompatibleWithAnon|MalwareBlocking|AdBlocking|TrackingBlocking|FamilyFilter"
@@ -3172,9 +3311,13 @@
     "sdns": [{"stamp": "sdns://AQMAAAAAAAAAF1syYTAxOjRmODoxYzE3OjRkZjg6OjFdIBMl4s4AFc1JhxIkiipHn-JRjPztjg55wwsHzhoQAo-tEGRuc2ZvcmZhbWlseS5jb20",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "[2a01:4f8:1c17:4df8::1]",
               "pk": "1325e2ce0015cd498712248a2a479fe2518cfced8e0e79c30b07ce1a10028fad", "provider": "dnsforfamily.com", "IP": "2a01:4f8:1c17:4df8::1"],
-    "info": ["(DNSCrypt Protocol) (Now supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements. It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.",
-             "Social websites like Facebook and Instagram are not blocked. No DNS queries are logged.",
-             "As of 26-May-2022 5.9 million websites are blocked and new websites are added to blacklist daily. Completely free, no ads or any commercial motive. Operating for 4 years now.",
+    "info": ["(DNSCrypt Protocol) (Now supports DNSSEC) Block adult websites, gambling websites, malwares, trackers and advertisements.",
+             "It also enforces safe search in: Google, YouTube, Bing, DuckDuckGo and Yandex.",
+             "Social websites like Facebook and Instagram are not blocked.",
+             "No DNS queries are logged.",
+             "As of 26-May-2022 5.9 million websites are blocked and new websites are added to blacklist daily.",
+             "Completely free, no ads or any commercial motive.",
+             "Operating for 4 years now.",
              "Provided by: https://dnsforfamily.com"],
     "flags": "MalwareBlocking|AdBlocking|TrackingBlocking|SocialMediaBlocking|FamilyFilter"
   },
@@ -3184,7 +3327,8 @@
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "176.9.93.198",
               "hostname_port": "dnsforge.de", "path": "/dns-query", "IP": "176.9.93.198"],
     "info": ["Public DoH resolver running with Pihole for Adblocking (https://dnsforge.de).",
-             "Non-logging, AD-filtering, supports DNSSEC. Hosted in Germany."],
+             "Non-logging, AD-filtering, supports DNSSEC.",
+             "Hosted in Germany."],
     "flags": "AdBlocking"
   },
   {
@@ -3214,7 +3358,8 @@
              {"stamp": "sdns://AgAAAAAAAAAACjEuMTIuMzQuNTYACjEuMTIuMTIuMTIKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "None", "address": "1.12.34.56",
               "hostname_port": "1.12.12.12", "path": "/dns-query", "IP": "1.12.34.56"],
-    "info": ["A public DNS resolver that supports DoH/DoT in mainland China, provided by dnspod/Tencent-cloud. Homepage: https://dnspod.cn",
+    "info": ["A public DNS resolver that supports DoH/DoT in mainland China, provided by dnspod/Tencent-cloud.",
+             "Homepage: https://dnspod.cn",
              "Warning: GFW filtering rules are applied by this resolver."],
     "flags": "DoT|GFWFiltering"
   },
@@ -3223,7 +3368,10 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAAAAAVZG9oLmNsZWFuYnJvd3Npbmcub3JnEi9kb2gvYWR1bHQtZmlsdGVyLw",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "",
               "hostname_port": "doh.cleanbrowsing.org", "path": "/doh/adult-filter/", "IP": "185.228.168.10"],
-    "info": ["Blocks access to adult, pornographic and explicit sites. It does not block proxy or VPNs, nor mixed-content sites. Sites like Reddit are allowed. Google and Bing are set to the Safe Mode.",
+    "info": ["Blocks access to adult, pornographic and explicit sites.",
+             "It does not block proxy or VPNs, nor mixed-content sites.",
+             "Sites like Reddit are allowed.",
+             "Google and Bing are set to the Safe Mode.",
              "By https://cleanbrowsing.org/"],
     "flags": "FamilyFilter"
   },
@@ -3232,7 +3380,10 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAAAAAVZG9oLmNsZWFuYnJvd3Npbmcub3JnEy9kb2gvZmFtaWx5LWZpbHRlci8",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "",
               "hostname_port": "doh.cleanbrowsing.org", "path": "/doh/family-filter/", "IP": "185.228.168.10"],
-    "info": ["Blocks access to adult, pornographic and explicit sites. It also blocks proxy and VPN domains that are used to bypass the filters. Mixed content sites (like Reddit) are also blocked. Google, Bing and Youtube are set to the Safe Mode.",
+    "info": ["Blocks access to adult, pornographic and explicit sites.",
+             "It also blocks proxy and VPN domains that are used to bypass the filters.",
+             "Mixed content sites (like Reddit) are also blocked.",
+             "Google, Bing and Youtube are set to the Safe Mode.",
              "By https://cleanbrowsing.org/"],
     "flags": "FamilyFilter"
   },
@@ -3241,7 +3392,9 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAAAAAVZG9oLmNsZWFuYnJvd3Npbmcub3JnFS9kb2gvc2VjdXJpdHktZmlsdGVyLw",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "",
               "hostname_port": "doh.cleanbrowsing.org", "path": "/doh/security-filter/", "IP": "185.228.168.10"],
-    "info": ["Block access to phishing, malware and malicious domains. It does not block adult content. By https://cleanbrowsing.org/"],
+    "info": ["Block access to phishing, malware and malicious domains.",
+             "It does not block adult content.",
+             "By https://cleanbrowsing.org/"],
     "flags": "MalwareBlocking"
   },
   {
@@ -3252,7 +3405,10 @@
              {"stamp": "sdns://AgcAAAAAAAAADjE3Mi42Ny4xMzQuMTU3AA1kb2guY3J5cHRvLnN4Ci9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "172.67.134.157",
               "hostname_port": "doh.crypto.sx", "path": "/dns-query", "IP": "172.67.134.157"],
-    "info": ["DNS-over-HTTPS server. Anycast, no logs, no censorship, DNSSEC. Globally cached via Cloudflare. Maintained by Frank Denis."],
+    "info": ["DNS-over-HTTPS server.",
+             "Anycast, no logs, no censorship, DNSSEC.",
+             "Globally cached via Cloudflare.",
+             "Maintained by Frank Denis."],
     "flags": "Anycast"
   },
   {
@@ -3263,7 +3419,10 @@
              {"stamp": "sdns://AgcAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNjo6YWM0Mzo4NjlkXQASZG9oLWlwdjYuY3J5cHRvLnN4Ci9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2606:4700:3036::ac43:869d]",
               "hostname_port": "doh-ipv6.crypto.sx", "path": "/dns-query", "IP": "2606:4700:3036::ac43:869d"],
-    "info": ["DNS-over-HTTPS server accessible over IPv6. Anycast, no logs, no censorship, DNSSEC. Globally cached via Cloudflare. Maintained by Frank Denis."],
+    "info": ["DNS-over-HTTPS server accessible over IPv6.",
+             "Anycast, no logs, no censorship, DNSSEC.",
+             "Globally cached via Cloudflare.",
+             "Maintained by Frank Denis."],
     "flags": "IPv6|Anycast"
   },
   {
@@ -3280,7 +3439,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAAKDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRZkb2guYXBwbGllZHByaXZhY3kubmV0Bi9xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "",
               "hostname_port": "doh.appliedprivacy.net", "path": "/query", "IP": "146.255.56.98"],
-    "info": ["Public DoH resolver operated by the Foundation for Applied Privacy (https://appliedprivacy.net). Hosted in Vienna, Austria.",
+    "info": ["Public DoH resolver operated by the Foundation for Applied Privacy (https://appliedprivacy.net).",
+             "Hosted in Vienna, Austria.",
              "Non-logging, non-filtering, supports DNSSEC."],
     "flags": "None"
   },
@@ -3289,7 +3449,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAACjUuMS42Ni4yNTWgzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOag9_WvKIAeh31986K-KP4UnzJ0p-0p8Tb9UDzjmMuoCw2gs14FlQz72CWfk3W6EBhwuMPEwOxaUpdX5jFn6d4mqeigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN986g5kS6aWPjNf52XLmXaxKxDrVClLQkd3ZMyzo6zKOssvwgKq4_t78F5MgcQZTcpEUR1PmvMEeG7BrnIYQJz2Kgg1UNZG9oLmZmbXVjLm5ldAovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "5.1.66.255",
               "hostname_port": "doh.ffmuc.net", "path": "/dns-query", "IP": "5.1.66.255"],
-    "info": ["An open (non-logging, non-filtering, non-censoring) DoH resolver operated by Freifunk Munich with nodes in DE. https://ffmuc.net/"],
+    "info": ["An open (non-logging, non-filtering, non-censoring) DoH resolver operated by Freifunk Munich with nodes in DE.",
+             "https://ffmuc.net/"],
     "flags": "None"
   },
   {
@@ -3297,7 +3458,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAADjE4NS4xNTAuOTkuMjU1oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVDWRvaC5mZm11Yy5uZXQKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "185.150.99.255",
               "hostname_port": "doh.ffmuc.net", "path": "/dns-query", "IP": "185.150.99.255"],
-    "info": ["An open (non-logging, non-filtering, non-censoring) DoH resolver operated by Freifunk Munich with nodes in DE. https://ffmuc.net/"],
+    "info": ["An open (non-logging, non-filtering, non-censoring) DoH resolver operated by Freifunk Munich with nodes in DE.",
+             "https://ffmuc.net/"],
     "flags": "None"
   },
   {
@@ -3305,7 +3467,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAFVsyMDAxOjY3ODplNjg6ZjAwMDo6XaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVQ1kb2guZmZtdWMubmV0Ci9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:678:e68:f000::]",
               "hostname_port": "doh.ffmuc.net", "path": "/dns-query", "IP": "2001:678:e68:f000::"],
-    "info": ["An open (non-logging, non-filtering, non-censoring) DoH resolver operated by Freifunk Munich with nodes in DE. https://ffmuc.net/"],
+    "info": ["An open (non-logging, non-filtering, non-censoring) DoH resolver operated by Freifunk Munich with nodes in DE.",
+             "https://ffmuc.net/"],
     "flags": "None"
   },
   {
@@ -3313,7 +3476,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAFVsyMDAxOjY3ODplZDA6ZjAwMDo6XaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVQ1kb2guZmZtdWMubmV0Ci9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:678:ed0:f000::]",
               "hostname_port": "doh.ffmuc.net", "path": "/dns-query", "IP": "2001:678:ed0:f000::"],
-    "info": ["An open (non-logging, non-filtering, non-censoring) DoH resolver operated by Freifunk Munich with nodes in DE. https://ffmuc.net/"],
+    "info": ["An open (non-logging, non-filtering, non-censoring) DoH resolver operated by Freifunk Munich with nodes in DE.",
+             "https://ffmuc.net/"],
     "flags": "None"
   },
   {
@@ -3321,7 +3485,8 @@
     "sdns": [{"stamp": "sdns://AQMAAAAAAAAADjE3NC4xMzguMjEuMTI4IO-WgGbo2ZTwZdg-3dMa7u31bYZXRj5KykfN1_6Xw9T2HDIuZG5zY3J5cHQtY2VydC5kbnMudGlhci5hcHA",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "174.138.21.128",
               "pk": "ef968066e8d994f065d83eddd31aeeedf56d8657463e4aca47cdd7fe97c3d4f6", "provider": "2.dnscrypt-cert.dns.tiar.app", "IP": "174.138.21.128"],
-    "info": ["Non-Logging DNSCrypt server located in Singapore. Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail."],
+    "info": ["Non-Logging DNSCrypt server located in Singapore.",
+             "Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail."],
     "flags": "MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -3329,7 +3494,8 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAADjE3NC4xMzguMjkuMTc1oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVDGRvaC50aWFyLmFwcAovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "174.138.29.175",
               "hostname_port": "doh.tiar.app", "path": "/dns-query", "IP": "174.138.29.175"],
-    "info": ["Non-Logging DNS-over-HTTPS (HTTP/2 & HTTP/3) server located in Singapore. Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail."],
+    "info": ["Non-Logging DNS-over-HTTPS (HTTP/2 & HTTP/3) server located in Singapore.",
+             "Filters out ads, trackers and malware, supports DNSSEC, provided by id-gmail."],
     "flags": "HTTP3|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -3337,7 +3503,8 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAADDEwNC4yMS42NS42MAAOZG9oLnRpYXJhcC5vcmcKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "104.21.65.60",
               "hostname_port": "doh.tiarap.org", "path": "/dns-query", "IP": "104.21.65.60"],
-    "info": ["Non-Logging DNS-over-HTTPS server, cached via Cloudflare. Filters out ads, trackers and malware, NO ECS, supports DNSSEC."],
+    "info": ["Non-Logging DNS-over-HTTPS server, cached via Cloudflare.",
+             "Filters out ads, trackers and malware, NO ECS, supports DNSSEC."],
     "flags": "NoECS|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -3345,7 +3512,8 @@
     "sdns": [{"stamp": "sdns://AgMAAAAAAAAAG1syNjA2OjQ3MDA6MzAzNDo6NjgxNTo0MTNjXQAOZG9oLnRpYXJhcC5vcmcKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "[2606:4700:3034::6815:413c]",
               "hostname_port": "doh.tiarap.org", "path": "/dns-query", "IP": "2606:4700:3034::6815:413c"],
-    "info": ["Non-Logging DNS-over-HTTPS server (IPv6), cached via Cloudflare. Filters out ads, trackers and malware, NO ECS, supports DNSSEC."],
+    "info": ["Non-Logging DNS-over-HTTPS server (IPv6), cached via Cloudflare.",
+             "Filters out ads, trackers and malware, NO ECS, supports DNSSEC."],
     "flags": "IPv6|NoECS|MalwareBlocking|AdBlocking|TrackingBlocking"
   },
   {
@@ -3391,7 +3559,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAADzUuMS42Ni4yNTU6ODQ0MyAH0Hrxz9xdmXadPwJmkKcESWXCdCdseRyu9a7zuQxG-hkyLmRuc2NyeXB0LWNlcnQuZmZtdWMubmV0",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "5.1.66.255:8443",
               "pk": "07d07af1cfdc5d99769d3f026690a7044965c274276c791caef5aef3b90c46fa", "provider": "2.dnscrypt-cert.ffmuc.net", "IP": "5.1.66.255"],
-    "info": ["An open (non-logging, non-filtering, non-censoring) DNSCrypt resolver operated by Freifunk Munich with nodes in DE. https://ffmuc.net/"],
+    "info": ["An open (non-logging, non-filtering, non-censoring) DNSCrypt resolver operated by Freifunk Munich with nodes in DE.",
+             "https://ffmuc.net/"],
     "flags": "None"
   },
   {
@@ -3399,7 +3568,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAGlsyMDAxOjY3ODplNjg6ZjAwMDo6XTo4NDQzIAfQevHP3F2Zdp0_AmaQpwRJZcJ0J2x5HK71rvO5DEb6GTIuZG5zY3J5cHQtY2VydC5mZm11Yy5uZXQ",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:678:e68:f000::]:8443",
               "pk": "07d07af1cfdc5d99769d3f026690a7044965c274276c791caef5aef3b90c46fa", "provider": "2.dnscrypt-cert.ffmuc.net", "IP": "2001:678:e68:f000::"],
-    "info": ["An open (non-logging, non-filtering, non-censoring) DNSCrypt resolver operated by Freifunk Munich with nodes in DE. https://ffmuc.net/"],
+    "info": ["An open (non-logging, non-filtering, non-censoring) DNSCrypt resolver operated by Freifunk Munich with nodes in DE.",
+             "https://ffmuc.net/"],
     "flags": "None"
   },
   {
@@ -3407,7 +3577,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAFDEyOS4xNTEuMjI0LjE4Mjo1MzUzICo3YofAHoNsHkixOFHSQXY6G7z1MCrxXxGyfovtQvsGHzIuZG5zY3J5cHQtY2VydC5mbHVmZnljYXQtZnItMDE",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "129.151.224.182:5353",
               "pk": "2a376287c01e836c1e48b13851d241763a1bbcf5302af15f11b27e8bed42fb06", "provider": "2.dnscrypt-cert.fluffycat-fr-01", "IP": "129.151.224.182"],
-    "info": ["DNSCrypt resolver hosted in Marseille, FR on Oracle Cloud. No logs, no filters, DNSSEC."],
+    "info": ["DNSCrypt resolver hosted in Marseille, FR on Oracle Cloud.",
+             "No logs, no filters, DNSSEC."],
     "flags": "None"
   },
   {
@@ -3456,7 +3627,9 @@
     "sdns": [{"stamp": "sdns://AgEAAAAAAAAACjEwMy4yLjU3LjUgmOPV5TavKVjNL38U9wTvSidtJeM81l8uZfXk8nJ8EzARcHVibGljLmRucy5paWouanAKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "DNSSEC", "address": "103.2.57.5",
               "hostname_port": "public.dns.iij.jp", "path": "/dns-query", "IP": "103.2.57.5"],
-    "info": ["DoH server operated by Internet Initiative Japan in Tokyo. Blocks child pornography. https://www.iij.ad.jp/"],
+    "info": ["DoH server operated by Internet Initiative Japan in Tokyo.",
+             "Blocks child pornography.",
+             "https://www.iij.ad.jp/"],
     "flags": "FamilyFilter"
   },
   {
@@ -3464,7 +3637,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAEjE3Mi4xMDQuOTMuODA6MTQ0MyAyuHY-8b9lNqHeahPAzW9IoXnjiLaZpTeNbVs8TN9UUxsyLmRuc2NyeXB0LWNlcnQuanAudGlhci5hcHA",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "172.104.93.80:1443",
               "pk": "32b8763ef1bf6536a1de6a13c0cd6f48a179e388b699a5378d6d5b3c4cdf5453", "provider": "2.dnscrypt-cert.jp.tiar.app", "IP": "172.104.93.80"],
-    "info": ["Non-Logging, Non-Filtering DNSCrypt server in Japan. No ECS, Support DNSSEC"],
+    "info": ["Non-Logging, Non-Filtering DNSCrypt server in Japan.",
+             "No ECS, Support DNSSEC"],
     "flags": "NoECS"
   },
   {
@@ -3472,7 +3646,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAADTE3Mi4xMDQuOTMuODCgzBBg05yDKbYrb7x9DW35MJhpuYHn5jktXNj6QI9NgOag9_WvKIAeh31986K-KP4UnzJ0p-0p8Tb9UDzjmMuoCw2gs14FlQz72CWfk3W6EBhwuMPEwOxaUpdX5jFn6d4mqeigRE69Z7uD-IB7OSHpOKyReLiCvVCq2xEjHwRM9fCN986g5kS6aWPjNf52XLmXaxKxDrVClLQkd3ZMyzo6zKOssvwgKq4_t78F5MgcQZTcpEUR1PmvMEeG7BrnIYQJz2Kgg1ULanAudGlhci5hcHAKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "172.104.93.80",
               "hostname_port": "jp.tiar.app", "path": "/dns-query", "IP": "172.104.93.80"],
-    "info": ["Non-Logging, Non-Filtering DNS-over-HTTPS server in Japan. No ECS, Support DNSSEC"],
+    "info": ["Non-Logging, Non-Filtering DNS-over-HTTPS server in Japan.",
+             "No ECS, Support DNSSEC"],
     "flags": "NoECS"
   },
   {
@@ -3480,7 +3655,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAIFsyNDAwOjg5MDI6OmYwM2M6OTFmZjpmZWRhOmM1MTRdoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVC2pwLnRpYXIuYXBwCi9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2400:8902::f03c:91ff:feda:c514]",
               "hostname_port": "jp.tiar.app", "path": "/dns-query", "IP": "2400:8902::f03c:91ff:feda:c514"],
-    "info": ["Non-Logging, Non-Filtering DNS-over-HTTPS (IPv6) server in Japan. No ECS, Support DNSSEC"],
+    "info": ["Non-Logging, Non-Filtering DNS-over-HTTPS (IPv6) server in Japan.",
+             "No ECS, Support DNSSEC"],
     "flags": "IPv6|NoECS"
   },
   {
@@ -3488,7 +3664,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAJVsyNDAwOjg5MDI6OmYwM2M6OTFmZjpmZWRhOmM1MTRdOjE0NDMgMrh2PvG_ZTah3moTwM1vSKF544i2maU3jW1bPEzfVFMbMi5kbnNjcnlwdC1jZXJ0LmpwLnRpYXIuYXBw",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2400:8902::f03c:91ff:feda:c514]:1443",
               "pk": "32b8763ef1bf6536a1de6a13c0cd6f48a179e388b699a5378d6d5b3c4cdf5453", "provider": "2.dnscrypt-cert.jp.tiar.app", "IP": "2400:8902::f03c:91ff:feda:c514"],
-    "info": ["Non-Logging, Non-Filtering DNSCrypt (IPv6) server in Japan. No ECS, Support DNSSEC"],
+    "info": ["Non-Logging, Non-Filtering DNSCrypt (IPv6) server in Japan.",
+             "No ECS, Support DNSSEC"],
     "flags": "IPv6|NoECS"
   },
   {
@@ -3496,7 +3673,9 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAAAANanAudGlhcmFwLm9yZwovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "",
               "hostname_port": "jp.tiarap.org", "path": "/dns-query", "IP": "104.21.91.14"],
-    "info": ["DNS-over-HTTPS Server. Non-Logging, Non-Filtering, No ECS, Support DNSSEC. Cached via Cloudflare."],
+    "info": ["DNS-over-HTTPS Server.",
+             "Non-Logging, Non-Filtering, No ECS, Support DNSSEC.",
+             "Cached via Cloudflare."],
     "flags": "NoECS"
   },
   {
@@ -3504,7 +3683,9 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAG1syNjA2OjQ3MDA6MzAzMDo6YWM0MzphZDNiXQANanAudGlhcmFwLm9yZwovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2606:4700:3030::ac43:ad3b]",
               "hostname_port": "jp.tiarap.org", "path": "/dns-query", "IP": "2606:4700:3030::ac43:ad3b"],
-    "info": ["DNS-over-HTTPS Server (IPv6). Non-Logging, Non-Filtering, No ECS, Support DNSSEC. Cached via Cloudflare."],
+    "info": ["DNS-over-HTTPS Server (IPv6).",
+             "Non-Logging, Non-Filtering, No ECS, Support DNSSEC.",
+             "Cached via Cloudflare."],
     "flags": "IPv6|NoECS"
   },
   {
@@ -3512,7 +3693,10 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAADjE5My4yMDEuMTg4LjQ4IBERKdQJgLSjqCSK99e2f_WRTQzEq9__DeXlQFvxxhZ6GzIuZG5zY3J5cHQtY2VydC5uczIua3NvbC5pbw",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "193.201.188.48",
               "pk": "111129d40980b4a3a8248af7d7b67ff5914d0cc4abdfff0de5e5405bf1c6167a", "provider": "2.dnscrypt-cert.ns2.ksol.io", "IP": "193.201.188.48"],
-    "info": ["DNSCrypt on IPv4 (UDP/TCP). No DoH, doesn't log, doesn't filter, DNSSEC enforced. No EDNS Client-Subnet, padding enabled, as per `dnscrypt-server-docker` default unbound configuration. Location: Hungary"],
+    "info": ["DNSCrypt on IPv4 (UDP/TCP).",
+             "No DoH, doesn't log, doesn't filter, DNSSEC enforced.",
+             "No EDNS Client-Subnet, padding enabled, as per `dnscrypt-server-docker` default unbound configuration.",
+             "Location: Hungary"],
     "flags": "IPv4|NoECS"
   },
   {
@@ -3520,7 +3704,10 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAFFsyYTAxOjZlZTA6MTo6MjQxOjFdIBERKdQJgLSjqCSK99e2f_WRTQzEq9__DeXlQFvxxhZ6GzIuZG5zY3J5cHQtY2VydC5uczIua3NvbC5pbw",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2a01:6ee0:1::241:1]",
               "pk": "111129d40980b4a3a8248af7d7b67ff5914d0cc4abdfff0de5e5405bf1c6167a", "provider": "2.dnscrypt-cert.ns2.ksol.io", "IP": "2a01:6ee0:1::241:1"],
-    "info": ["DNSCrypt on IPv6 (UDP/TCP). No DoH, doesn't log, doesn't filter, DNSSEC enforced. No EDNS Client-Subnet, padding enabled, as per `dnscrypt-server-docker` default unbound configuration. Location: Hungary"],
+    "info": ["DNSCrypt on IPv6 (UDP/TCP).",
+             "No DoH, doesn't log, doesn't filter, DNSSEC enforced.",
+             "No EDNS Client-Subnet, padding enabled, as per `dnscrypt-server-docker` default unbound configuration.",
+             "Location: Hungary"],
     "flags": "IPv6|NoECS"
   },
   {
@@ -3528,7 +3715,9 @@
     "sdns": [{"stamp": "sdns://AgIAAAAAAAAADjExNi4yMDIuMTc2LjI2oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVD2RvaC5saWJyZWRucy5ncgovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoLog", "address": "116.202.176.26",
               "hostname_port": "doh.libredns.gr", "path": "/dns-query", "IP": "116.202.176.26"],
-    "info": ["DoH server in Germany. No logging, but no DNS padding and no DNSSEC support. https://libredns.gr/"],
+    "info": ["DoH server in Germany.",
+             "No logging, but no DNS padding and no DNSSEC support.",
+             "https://libredns.gr/"],
     "flags": "NoPadding"
   },
   {
@@ -3536,7 +3725,9 @@
     "sdns": [{"stamp": "sdns://AgIAAAAAAAAADjExNi4yMDIuMTc2LjI2oMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVD2RvaC5saWJyZWRucy5ncgYvbm9hZHM",
               "protocol": "DoH", "flags": "NoLog", "address": "116.202.176.26",
               "hostname_port": "doh.libredns.gr", "path": "/noads", "IP": "116.202.176.26"],
-    "info": ["DoH server in Germany. No logging, but no DNS padding and no DNSSEC support. no ads version, uses StevenBlack's host list: https://github.com/StevenBlack/hosts"],
+    "info": ["DoH server in Germany.",
+             "No logging, but no DNS padding and no DNSSEC support.",
+             "no ads version, uses StevenBlack's host list: https://github.com/StevenBlack/hosts"],
     "flags": "AdBlocking|NoPadding"
   },
   {
@@ -3568,7 +3759,9 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAACzE5NC4yNDIuMi4yAA9kbnMubXVsbHZhZC5uZXQKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "194.242.2.2",
               "hostname_port": "dns.mullvad.net", "path": "/dns-query", "IP": "194.242.2.2"],
-    "info": ["Public non-filtering, non-logging (audited), DNSSEC-capable, DNS-over-HTTPS resolver hosted by VPN provider Mullvad. Anycast IPv4/IPv6 with servers in SE, DE, UK, US, AU, and SG. https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/"],
+    "info": ["Public non-filtering, non-logging (audited), DNSSEC-capable, DNS-over-HTTPS resolver hosted by VPN provider Mullvad.",
+             "Anycast IPv4/IPv6 with servers in SE, DE, UK, US, AU, and SG.",
+             "https://mullvad.net/en/help/dns-over-https-and-dns-over-tls/"],
     "flags": "IPv4|IPv6|Anycast"
   },
   {
@@ -3612,7 +3805,7 @@
     "name": "nextdns-ultralow",
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAACCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGQ5kbnMubmV4dGRucy5pbw8vZG5zY3J5cHQtcHJveHk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "",
-              "hostname_port": "dns.nextdns.io", "path": "/dnscrypt-proxy", "IP": "200.25.32.197"],
+              "hostname_port": "dns.nextdns.io", "path": "/dnscrypt-proxy", "IP": "131.100.0.5"],
     "info": ["NextDNS is a cloud-based private DNS service that gives you full control over what is allowed and what is blocked on the Internet.",
              "https://www.nextdns.io/",
              "To select the server location, the \"-ultralow\" variant relies on bootstrap servers instead of anycast."],
@@ -3654,7 +3847,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAETk1LjIxNy4xMS42Mzo4NDQzILqK827XPyVhFNCgYRi2VrryJyHhnfkeQnBB2EvkiM-3FzIuZG5zY3J5cHQtY2VydC5ud3BzLmZp",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "95.217.11.63:8443",
               "pk": "ba8af36ed73f256114d0a06118b656baf22721e19df91e427041d84be488cfb7", "provider": "2.dnscrypt-cert.nwps.fi", "IP": "95.217.11.63"],
-    "info": ["Helsinki, Finland. DNSCrypt, no filters, no logs, DNSSEC"],
+    "info": ["Helsinki, Finland.",
+             "DNSCrypt, no filters, no logs, DNSSEC"],
     "flags": "None"
   },
   {
@@ -3662,7 +3856,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAEzE0OS4yOC4xMDEuMTE5Ojg0NDMgVaFV4a8StIfx8fnCxDxVlxppqm-hJYyCKqtMtQENnCwkMi5kbnNjcnlwdC1jZXJ0LnBsdXRvbi5wbGFuOS1kbnMuY29t",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "149.28.101.119:8443",
               "pk": "55a155e1af12b487f1f1f9c2c43c55971a69aa6fa1258c822aab4cb5010d9c2c", "provider": "2.dnscrypt-cert.pluton.plan9-dns.com", "IP": "149.28.101.119"],
-    "info": ["Miami Florida, USA. DNSCrypt, no filters, no logs, DNSSEC",
+    "info": ["Miami Florida, USA.",
+             "DNSCrypt, no filters, no logs, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns"],
     "flags": "None"
   },
@@ -3671,7 +3866,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAADjE0OS4yOC4xMDEuMTE5IJo6NPcn3rm8pRAD2c6cOfjyfdnFJCkBwrqxpE5jWgIZFHBsdXRvbi5wbGFuOS1kbnMuY29tCi9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "149.28.101.119",
               "hostname_port": "pluton.plan9-dns.com", "path": "/dns-query", "IP": "149.28.101.119"],
-    "info": ["Miami Florida, USA. DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
+    "info": ["Miami Florida, USA.",
+             "DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns, DoT & DoQ supported."],
     "flags": "DoT|DoQ|HTTP3"
   },
@@ -3680,7 +3876,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAJ1syMDAxOjE5ZjA6OTAwMjpkZTQ6NTQwMDo0ZmY6ZmUwODo3ZGUzXSCaOjT3J965vKUQA9nOnDn48n3ZxSQpAcK6saROY1oCGRRwbHV0b24ucGxhbjktZG5zLmNvbQovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:19f0:9002:de4:5400:4ff:fe08:7de3]",
               "hostname_port": "pluton.plan9-dns.com", "path": "/dns-query", "IP": "2001:19f0:9002:de4:5400:4ff:fe08:7de3"],
-    "info": ["Miami Florida, USA. DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
+    "info": ["Miami Florida, USA.",
+             "DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns, DoT & DoQ supported."],
     "flags": "DoT|DoQ|HTTP3"
   },
@@ -3689,7 +3886,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAALFsyMDAxOjE5ZjA6OTAwMjpkZTQ6NTQwMDo0ZmY6ZmUwODo3ZGUzXTo4NDQzIFWhVeGvErSH8fH5wsQ8VZcaaapvoSWMgiqrTLUBDZwsJDIuZG5zY3J5cHQtY2VydC5wbHV0b24ucGxhbjktZG5zLmNvbQ",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:19f0:9002:de4:5400:4ff:fe08:7de3]:8443",
               "pk": "55a155e1af12b487f1f1f9c2c43c55971a69aa6fa1258c822aab4cb5010d9c2c", "provider": "2.dnscrypt-cert.pluton.plan9-dns.com", "IP": "2001:19f0:9002:de4:5400:4ff:fe08:7de3"],
-    "info": ["Miami Florida, USA. DNSCrypt, no filters, no logs, DNSSEC",
+    "info": ["Miami Florida, USA.",
+             "DNSCrypt, no filters, no logs, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns"],
     "flags": "None"
   },
@@ -3698,7 +3896,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAEzIxNi4yMzguODAuMjE5Ojg0NDMgKmPCui35rtOj9yk7c07sEtC_Khyo_9_HcpO23GCroNskMi5kbnNjcnlwdC1jZXJ0LmhlbGlvcy5wbGFuOS1kbnMuY29t",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "216.238.80.219:8443",
               "pk": "2a63c2ba2df9aed3a3f7293b734eec12d0bf2a1ca8ffdfc77293b6dc60aba0db", "provider": "2.dnscrypt-cert.helios.plan9-dns.com", "IP": "216.238.80.219"],
-    "info": ["Mexico City, MX. DNSCrypt, no filters, no logs, DNSSEC",
+    "info": ["Mexico City, MX.",
+             "DNSCrypt, no filters, no logs, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns"],
     "flags": "None"
   },
@@ -3707,7 +3906,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAADjIxNi4yMzguODAuMjE5IJo6NPcn3rm8pRAD2c6cOfjyfdnFJCkBwrqxpE5jWgIZFGhlbGlvcy5wbGFuOS1kbnMuY29tCi9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "216.238.80.219",
               "hostname_port": "helios.plan9-dns.com", "path": "/dns-query", "IP": "216.238.80.219"],
-    "info": ["Mexico City, MX. DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
+    "info": ["Mexico City, MX.",
+             "DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns, DoT & DoQ supported."],
     "flags": "DoT|DoQ|HTTP3"
   },
@@ -3716,7 +3916,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAKFsyMDAxOjE5ZjA6YjQwMDoxZDhjOjU0MDA6NGZmOmZlMTE6YjE1YV0gmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkUaGVsaW9zLnBsYW45LWRucy5jb20KL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:19f0:b400:1d8c:5400:4ff:fe11:b15a]",
               "hostname_port": "helios.plan9-dns.com", "path": "/dns-query", "IP": "2001:19f0:b400:1d8c:5400:4ff:fe11:b15a"],
-    "info": ["Mexico City, MX. DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
+    "info": ["Mexico City, MX.",
+             "DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns, DoT & DoQ supported."],
     "flags": "DoT|DoQ|HTTP3"
   },
@@ -3725,7 +3926,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAALVsyMDAxOjE5ZjA6YjQwMDoxZDhjOjU0MDA6NGZmOmZlMTE6YjE1YV06ODQ0MyAqY8K6Lfmu06P3KTtzTuwS0L8qHKj_38dyk7bcYKug2yQyLmRuc2NyeXB0LWNlcnQuaGVsaW9zLnBsYW45LWRucy5jb20",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:19f0:b400:1d8c:5400:4ff:fe11:b15a]:8443",
               "pk": "2a63c2ba2df9aed3a3f7293b734eec12d0bf2a1ca8ffdfc77293b6dc60aba0db", "provider": "2.dnscrypt-cert.helios.plan9-dns.com", "IP": "2001:19f0:b400:1d8c:5400:4ff:fe11:b15a"],
-    "info": ["Mexico City, MX. DNSCrypt, no filters, no logs, DNSSEC",
+    "info": ["Mexico City, MX.",
+             "DNSCrypt, no filters, no logs, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns"],
     "flags": "None"
   },
@@ -3734,7 +3936,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAEjIwNy4yNDYuODcuOTY6ODQ0MyCwmQlIDpKk8SiiyrJbPgKhHxCrBJLb8ZWlu6tvr1KvkyQyLmRuc2NyeXB0LWNlcnQua3Jvbm9zLnBsYW45LWRucy5jb20",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "207.246.87.96:8443",
               "pk": "b09909480e92a4f128a2cab25b3e02a11f10ab0492dbf195a5bbab6faf52af93", "provider": "2.dnscrypt-cert.kronos.plan9-dns.com", "IP": "207.246.87.96"],
-    "info": ["Piscataway New Jersey, USA. DNSCrypt, no filters, no logs, DNSSEC",
+    "info": ["Piscataway New Jersey, USA.",
+             "DNSCrypt, no filters, no logs, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns"],
     "flags": "None"
   },
@@ -3743,7 +3946,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAADTIwNy4yNDYuODcuOTYgmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkUa3Jvbm9zLnBsYW45LWRucy5jb20KL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "207.246.87.96",
               "hostname_port": "kronos.plan9-dns.com", "path": "/dns-query", "IP": "207.246.87.96"],
-    "info": ["Piscataway New Jersey, USA. DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
+    "info": ["Piscataway New Jersey, USA.",
+             "DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns, DoT & DoQ supported."],
     "flags": "DoT|DoQ|HTTP3"
   },
@@ -3752,7 +3956,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAJVsyMDAxOjE5ZjA6NTozYmQ3OjU0MDA6NGZmOmZlMDU6ZGE4M10gmjo09yfeubylEAPZzpw5-PJ92cUkKQHCurGkTmNaAhkUa3Jvbm9zLnBsYW45LWRucy5jb20KL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:19f0:5:3bd7:5400:4ff:fe05:da83]",
               "hostname_port": "kronos.plan9-dns.com", "path": "/dns-query", "IP": "2001:19f0:5:3bd7:5400:4ff:fe05:da83"],
-    "info": ["Piscataway New Jersey, USA. DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
+    "info": ["Piscataway New Jersey, USA.",
+             "DoH, DoH3 via the Alt-Svc header, no-logs, no-filters, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns, DoT & DoQ supported."],
     "flags": "DoT|DoQ|HTTP3"
   },
@@ -3761,7 +3966,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAKlsyMDAxOjE5ZjA6NTozYmQ3OjU0MDA6NGZmOmZlMDU6ZGE4M106ODQ0MyCwmQlIDpKk8SiiyrJbPgKhHxCrBJLb8ZWlu6tvr1KvkyQyLmRuc2NyeXB0LWNlcnQua3Jvbm9zLnBsYW45LWRucy5jb20",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:19f0:5:3bd7:5400:4ff:fe05:da83]:8443",
               "pk": "b09909480e92a4f128a2cab25b3e02a11f10ab0492dbf195a5bbab6faf52af93", "provider": "2.dnscrypt-cert.kronos.plan9-dns.com", "IP": "2001:19f0:5:3bd7:5400:4ff:fe05:da83"],
-    "info": ["Piscataway New Jersey, USA. DNSCrypt, no filters, no logs, DNSSEC",
+    "info": ["Piscataway New Jersey, USA.",
+             "DNSCrypt, no filters, no logs, DNSSEC",
              "Hosted on Vultr, jlongua.github.io/plan9-dns"],
     "flags": "None"
   },
@@ -3770,7 +3976,8 @@
     "sdns": [{"stamp": "sdns://AgAAAAAAAAAAACBGRinMfizEpf6XTTrC4BNXB3syOlkxKYNaWpRbX7u40Qpkb2guMzYwLmNuCi9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "None", "address": "",
               "hostname_port": "doh.360.cn", "path": "/dns-query", "IP": "101.198.192.33"],
-    "info": ["DoH server runned by Qihoo 360, has logs, GFW filtering rules are applied. Homepage: https://sdns.360.net"],
+    "info": ["DoH server runned by Qihoo 360, has logs, GFW filtering rules are applied.",
+             "Homepage: https://sdns.360.net"],
     "flags": "GFWFiltering"
   },
   {
@@ -4068,7 +4275,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAACzE1OC42NC4xLjI5IGDJBNhGNSOSEa34Gom8fB_myqDD7-nW-TeU7KcLNV6oEWRuc3B1Yi5yZXN0ZW5hLmx1Ci9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "158.64.1.29",
               "hostname_port": "dnspub.restena.lu", "path": "/dns-query", "IP": "158.64.1.29"],
-    "info": ["DNSSEC, No-log and No-filter DoH operated by RESTENA. Homepage: https://www.restena.lu"],
+    "info": ["DNSSEC, No-log and No-filter DoH operated by RESTENA.",
+             "Homepage: https://www.restena.lu"],
     "flags": "None"
   },
   {
@@ -4076,7 +4284,8 @@
     "sdns": [{"stamp": "sdns://AgcAAAAAAAAAEFsyMDAxOmExODoxOjoyOV0gYMkE2EY1I5IRrfgaibx8H-bKoMPv6db5N5Tspws1XqgRZG5zcHViLnJlc3RlbmEubHUKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:a18:1::29]",
               "hostname_port": "dnspub.restena.lu", "path": "/dns-query", "IP": "2001:a18:1::29"],
-    "info": ["DNSSEC, No-log and No-filter DoH (IPv6) operated by RESTENA. Homepage: https://www.restena.lu"],
+    "info": ["DNSSEC, No-log and No-filter DoH (IPv6) operated by RESTENA.",
+             "Homepage: https://www.restena.lu"],
     "flags": "IPv6"
   },
   {
@@ -4095,7 +4304,9 @@
     "sdns": [{"stamp": "sdns://AQIAAAAAAAAADzEwNC4xNTUuMjM3LjIyNSAnIH_VEgToNntINABd-f_R0wu-KpwzY55u2_iu2R1A2CAyLmRuc2NyeXB0LWNlcnQuc2FmZXN1cmZlci5jby5ueg",
               "protocol": "DNSCrypt", "flags": "NoLog", "address": "104.155.237.225",
               "pk": "27207fd51204e8367b4834005df9ffd1d30bbe2a9c33639e6edbf8aed91d40d8", "provider": "2.dnscrypt-cert.safesurfer.co.nz", "IP": "104.155.237.225"],
-    "info": ["Family safety focused blocklist for over 2 million adult sites, as well as phishing and malware and more. Free to use, paid for customizing blocking for more categories+sites and viewing usage at my.safesurfer.io. Logs taken for viewing usage, data never sold - https://safesurfer.io",
+    "info": ["Family safety focused blocklist for over 2 million adult sites, as well as phishing and malware and more.",
+             "Free to use, paid for customizing blocking for more categories+sites and viewing usage at my.safesurfer.io.",
+             "Logs taken for viewing usage, data never sold - https://safesurfer.io",
              "Warning: this server is incompatible with DNS anonymization."],
     "flags": "IncompatibleWithAnon|MalwareBlocking|FamilyFilter"
   },
@@ -4104,7 +4315,9 @@
     "sdns": [{"stamp": "sdns://AgAAAAAAAAAAACBW1D4A3rPRi8QazGGnZq98S8bEb0ZyDjFdjqVEtSPc3BFkb2guc2FmZXN1cmZlci5pbwovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "None", "address": "",
               "hostname_port": "doh.safesurfer.io", "path": "/dns-query", "IP": "35.227.226.142"],
-    "info": ["Family safety focused blocklist for over 2 million adult sites, as well as phishing and malware and more. Free to use, paid for customizing blocking for more categories+sites and viewing usage at my.safesurfer.io. Logs taken for viewing usage, data never sold - https://safesurfer.io"],
+    "info": ["Family safety focused blocklist for over 2 million adult sites, as well as phishing and malware and more.",
+             "Free to use, paid for customizing blocking for more categories+sites and viewing usage at my.safesurfer.io.",
+             "Logs taken for viewing usage, data never sold - https://safesurfer.io"],
     "flags": "MalwareBlocking|FamilyFilter"
   },
   {
@@ -4112,7 +4325,10 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAFDE2My40NC4xMjQuMjA0OjUwNDQzIGvWmxvhx79edG-xPZxrQR1g9jFOofVRDbPFCGWVGV1PIjIuZG5zY3J5cHQtY2VydC5zYWxkbnMwMS50eXBlcS5vcmc",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "163.44.124.204:50443",
               "pk": "6bd69b1be1c7bf5e746fb13d9c6b411d60f6314ea1f5510db3c5086595195d4f", "provider": "2.dnscrypt-cert.saldns01.typeq.org", "IP": "163.44.124.204"],
-    "info": ["Hosted on ConoHa VPS Tokyo region. No log. No filter. From experimental &mu;ODNS project https://junkurihara.github.io/dns/."],
+    "info": ["Hosted on ConoHa VPS Tokyo region.",
+             "No log.",
+             "No filter.",
+             "From experimental &mu;ODNS project https://junkurihara.github.io/dns/."],
     "flags": "None"
   },
   {
@@ -4120,7 +4336,10 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAFTE2MC4yNTEuMjE0LjE3Mjo1MDQ0MyB7SI0q4_Ff8lFRUCbjPtcAQ3HfdWlLxyGDUUNc3NUZdiIyLmRuc2NyeXB0LWNlcnQuc2FsZG5zMDIudHlwZXEub3Jn",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "160.251.214.172:50443",
               "pk": "7b488d2ae3f15ff251515026e33ed7004371df75694bc7218351435cdcd51976", "provider": "2.dnscrypt-cert.saldns02.typeq.org", "IP": "160.251.214.172"],
-    "info": ["Hosted on ConoHa VPS Tokyo region. No log. No filter. From experimental &mu;ODNS project https://junkurihara.github.io/dns/."],
+    "info": ["Hosted on ConoHa VPS Tokyo region.",
+             "No log.",
+             "No filter.",
+             "From experimental &mu;ODNS project https://junkurihara.github.io/dns/."],
     "flags": "None"
   },
   {
@@ -4128,7 +4347,10 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAFDE2MC4yNTEuMTY4LjI1OjUwNDQzIFl1NfOwMd24kRlr0mXR4rKo-c_jMV7DBUVooDEY1xFeIjIuZG5zY3J5cHQtY2VydC5zYWxkbnMwMy50eXBlcS5vcmc",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "160.251.168.25:50443",
               "pk": "597535f3b031ddb891196bd265d1e2b2a8f9cfe3315ec3054568a03118d7115e", "provider": "2.dnscrypt-cert.saldns03.typeq.org", "IP": "160.251.168.25"],
-    "info": ["Hosted on ConoHa VPS Tokyo region. No log. No filter. From experimental &mu;ODNS project https://junkurihara.github.io/dns/."],
+    "info": ["Hosted on ConoHa VPS Tokyo region.",
+             "No log.",
+             "No filter.",
+             "From experimental &mu;ODNS project https://junkurihara.github.io/dns/."],
     "flags": "None"
   },
   {
@@ -4176,7 +4398,9 @@
     "sdns": [{"stamp": "sdns://AQMAAAAAAAAADzE2My4xNzIuMTgwLjEyNSDfYnO_x1IZKotaObwMhaw_-WRF1zZE9mJygl01WPGh_x8yLmRuc2NyeXB0LWNlcnQuc2Z3LnNjYWxld2F5LWZy",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "163.172.180.125",
               "pk": "df6273bfc752192a8b5a39bc0c85ac3ff96445d73644f66272825d3558f1a1ff", "provider": "2.dnscrypt-cert.sfw.scaleway-fr", "IP": "163.172.180.125"],
-    "info": ["Uses deep learning to block adult websites. Free, DNSSEC, no logs. Hosted in Paris, running on a 1-XS server donated by Scaleway.com",
+    "info": ["Uses deep learning to block adult websites.",
+             "Free, DNSSEC, no logs.",
+             "Hosted in Paris, running on a 1-XS server donated by Scaleway.com",
              "Maintained by Frank Denis - https://fr.dnscrypt.info/sfw.html"],
     "flags": "FamilyFilter"
   },
@@ -4188,7 +4412,9 @@
              {"stamp": "sdns://AgMAAAAAAAAADTEzMC41OS4zMS4yNTEgsBkgdEu7dsmrBT4B4Ht-BQ5HPSD3n3vqQ1-v5DydJC8NMTMwLjU5LjMxLjI1MQovZG5zLXF1ZXJ5",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "130.59.31.251",
               "hostname_port": "130.59.31.251", "path": "/dns-query", "IP": "130.59.31.251"],
-    "info": ["Public DoH service provided by SWITCH in Switzerland. Provides protection against malware, but does not block ads. Homepage: https://www.switch.ch"],
+    "info": ["Public DoH service provided by SWITCH in Switzerland.",
+             "Provides protection against malware, but does not block ads.",
+             "Homepage: https://www.switch.ch"],
     "flags": "MalwareBlocking"
   },
   {
@@ -4199,7 +4425,9 @@
              {"stamp": "sdns://AgMAAAAAAAAAACCwGSB0S7t2yasFPgHge34FDkc9IPefe-pDX6_kPJ0kLxJbMjAwMTo2MjA6MDpmZjo6M10KL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoLog|DNSSEC", "address": "",
               "hostname_port": "[2001:620:0:ff::3]", "path": "/dns-query", "IP": "2001:620:0:ff::3"],
-    "info": ["Public DoH (IPv6) service provided by SWITCH in Switzerland. Provides protection against malware, but does not block ads. Homepage: https://www.switch.ch"],
+    "info": ["Public DoH (IPv6) service provided by SWITCH in Switzerland.",
+             "Provides protection against malware, but does not block ads.",
+             "Homepage: https://www.switch.ch"],
     "flags": "IPv6|MalwareBlocking"
   },
   {
@@ -4215,7 +4443,8 @@
     "sdns": [{"stamp": "sdns://AgYAAAAAAAAADDg5LjIzMy40My43MaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRl1bmljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog", "address": "89.233.43.71",
               "hostname_port": "unicast.uncensoreddns.org", "path": "/dns-query", "IP": "89.233.43.71"],
-    "info": ["Also known as censurfridns. DoH, no logs, no filter, unicast hosted in Denmark - https://blog.uncensoreddns.org"],
+    "info": ["Also known as censurfridns.",
+             "DoH, no logs, no filter, unicast hosted in Denmark - https://blog.uncensoreddns.org"],
     "flags": "None"
   },
   {
@@ -4223,7 +4452,8 @@
     "sdns": [{"stamp": "sdns://AgYAAAAAAAAAElsyYTAxOjNhMDo1Mzo1Mzo6XaDMEGDTnIMptitvvH0NbfkwmGm5gefmOS1c2PpAj02A5qD39a8ogB6HfX3zor4o_hSfMnSn7SnxNv1QPOOYy6gLDaCzXgWVDPvYJZ-TdboQGHC4w8TA7FpSl1fmMWfp3iap6KBETr1nu4P4gHs5Iek4rJF4uIK9UKrbESMfBEz18I33zqDmRLppY-M1_nZcuZdrErEOtUKUtCR3dkzLOjrMo6yy_CAqrj-3vwXkyBxBlNykRRHU-a8wR4bsGuchhAnPYqCDVRl1bmljYXN0LnVuY2Vuc29yZWRkbnMub3JnCi9kbnMtcXVlcnk",
               "protocol": "DoH", "flags": "NoFilter|NoLog", "address": "[2a01:3a0:53:53::]",
               "hostname_port": "unicast.uncensoreddns.org", "path": "/dns-query", "IP": "2a01:3a0:53:53::"],
-    "info": ["Also known as censurfridns. DoH, no logs, no filter, unicast hosted in Denmark - https://blog.uncensoreddns.org"],
+    "info": ["Also known as censurfridns.",
+             "DoH, no logs, no filter, unicast hosted in Denmark - https://blog.uncensoreddns.org"],
     "flags": "None"
   },
   {
@@ -4231,7 +4461,8 @@
     "sdns": [{"stamp": "sdns://AgYAAAAAAAAADjkxLjIzOS4xMDAuMTAwoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVGWFueWNhc3QudW5jZW5zb3JlZGRucy5vcmcKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog", "address": "91.239.100.100",
               "hostname_port": "anycast.uncensoreddns.org", "path": "/dns-query", "IP": "91.239.100.100"],
-    "info": ["Also known as censurfridns. DoH, no logs, no filter, anycast - https://blog.uncensoreddns.org"],
+    "info": ["Also known as censurfridns.",
+             "DoH, no logs, no filter, anycast - https://blog.uncensoreddns.org"],
     "flags": "Anycast"
   },
   {
@@ -4239,7 +4470,8 @@
     "sdns": [{"stamp": "sdns://AgYAAAAAAAAAEVsyMDAxOjY3YzoyOGE0OjpdoMwQYNOcgym2K2-8fQ1t-TCYabmB5-Y5LVzY-kCPTYDmoPf1ryiAHod9ffOivij-FJ8ydKftKfE2_VA845jLqAsNoLNeBZUM-9gln5N1uhAYcLjDxMDsWlKXV-YxZ-neJqnooEROvWe7g_iAezkh6TiskXi4gr1QqtsRIx8ETPXwjffOoOZEumlj4zX-dly5l2sSsQ61QpS0JHd2TMs6OsyjrLL8ICquP7e_BeTIHEGU3KRFEdT5rzBHhuwa5yGECc9ioINVGWFueWNhc3QudW5jZW5zb3JlZGRucy5vcmcKL2Rucy1xdWVyeQ",
               "protocol": "DoH", "flags": "NoFilter|NoLog", "address": "[2001:67c:28a4::]",
               "hostname_port": "anycast.uncensoreddns.org", "path": "/dns-query", "IP": "2001:67c:28a4::"],
-    "info": ["Also known as censurfridns. DoH, no logs, no filter, anycast - https://blog.uncensoreddns.org"],
+    "info": ["Also known as censurfridns.",
+             "DoH, no logs, no filter, anycast - https://blog.uncensoreddns.org"],
     "flags": "Anycast"
   },
   {
@@ -4250,7 +4482,8 @@
              {"stamp": "sdns://AQIAAAAAAAAAEjEwMy4yMzYuMTYyLjExOTo1NCBPr5jCD_2geOTMmS5LgQg_v79pgppTm3vLZhe_oahbgR0yLmRuc2NyeXB0LWNlcnQudXNlcnNwYWNlLW1lbA",
               "protocol": "DNSCrypt", "flags": "NoLog", "address": "103.236.162.119:54",
               "pk": "4faf98c20ffda078e4cc992e4b81083fbfbf69829a539b7bcb6617bfa1a85b81", "provider": "2.dnscrypt-cert.userspace-mel", "IP": "103.236.162.119"],
-    "info": ["DNSCrypt in Australia (Brisbane & Melbourne) by UserSpace. No logs | IPv4 | Filtered"],
+    "info": ["DNSCrypt in Australia (Brisbane & Melbourne) by UserSpace.",
+             "No logs | IPv4 | Filtered"],
     "flags": "IPv4"
   },
   {
@@ -4261,7 +4494,8 @@
              {"stamp": "sdns://AQIAAAAAAAAAJVsyNDA0Ojk0MDA6MzowOjIxNjozZWZmOmZlZTA6N2Y2OV06NTQgT6-Ywg_9oHjkzJkuS4EIP7-_aYKaU5t7y2YXv6GoW4EdMi5kbnNjcnlwdC1jZXJ0LnVzZXJzcGFjZS1tZWw",
               "protocol": "DNSCrypt", "flags": "NoLog", "address": "[2404:9400:3:0:216:3eff:fee0:7f69]:54",
               "pk": "4faf98c20ffda078e4cc992e4b81083fbfbf69829a539b7bcb6617bfa1a85b81", "provider": "2.dnscrypt-cert.userspace-mel", "IP": "2404:9400:3:0:216:3eff:fee0:7f69"],
-    "info": ["DNSCrypt in Australia (Brisbane & Melbourne) by UserSpace. No logs | IPv6 | Filtered"],
+    "info": ["DNSCrypt in Australia (Brisbane & Melbourne) by UserSpace.",
+             "No logs | IPv6 | Filtered"],
     "flags": "IPv6"
   },
   {
@@ -4269,7 +4503,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAADzEwNC4yMzguMTg2LjE5MiDtST2M6teQZk8GPEe3lZojaS18kDY8nkPMtZF75bQe5R0yLmRuc2NyeXB0LWNlcnQudi5kbnNjcnlwdC51aw",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "104.238.186.192",
               "pk": "ed493d8cead790664f063c47b7959a23692d7c90363c9e43ccb5917be5b41ee5", "provider": "2.dnscrypt-cert.v.dnscrypt.uk", "IP": "104.238.186.192"],
-    "info": ["DNSCrypt, no logs, uncensored, DNSSEC. Hosted in London UK on Digital Ocean https://www.dnscrypt.uk"],
+    "info": ["DNSCrypt, no logs, uncensored, DNSSEC.",
+             "Hosted in London UK on Digital Ocean https://www.dnscrypt.uk"],
     "flags": "None"
   },
   {
@@ -4277,7 +4512,8 @@
     "sdns": [{"stamp": "sdns://AQcAAAAAAAAAKFsyMDAxOjE5ZjA6NzQwMjoxNTc0OjU0MDA6MmZmOmZlNjY6MmNmZl0g7Uk9jOrXkGZPBjxHt5WaI2ktfJA2PJ5DzLWRe-W0HuUdMi5kbnNjcnlwdC1jZXJ0LnYuZG5zY3J5cHQudWs",
               "protocol": "DNSCrypt", "flags": "NoFilter|NoLog|DNSSEC", "address": "[2001:19f0:7402:1574:5400:2ff:fe66:2cff]",
               "pk": "ed493d8cead790664f063c47b7959a23692d7c90363c9e43ccb5917be5b41ee5", "provider": "2.dnscrypt-cert.v.dnscrypt.uk", "IP": "2001:19f0:7402:1574:5400:2ff:fe66:2cff"],
-    "info": ["DNSCrypt, no logs, uncensored, DNSSEC. Hosted in London UK on Digital Ocean https://www.dnscrypt.uk"],
+    "info": ["DNSCrypt, no logs, uncensored, DNSSEC.",
+             "Hosted in London UK on Digital Ocean https://www.dnscrypt.uk"],
     "flags": "None"
   },
   {

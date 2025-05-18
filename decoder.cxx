@@ -1153,6 +1153,8 @@ void DnsEntry::print_on(std::ostream& os, char const* indentation) const
 
 void DnsEntry::process_sentence(std::string& sentence)
 {
+  info_.push_back(sentence);
+
   // Check if the sentence equals a phrase that do not map to flags.
   for (auto const& phrase : g_noFlagPhrases)
     if (sentence == phrase)
@@ -1171,7 +1173,6 @@ void DnsEntry::process(std::string const& data)
   // Input: catenated string of lines without empty line in between
   // and not starting with '## ' or 'sdns://'.
   std::cout << std::format("Processing data: '{}'\n", data);
-  info_.push_back(data);
 
   // Split the line up again in sentences with ". " as separator.
   std::string data_copy = data;

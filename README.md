@@ -10,7 +10,10 @@ and then produces a `public-resolvers.json` file that hopefully is actually JSON
              {"stamp": "sdns://AQMAAAAAAAAAFFsyYTBkOjJhMDA6Mjo6XTo4NDQzILysMvrVQ2kXHwgy1gdQJ8MgjO7w6OmflBjcd2Bl1I8pEWNsZWFuYnJvd3Npbmcub3Jn",
               "protocol": "DNSCrypt", "flags": "NoLog|DNSSEC", "address": "[2a0d:2a00:2::]:8443",
               "pk": "bcac32fad54369171f0832d6075027c3208ceef0e8e99f9418dc776065d48f29", "provider": "cleanbrowsing.org", "IP": "2a0d:2a00:2::"],
-    "info": ["Blocks access to adult, pornographic and explicit sites over IPv6. It also blocks proxy and VPN domains that are used to bypass the filters. Mixed content sites (like Reddit) are also blocked. Google, Bing and Youtube are set to the Safe Mode.",
+    "info": ["Blocks access to adult, pornographic and explicit sites over IPv6."
+             "It also blocks proxy and VPN domains that are used to bypass the filters."
+             "Mixed content sites (like Reddit) are also blocked."
+             "Google, Bing and Youtube are set to the Safe Mode.",
              "Warning: This server is incompatible with anonymization."],
     "flags": "IPv6|IncompatibleWithAnon|FamilyFilter"
   },
