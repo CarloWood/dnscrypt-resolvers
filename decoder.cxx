@@ -8,6 +8,9 @@
 #include <algorithm>
 #include <string>
 #include <string_view>
+#include <stdexcept>
+#include <memory>
+#include <cstring>
 #include <regex>
 #include <vector>
 #include <array>
@@ -17,9 +20,107 @@
 #include <cassert>
 #include "debug.h"
 
+// Required for getaddrinfo and related structures/constants
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netdb.h>      // For getaddrinfo, addrinfo, gai_strerror, NI_MAXHOST, NI_NUMERICHOST
+
+// Custom deleter for addrinfo linked list
+struct AddrInfoDeleter
+{
+  void operator()(struct addrinfo* p) const
+  {
+    if (p)
+      freeaddrinfo(p);
+  }
+};
+
+using AddrInfoPtr = std::unique_ptr<struct addrinfo, AddrInfoDeleter>;
+
+std::string hostname_to_ip(std::string hostname, bool prefer_ipv6)
+{
+  struct addrinfo hints;
+  struct addrinfo* result_raw = nullptr;
+
+  // Initialize hints.
+  std::memset(&hints, 0, sizeof(hints));
+  hints.ai_family = AF_UNSPEC;          // Allow IPv4 or IPv6.
+  hints.ai_socktype = SOCK_STREAM;      // Or SOCK_DGRAM, or 0; typically needed.
+  // hints.ai_flags = 0;                // No special flags needed for simple lookup.
+  // hints.ai_protocol = 0;             // Any protocol.
+
+  // Call getaddrinfo.
+  int gai_status = getaddrinfo(hostname.c_str(), nullptr, &hints, &result_raw);
+  if (gai_status != 0)
+    throw std::runtime_error("getaddrinfo failed for '" + hostname + "': " + gai_strerror(gai_status));
+
+  // Wrap raw pointer in unique_ptr for RAII.
+  AddrInfoPtr result(result_raw);
+  result_raw = nullptr;                 // Ownership transferred.
+
+  std::string found_ipv4;
+  std::string found_ipv6;
+
+  // Iterate through the linked list of results.
+  for (struct addrinfo* rp = result.get(); rp != nullptr; rp = rp->ai_next)
+  {
+    char ip_str_buffer[NI_MAXHOST];
+
+    // Convert socket address to string.
+    int ni_status = getnameinfo(rp->ai_addr, rp->ai_addrlen,
+                                ip_str_buffer, sizeof(ip_str_buffer),
+                                nullptr, 0,             // No service name needed.
+                                NI_NUMERICHOST);        // Get numeric IP, not FQDN.
+
+    if (ni_status == 0) // Success
+    {
+      if (rp->ai_family == AF_INET6)
+      {
+        if (found_ipv6.empty()) // Store the first IPv6 address found.
+          found_ipv6 = ip_str_buffer;
+      }
+      else if (rp->ai_family == AF_INET)
+      {
+        if (found_ipv4.empty()) // Store the first IPv4 address found.
+          found_ipv4 = ip_str_buffer;
+      }
+    }
+    else
+    {
+      // Log or handle getnameinfo error if necessary, but typically continue
+      // std::cerr << "Warning: getnameinfo failed: " << gai_strerror(ni_status) << std::endl;
+    }
+
+    // Optimization: if we have found both types, we can stop early
+    // as we only care about the first of each.
+    if (!found_ipv4.empty() && !found_ipv6.empty())
+      break;
+  }
+
+  // Select based on preference.
+  if (prefer_ipv6)
+  {
+    if (!found_ipv6.empty())
+      return found_ipv6;
+    if (!found_ipv4.empty())
+      return found_ipv4;        // Fallback to IPv4.
+  }
+  else
+  {
+    // Prefer IPv4.
+    if (!found_ipv4.empty())
+      return found_ipv4;
+    if (!found_ipv6.empty())
+      return found_ipv6;        // Fallback to IPv6.
+  }
+
+  // If we reach here, no address was found.
+  throw std::runtime_error("No IP address found for hostname: " + hostname);
+}
+
 // Helper: The Base64 decoding table (maps ASCII to 6-bit value, or -1 for invalid)
 // Standard Base64 alphabet: A-Z, a-z, 0-9, +, /
-static constexpr std::array<int8_t, 256> decoding_table = [] {
+static constexpr std::array<int8_t, 256> decoding_table = []{
   std::array<int8_t, 256> table{};
   table.fill(-1); // Initialize all to invalid
 
@@ -135,7 +236,7 @@ std::optional<std::vector<std::byte>> decode_url_safe_base64(std::string_view en
 
 // Helper function to escape strings for JSON
 // Ensures characters like " \ \n \r \t etc. are properly escaped.
-std::string escape_json_string(std::string const& s)
+std::string escape_json_string(std::string_view s)
 {
   std::string escaped_s;
   escaped_s.reserve(s.length());
@@ -953,6 +1054,36 @@ struct DnsEntry
   void process_sdns(std::string const& sdns);
 };
 
+std::string_view extract_hostname(std::string_view hostname_port)
+{
+  // Possible inputs:
+  //  - example.com
+  //  - example.com:53
+  // Unlikely, but supported:
+  //  - [2620:fe::10]
+  //  - [2620:fe::10]:8443
+  //  - 9.9.9.9
+  //  - 9.9.9.9:443
+  if (!hostname_port.ends_with(']'))
+  {
+    // Remove trailing ":port" if present.
+    size_t pos = hostname_port.rfind(':');
+    if (pos == std::string_view::npos)
+      return hostname_port;                             // There is no ":port".
+    hostname_port = hostname_port.substr(0, pos);
+    if (!hostname_port.starts_with('['))
+      return hostname_port;                             // There are no IPv6 brackets.
+  }
+  hostname_port.remove_prefix(1);
+  hostname_port.remove_suffix(1);
+  return hostname_port;
+}
+
+void process_ip(std::string_view ip_sv, std::ostream& os, std::string& sep, char const* indentation)
+{
+  os << sep << "\"IP\": \"" << ip_sv << "\"";
+}
+
 void DnsEntry::print_on(std::ostream& os, char const* indentation) const
 {
   os << indentation << "\"name\": \"" << escape_json_string(name_) << "\",\n";
@@ -988,7 +1119,8 @@ void DnsEntry::print_on(std::ostream& os, char const* indentation) const
     }
     if (!sdns.hashi_.empty())
     {
-      os << "\"hashi\": [";
+      os << sep << "\"hashi\": [";
+      sep = ", ";
       std::string sep2 = "";
       for (std::string const& hashi : sdns.hashi_)
       {
@@ -997,6 +1129,10 @@ void DnsEntry::print_on(std::ostream& os, char const* indentation) const
       }
       os << "]";
     }
+    if (!sdns.address_.empty())
+      process_ip(extract_hostname(sdns.address_), os, sep, indentation);
+    else if (!sdns.hostname_port_.empty())
+      process_ip(hostname_to_ip(std::string{extract_hostname(sdns.hostname_port_)}, (flags_ & ResolverFlags::IPv6) == ResolverFlags::IPv6), os, sep, indentation);
     sep = ",\n" + std::string(indentation) + "         ";
   }
   os << "],\n";
@@ -1064,6 +1200,10 @@ void DnsEntry::process(std::string const& data)
   }
 }
 
+//-----------------------------------------------------------------------------
+// Decoding of SDNS is based on the documentation found here:
+// https://dnscrypt.info/stamps-specifications/
+
 uint64_t read_props(std::byte const*& bytes)
 {
   uint64_t props = 0;
@@ -1114,6 +1254,7 @@ std::string read_public_key(std::byte const*& bytes)
 void DnsEntry::process_sdns(std::string const& sdns)
 {
   std::cout << std::format("Processing SDNS: '{}'\n", sdns);
+
   std::string_view sdns_view{sdns};
   sdns_view.remove_prefix(7); // Remove the "sdns://".
   std::optional<std::vector<std::byte>> bytes = decode_url_safe_base64(sdns_view);
@@ -1204,6 +1345,9 @@ void DnsEntry::process_sdns(std::string const& sdns)
   new_sdns.address_ = address_port;
   sdns_.push_back(new_sdns);
 }
+
+// SDNS decoding.
+//-----------------------------------------------------------------------------
 
 void process_next_entry(DnsEntry& current_entry, std::string& data, std::vector<DnsEntry>& entries)
 {
