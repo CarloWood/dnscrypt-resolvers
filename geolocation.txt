@@ -964,3 +964,39 @@ IP=9.9.9.12
 {"ip":"9.9.9.12","country_code":"US","country_name":"United States of America","region_name":"California","city_name":"Berkeley","latitude":37.87159,"longitude":-122.27275,"zip_code":"94709","time_zone":"-07:00","asn":"19281","as":"QUAD9","is_proxy":false}
 IP=9.9.9.9
 {"ip":"9.9.9.9","country_code":"US","country_name":"United States of America","region_name":"California","city_name":"Berkeley","latitude":37.87159,"longitude":-122.27275,"zip_code":"94709","time_zone":"-07:00","asn":"19281","as":"QUAD9","is_proxy":false}
+IP=213.183.61.253
+{"ip":"213.183.61.253","country_code":"NL","country_name":"Netherlands (Kingdom of the)","region_name":"Noord-Holland","city_name":"Amsterdam","latitude":52.3785,"longitude":4.89998,"zip_code":"1000","time_zone":"+02:00","asn":"56630","as":"Melbikomas UAB","is_proxy":false}
+IP=77.235.41.17
+{"ip":"77.235.41.17","country_code":"NL","country_name":"Netherlands (Kingdom of the)","region_name":"Noord-Holland","city_name":"Amsterdam","latitude":52.3785,"longitude":4.89998,"zip_code":"1000","time_zone":"+02:00","asn":"60781","as":"Leaseweb Netherlands B.V.","is_proxy":false}
+IP=188.172.219.65
+{"ip":"188.172.219.65","country_code":"NL","country_name":"Netherlands (Kingdom of the)","region_name":"Noord-Holland","city_name":"Amsterdam","latitude":52.3785,"longitude":4.89998,"zip_code":"1000","time_zone":"+02:00","asn":"42473","as":"ANEXIA Internetdienstleistungs GmbH","is_proxy":false}
+IP=57.129.49.47
+{"ip":"57.129.49.47","country_code":"DE","country_name":"Germany","region_name":"Hessen","city_name":"Limburg an der Lahn","latitude":50.3836,"longitude":8.0503,"zip_code":"65556","time_zone":"+02:00","asn":"16276","as":"OVH SAS","is_proxy":false}
+IP=46.105.222.254
+{"ip":"46.105.222.254","country_code":"FR","country_name":"France","region_name":"Hauts-de-France","city_name":"Roubaix","latitude":50.69371,"longitude":3.17444,"zip_code":"59100","time_zone":"+02:00","asn":"16276","as":"OVH SAS","is_proxy":false}
+IP=188.172.219.167
+{"ip":"188.172.219.167","country_code":"NL","country_name":"Netherlands (Kingdom of the)","region_name":"Noord-Holland","city_name":"Amsterdam","latitude":52.3785,"longitude":4.89998,"zip_code":"1000","time_zone":"+02:00","asn":"42473","as":"ANEXIA Internetdienstleistungs GmbH","is_proxy":false}
+IP=86.106.74.219
+{"ip":"86.106.74.219","country_code":"HU","country_name":"Hungary","region_name":"Budapest","city_name":"Budapest","latitude":47.49825,"longitude":19.03978,"zip_code":"1132","time_zone":"+02:00","asn":"9009","as":"M247 Europe SRL","is_proxy":false}
+IP=64.120.5.251
+{"ip":"64.120.5.251","country_code":"US","country_name":"United States of America","region_name":"Washington","city_name":"Seattle","latitude":47.60431,"longitude":-122.32985,"zip_code":"98164","time_zone":"-07:00","asn":"396190","as":"Leaseweb USA Inc.","is_proxy":false}
+IP=188.244.117.114
+{"ip":"188.244.117.114","country_code":"CH","country_name":"Switzerland","region_name":"Zurich","city_name":"Zurich","latitude":47.36683,"longitude":8.54979,"zip_code":"8099","time_zone":"+02:00","asn":"63473","as":"HostHatch LLC","is_proxy":false}
+IP=104.238.153.46
+{"ip":"104.238.153.46","country_code":"US","country_name":"United States of America","region_name":"Washington","city_name":"Kent","latitude":47.38093,"longitude":-122.23484,"zip_code":"98030","time_zone":"-07:00","asn":"20473","as":"The Constant Company LLC","is_proxy":false}
+IP=137.74.223.234
+{"ip":"137.74.223.234","country_code":"GB","country_name":"United Kingdom of Great Britain and Northern Ireland","region_name":"England","city_name":"London","latitude":51.50853,"longitude":-0.12574,"zip_code":"WC2N","time_zone":"+01:00","asn":"16276","as":"OVH SAS","is_proxy":false}
+IP=45.133.75.122
+{"ip":"45.133.75.122","country_code":"DE","country_name":"Germany","region_name":"Hessen","city_name":"Frankfurt am Main","latitude":50.11088,"longitude":8.682,"zip_code":"65931","time_zone":"+02:00","asn":"207252","as":"Felix Gassan","is_proxy":false}
+IP=209.135.170.51
+{"ip":"209.135.170.51","country_code":"US","country_name":"United States of America","region_name":"Texas","city_name":"Houston","latitude":29.76303,"longitude":-95.36206,"zip_code":"77058","time_zone":"-05:00","asn":"399646","as":"Snaju Development","is_proxy":false}
+IP=2602:f9f3:0:2::193
+{"ip":"2602:f9f3:0000:0002:0000:0000:0000:0193","country_code":"US","country_name":"United States of America","region_name":"Texas","city_name":"Houston","latitude":29.76303,"longitude":-95.36206,"zip_code":"77250","time_zone":"-05:00","asn":"399646","as":"Snaju Development","is_proxy":false}
+IP=2604:6600:fd00:90::1b8b:3a3c
+{"ip":"2604:6600:fd00:0090:0000:0000:1b8b:3a3c","country_code":"BR","country_name":"Brazil","region_name":"Sao Paulo","city_name":"Sao Paulo","latitude":-23.54712,"longitude":-46.63719,"zip_code":"01000-000","time_zone":"-03:00","asn":"40676","as":"Psychz Networks","is_proxy":false}
+IP=23.27.101.191
+{"ip":"23.27.101.191","country_code":"US","country_name":"United States of America","region_name":"Utah","city_name":"Orem","latitude":40.29688,"longitude":-111.6948,"zip_code":"84057","time_zone":"-06:00","asn":"401152","as":"Ace Data Centers II L.L.C.","is_proxy":false}
+IP=2403:cfc0:1004:369::5b21
+{"ip":"2403:cfc0:1004:0369:0000:0000:0000:5b21","country_code":"TW","country_name":"Taiwan (Province of China)","region_name":"Taipei","city_name":"Taipei","latitude":25.03817,"longitude":121.5636,"zip_code":"100","time_zone":"+08:00","asn":"9678","as":"Hosting Inside Ltd.","is_proxy":false}
+IP=2602:fcc0:2222:9d2e::53
+{"ip":"2602:fcc0:2222:9d2e:0000:0000:0000:0053","country_code":"US","country_name":"United States of America","region_name":"Florida","city_name":"Tampa","latitude":27.94752,"longitude":-82.45843,"zip_code":"33695","time_zone":"-04:00","asn":"399275","as":"Solid Systems LLC","is_proxy":false}

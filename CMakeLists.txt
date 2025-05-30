@@ -25,9 +25,25 @@ include(AICxxSubmodules)
 
 add_executable(decoder
   decoder.cxx
+  ResolverFlags.cxx
 )
 
 target_link_libraries(decoder
   PRIVATE
     ${AICXX_OBJECTS_LIST}
+    enchantum::enchantum
 )
+
+add_executable(filter
+  filter.cxx
+  GeoLocation.cxx
+  ResolverFlags.cxx
+)
+
+target_link_libraries(filter
+  PRIVATE
+    ${AICXX_OBJECTS_LIST}
+    enchantum::enchantum
+)
+
+add_subdirectory(enchantum)

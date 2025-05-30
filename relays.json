@@ -1,0 +1,2325 @@
+[
+  {
+    "name": "anon-cs-austria",
+    "sdns": [{"stamp": "sdns://gQ05NC4xOTguNDEuMjM1",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "94.198.41.235",
+              "IP": "94.198.41.235"}],
+    "info": ["Wien, Austria Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Wien, Austria Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-barcelona",
+    "sdns": [{"stamp": "sdns://gQ4zNy4xMjAuMTQyLjExNQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.120.142.115",
+              "IP": "37.120.142.115"}],
+    "info": ["Barcelona, Spain Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Barcelona, Spain Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-belgium",
+    "sdns": [{"stamp": "sdns://gQ0zNy4xMjAuMjM2LjEx",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.120.236.11",
+              "IP": "37.120.236.11"}],
+    "info": ["Brussels, Belgium Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Brussels, Belgium Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-berlin",
+    "sdns": [{"stamp": "sdns://gQ0zNy4xMjAuMjE3Ljc1",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.120.217.75",
+              "IP": "37.120.217.75"}],
+    "info": ["Berlin, Germany Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Berlin, Germany Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-brazil",
+    "sdns": [{"stamp": "sdns://gQ4xNzcuNTQuMTQ1LjEzMQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "177.54.145.131",
+              "IP": "177.54.145.131"}],
+    "info": ["Brazil Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Brazil Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-bulgaria",
+    "sdns": [{"stamp": "sdns://gQ4zNy4xMjAuMTUyLjIzNQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.120.152.235",
+              "IP": "37.120.152.235"}],
+    "info": ["Sofia, Bulgaria Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Sofia, Bulgaria Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-ch",
+    "sdns": [{"stamp": "sdns://gQ8xOTAuMjExLjI1NS4yMjc",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "190.211.255.227",
+              "IP": "190.211.255.227"}],
+    "info": ["Switzerland Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Switzerland Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-czech",
+    "sdns": [{"stamp": "sdns://gQ8yMTcuMTM4LjIyMC4yNDM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "217.138.220.243",
+              "IP": "217.138.220.243"}],
+    "info": ["Prague, Czech Republic Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Prague, Czech Republic Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-dc",
+    "sdns": [{"stamp": "sdns://gQwxOTguNy41OC4yMjc",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "198.7.58.227",
+              "IP": "198.7.58.227"}],
+    "info": ["US - Washington, DC Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "US - Washington, DC Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-de",
+    "sdns": [{"stamp": "sdns://gQsxNDYuNzAuODIuMw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "146.70.82.3",
+              "IP": "146.70.82.3"}],
+    "info": ["Frankfurt, Germany Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Frankfurt, Germany Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-dk",
+    "sdns": [{"stamp": "sdns://gQ0zNy4xMjAuMjMyLjQz",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.120.232.43",
+              "IP": "37.120.232.43"}],
+    "info": ["Denmark Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Denmark Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-dus3",
+    "sdns": [{"stamp": "sdns://gQ44OS4xNjMuMjIxLjE4MQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "89.163.221.181",
+              "IP": "89.163.221.181"}],
+    "info": ["Dusseldorf, Germany 3 Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Dusseldorf, Germany 3 Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-finland",
+    "sdns": [{"stamp": "sdns://gQ4xODUuMTE3LjExOC4yMA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.117.118.20",
+              "IP": "185.117.118.20"}],
+    "info": ["Finland Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Finland Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-fr",
+    "sdns": [{"stamp": "sdns://gQ0xNjMuMTcyLjM0LjU2",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "163.172.34.56",
+              "IP": "163.172.34.56"}],
+    "info": ["France Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "France Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-ga",
+    "sdns": [{"stamp": "sdns://gQ02NC40Mi4xODEuMjI3",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "64.42.181.227",
+              "IP": "64.42.181.227"}],
+    "info": ["US - Atlanta, GA Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "US - Atlanta, GA Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-hungary",
+    "sdns": [{"stamp": "sdns://gQ04Ni4xMDYuNzQuMjE5",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "86.106.74.219",
+              "IP": "86.106.74.219"}],
+    "info": ["Budapest, Hungary Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Budapest, Hungary Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-il2",
+    "sdns": [{"stamp": "sdns://gQ4xMDguMTgxLjYzLjE2Mw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "108.181.63.163",
+              "IP": "108.181.63.163"}],
+    "info": ["US - Chicago, IL 2 Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "US - Chicago, IL 2 Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-ireland",
+    "sdns": [{"stamp": "sdns://gQ4zNy4xMjAuMjM1LjE4Nw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.120.235.187",
+              "IP": "37.120.235.187"}],
+    "info": ["Dublin, Ireland Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Dublin, Ireland Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-la",
+    "sdns": [{"stamp": "sdns://gQ8xOTUuMjA2LjEwNC4yMDM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "195.206.104.203",
+              "IP": "195.206.104.203"}],
+    "info": ["US - Los Angeles, CA Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "US - Los Angeles, CA Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-london",
+    "sdns": [{"stamp": "sdns://gQ03OC4xMjkuMjQ4LjY3",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "78.129.248.67",
+              "IP": "78.129.248.67"}],
+    "info": ["London, England Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "London, England Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-madrid",
+    "sdns": [{"stamp": "sdns://gQ4xODUuMTgzLjEwNi44Mw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.183.106.83",
+              "IP": "185.183.106.83"}],
+    "info": ["Madrid, Spain Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Madrid, Spain Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-manchester",
+    "sdns": [{"stamp": "sdns://gQ0xOTUuMTIuNDguMTcx",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "195.12.48.171",
+              "IP": "195.12.48.171"}],
+    "info": ["Manchester, England Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Manchester, England Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-mexico",
+    "sdns": [{"stamp": "sdns://gQ0xMDMuMTQuMjYuMTkw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "103.14.26.190",
+              "IP": "103.14.26.190"}],
+    "info": ["Mexico Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Mexico Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-milan",
+    "sdns": [{"stamp": "sdns://gQ8yMTcuMTM4LjIxOS4yMTk",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "217.138.219.219",
+              "IP": "217.138.219.219"}],
+    "info": ["Milan, Italy Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Milan, Italy Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-montreal",
+    "sdns": [{"stamp": "sdns://gQ0xNzYuMTEzLjc0LjE5",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "176.113.74.19",
+              "IP": "176.113.74.19"}],
+    "info": ["Montreal, Canada Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Montreal, Canada Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-nc",
+    "sdns": [{"stamp": "sdns://gQ4xNTUuMjU0LjIxLjI1MA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "155.254.21.250",
+              "IP": "155.254.21.250"}],
+    "info": ["US - North Carolina Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "US - North Carolina Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-nl",
+    "sdns": [{"stamp": "sdns://gQ0xODUuMTA3LjgwLjg0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.107.80.84",
+              "IP": "185.107.80.84"}],
+    "info": ["Netherlands Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Netherlands Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-norway",
+    "sdns": [{"stamp": "sdns://gQ45MS4yMTkuMjE1LjIyNw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "91.219.215.227",
+              "IP": "91.219.215.227"}],
+    "info": ["Oslo, Norway Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Oslo, Norway Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-ore",
+    "sdns": [{"stamp": "sdns://gQ0xNzkuNjEuMjIzLjQ3",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "179.61.223.47",
+              "IP": "179.61.223.47"}],
+    "info": ["US - Oregon Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "US - Oregon Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-poland",
+    "sdns": [{"stamp": "sdns://gQ0zNy4xMjAuMjExLjkx",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.120.211.91",
+              "IP": "37.120.211.91"}],
+    "info": ["Warsaw, Poland Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Warsaw, Poland Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-pt",
+    "sdns": [{"stamp": "sdns://gQ45MS4yMDUuMjMwLjIyNA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "91.205.230.224",
+              "IP": "91.205.230.224"}],
+    "info": ["Portugal Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Portugal Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-ro",
+    "sdns": [{"stamp": "sdns://gQ0xNDYuNzAuNjYuMjI3",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "146.70.66.227",
+              "IP": "146.70.66.227"}],
+    "info": ["Romania Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Romania Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-rome",
+    "sdns": [{"stamp": "sdns://gQ4zNy4xMjAuMjA3LjEzMQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.120.207.131",
+              "IP": "37.120.207.131"}],
+    "info": ["Rome, Italy Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Rome, Italy Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-sea",
+    "sdns": [{"stamp": "sdns://gQw2NC4xMjAuNS4yNTE",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "64.120.5.251",
+              "IP": "64.120.5.251"}],
+    "info": ["US - Seattle, WA Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "US - Seattle, WA Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-serbia",
+    "sdns": [{"stamp": "sdns://gQ4zNy4xMjAuMTkzLjIxOQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.120.193.219",
+              "IP": "37.120.193.219"}],
+    "info": ["Belgrade, Serbia Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Belgrade, Serbia Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-singapore",
+    "sdns": [{"stamp": "sdns://gQ0zNy4xMjAuMTUxLjEx",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.120.151.11",
+              "IP": "37.120.151.11"}],
+    "info": ["Singapore Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Singapore Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-sk",
+    "sdns": [{"stamp": "sdns://gQ4xMDguMTgxLjUwLjIxOA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "108.181.50.218",
+              "IP": "108.181.50.218"}],
+    "info": ["South Korea Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "South Korea Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-slovakia",
+    "sdns": [{"stamp": "sdns://gQ4xOTMuMzcuMjU1LjIyNw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "193.37.255.227",
+              "IP": "193.37.255.227"}],
+    "info": ["Bratislava, Slovakia Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Bratislava, Slovakia Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-swe",
+    "sdns": [{"stamp": "sdns://gQ8xMjguMTI3LjEwNC4xMDg",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "128.127.104.108",
+              "IP": "128.127.104.108"}],
+    "info": ["Sweden Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Sweden Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-sydney",
+    "sdns": [{"stamp": "sdns://gQ4zNy4xMjAuMjM0LjI1MQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.120.234.251",
+              "IP": "37.120.234.251"}],
+    "info": ["Sydney, Australia Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Sydney, Australia Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-tokyo",
+    "sdns": [{"stamp": "sdns://gQwxNDYuNzAuMzEuNDM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "146.70.31.43",
+              "IP": "146.70.31.43"}],
+    "info": ["Tokyo, Japan Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Tokyo, Japan Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-tx",
+    "sdns": [{"stamp": "sdns://gQ0yMDkuNTguMTQ3LjM2",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "209.58.147.36",
+              "IP": "209.58.147.36"}],
+    "info": ["US - Dallas, TX Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "US - Dallas, TX Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-cs-vancouver",
+    "sdns": [{"stamp": "sdns://gQ4xOTYuMjQwLjc5LjE2Mw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "196.240.79.163",
+              "IP": "196.240.79.163"}],
+    "info": ["Vancouver, Canada Anonymized DNS relay server provided by https://cryptostorm.is/"],
+    "flags": "None",
+    "unused": "Vancouver, Canada Anonymized DNS relay server provided by "
+  },
+  {
+    "name": "anon-digitalprivacy.diy-ipv4",
+    "sdns": [{"stamp": "sdns://gRIzNy4yMjEuMTk0Ljg0OjQ0MzQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.221.194.84:4434",
+              "IP": "37.221.194.84"}],
+    "info": ["IPv4 server.",
+             "Anonymized DNS relay hosted in Nuremberg, Germany (netcup) and maintained by https://digitalprivacy.diy"],
+    "flags": "None",
+    "unused": "IPv4 server.|Anonymized DNS relay hosted in Nuremberg, Germany (netcup) and maintained by "
+  },
+  {
+    "name": "anon-dnscrypt.uk-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xNjUuMjMyLjMyLjk1",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "165.232.32.95",
+              "IP": "165.232.32.95"}],
+    "info": ["Anonymized DNS relay in London.",
+             "https://www.dnscrypt.uk"],
+    "flags": "None",
+    "unused": "Anonymized DNS relay in London."
+  },
+  {
+    "name": "anon-dnscrypt.uk-ipv6",
+    "sdns": [{"stamp": "sdns://gRpbMmEwMzpiMGMwOjE6ZTA6OjQ4NzoxMDAxXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:b0c0:1:e0::487:1001]",
+              "IP": "2a03:b0c0:1:e0::487:1001"}],
+    "info": ["Anonymized DNS relay in London.",
+             "https://www.dnscrypt.uk"],
+    "flags": "None",
+    "unused": "Anonymized DNS relay in London."
+  },
+  {
+    "name": "anon-dnswarden-swiss",
+    "sdns": [{"stamp": "sdns://gRQxODguMjQ0LjExNy4xMTQ6MTQ0Mw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "188.244.117.114:1443",
+              "IP": "188.244.117.114"}],
+    "info": ["Relay hosted in swizterland.",
+             "For more information look at https://github.com/bhanupratapys/dnswarden or https://dnswarden.com"],
+    "flags": "None",
+    "unused": "Relay hosted in swizterland.|For more information look at or https://dnswarden.com"
+  },
+  {
+    "name": "anon-fluffycat-fr-01",
+    "sdns": [{"stamp": "sdns://gRQxMjkuMTUxLjIyNC4xODI6NTM1Mw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "129.151.224.182:5353",
+              "IP": "129.151.224.182"}],
+    "info": ["Anonymized DNS relay hosted in Marseille, FR on Oracle Cloud."],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in Marseille, FR on Oracle Cloud."
+  },
+  {
+    "name": "anon-inconnu",
+    "sdns": [{"stamp": "sdns://gQ4xMDQuMjM4LjE1My40Ng",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "104.238.153.46",
+              "IP": "104.238.153.46"}],
+    "info": ["Anonymized DNS relay hosted in Seattle, WA (USA), maintained by Eric Lagergren (@ericlagergren).",
+             "Running the official Docker image on Vultr."],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in Seattle, WA (USA), maintained by Eric Lagergren (@ericlagergren).|Running the official Docker image on Vultr."
+  },
+  {
+    "name": "anon-kama",
+    "sdns": [{"stamp": "sdns://gQ4xMzcuNzQuMjIzLjIzNA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "137.74.223.234",
+              "IP": "137.74.223.234"}],
+    "info": ["Anonymized DNS relay hosted in France and maintained by Frank Denis (@jedisct1)."],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in France and maintained by Frank Denis (@jedisct1)."
+  },
+  {
+    "name": "anon-saldns01-conoha-ipv4",
+    "sdns": [{"stamp": "sdns://gRQxNjMuNDQuMTI0LjIwNDo1MDQ0Mw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "163.44.124.204:50443",
+              "IP": "163.44.124.204"}],
+    "info": ["Hosted on ConoHa VPS Tokyo region.",
+             "No log.",
+             "From experimental &mu;ODNS project https://junkurihara.github.io/dns/."],
+    "flags": "NoLog"
+  },
+  {
+    "name": "anon-saldns02-conoha-ipv4",
+    "sdns": [{"stamp": "sdns://gRUxNjAuMjUxLjIxNC4xNzI6NTA0NDM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "160.251.214.172:50443",
+              "IP": "160.251.214.172"}],
+    "info": ["Hosted on ConoHa VPS Tokyo region.",
+             "No log.",
+             "From experimental &mu;ODNS project https://junkurihara.github.io/dns/."],
+    "flags": "NoLog"
+  },
+  {
+    "name": "anon-saldns03-conoha-ipv4",
+    "sdns": [{"stamp": "sdns://gRQxNjAuMjUxLjE2OC4yNTo1MDQ0Mw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "160.251.168.25:50443",
+              "IP": "160.251.168.25"}],
+    "info": ["Hosted on ConoHa VPS Tokyo region.",
+             "No log.",
+             "From experimental &mu;ODNS project https://junkurihara.github.io/dns/."],
+    "flags": "NoLog"
+  },
+  {
+    "name": "anon-scaleway",
+    "sdns": [{"stamp": "sdns://gRIyMTIuNDcuMjI4LjEzNjo0NDM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "212.47.228.136:443",
+              "IP": "212.47.228.136"}],
+    "info": ["Anonymized DNS relay hosted in France and maintained by Frank Denis (@jedisct1)."],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in France and maintained by Frank Denis (@jedisct1)."
+  },
+  {
+    "name": "anon-scaleway-ams",
+    "sdns": [{"stamp": "sdns://gRE1MS4xNS4xMjIuMjUwOjQ0Mw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "51.15.122.250:443",
+              "IP": "51.15.122.250"}],
+    "info": ["Anonymized DNS relay hosted in Amsterdam and maintained by Frank Denis (@jedisct1)."],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in Amsterdam and maintained by Frank Denis (@jedisct1)."
+  },
+  {
+    "name": "anon-scaleway-ams-ipv6",
+    "sdns": [{"stamp": "sdns://gSpbMjAwMTpiYzg6MTY0MDoxY2UyOmRjMDA6ZmY6ZmUyODo1YjE3XTo0NDM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2001:bc8:1640:1ce2:dc00:ff:fe28:5b17]:443",
+              "IP": "2001:bc8:1640:1ce2:dc00:ff:fe28:5b17"}],
+    "info": ["Anonymized DNS relay hosted in Amsterdam and maintained by Frank Denis (@jedisct1).",
+             "IPv6 only."],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in Amsterdam and maintained by Frank Denis (@jedisct1).|IPv6 only."
+  },
+  {
+    "name": "anon-scaleway-ipv6",
+    "sdns": [{"stamp": "sdns://gSlbMjAwMTpiYzg6NzEwOjU4MTg6ZGMwMDpmZjpmZTViOjNmNjNdOjQ0Mw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2001:bc8:710:5818:dc00:ff:fe5b:3f63]:443",
+              "IP": "2001:bc8:710:5818:dc00:ff:fe5b:3f63"}],
+    "info": ["Anonymized DNS relay hosted in France and maintained by Frank Denis (@jedisct1).",
+             "IPv6 only."],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in France and maintained by Frank Denis (@jedisct1).|IPv6 only."
+  },
+  {
+    "name": "anon-scaleway2",
+    "sdns": [{"stamp": "sdns://gRMxNjMuMTcyLjE4MC4xMjU6NDQz",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "163.172.180.125:443",
+              "IP": "163.172.180.125"}],
+    "info": ["Anonymized DNS relay hosted in France and maintained by Frank Denis (@jedisct1)."],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in France and maintained by Frank Denis (@jedisct1)."
+  },
+  {
+    "name": "anon-serbica",
+    "sdns": [{"stamp": "sdns://gRMxODUuNjYuMTQzLjE3ODo1MzUz",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.66.143.178:5353",
+              "IP": "185.66.143.178"}],
+    "info": ["Anonymized DNS relay hosted in Netherlands by https://litepay.ch"],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in Netherlands by "
+  },
+  {
+    "name": "anon-tiarap",
+    "sdns": [{"stamp": "sdns://gRMxNzQuMTM4LjI5LjE3NToxNDQz",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "174.138.29.175:1443",
+              "IP": "174.138.29.175"}],
+    "info": ["Anonymized DNS relay hosted in Singapore"],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in Singapore"
+  },
+  {
+    "name": "anon-v.dnscrypt.uk-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xMDQuMjM4LjE4Ni4xOTI",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "104.238.186.192",
+              "IP": "104.238.186.192"}],
+    "info": ["Anonymized DNS relay hosted in UK on Vultr"],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in UK on Vultr"
+  },
+  {
+    "name": "anon-v.dnscrypt.uk-ipv6",
+    "sdns": [{"stamp": "sdns://gShbMjAwMToxOWYwOjc0MDI6MTU3NDo1NDAwOjJmZjpmZTY2OjJjZmZd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2001:19f0:7402:1574:5400:2ff:fe66:2cff]",
+              "IP": "2001:19f0:7402:1574:5400:2ff:fe66:2cff"}],
+    "info": ["Anonymized DNS relay hosted in UK on Vultr"],
+    "flags": "None",
+    "unused": "Anonymized DNS relay hosted in UK on Vultr"
+  },
+  {
+    "name": "dnscry.pt-anon-allentown-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0yMy4xMzcuMjUzLjI0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "23.137.253.24",
+              "IP": "23.137.253.24"}],
+    "info": ["DNSCry.pt Allentown - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-allentown-ipv6",
+    "sdns": [{"stamp": "sdns://gRxbMjYwMjpmYzI0OjE5Ojc0YjA6NTI4NTo6MTJd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fc24:19:74b0:5285::12]",
+              "IP": "2602:fc24:19:74b0:5285::12"}],
+    "info": ["DNSCry.pt Allentown - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-amsterdam-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xOTguMTQwLjE0MS40Ng",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "198.140.141.46",
+              "IP": "198.140.141.46"}],
+    "info": ["DNSCry.pt Amsterdam - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-amsterdam-ipv6",
+    "sdns": [{"stamp": "sdns://gRZbMmEwMzo5NGUzOjIyMmI6OjEwMzJd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:94e3:222b::1032]",
+              "IP": "2a03:94e3:222b::1032"}],
+    "info": ["DNSCry.pt Amsterdam - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-amsterdam02-ipv4",
+    "sdns": [{"stamp": "sdns://gQ00NS44Ni4xNjIuMTEw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "45.86.162.110",
+              "IP": "45.86.162.110"}],
+    "info": ["DNSCry.pt Amsterdam 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-amsterdam02-ipv6",
+    "sdns": [{"stamp": "sdns://gRtbMmEwNzplZmMwOjEwMDE6YTVjZTo6YjRiNF0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a07:efc0:1001:a5ce::b4b4]",
+              "IP": "2a07:efc0:1001:a5ce::b4b4"}],
+    "info": ["DNSCry.pt Amsterdam 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-ashburn-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMjAwMTo0NzA6ODoxNjk6OjEwMF0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2001:470:8:169::100]",
+              "IP": "2001:470:8:169::100"}],
+    "info": ["DNSCry.pt Ashburn - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-athens-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xODUuMjM0LjUyLjg3",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.234.52.87",
+              "IP": "185.234.52.87"}],
+    "info": ["DNSCry.pt Athens - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-athens-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMmEwOTpjZDQzOmY6NDJhMTo6NV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a09:cd43:f:42a1::5]",
+              "IP": "2a09:cd43:f:42a1::5"}],
+    "info": ["DNSCry.pt Athens - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-atlanta-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xNzAuMjQ5LjIzNy4xNTQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "170.249.237.154",
+              "IP": "170.249.237.154"}],
+    "info": ["DNSCry.pt Atlanta - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-atlanta-ipv6",
+    "sdns": [{"stamp": "sdns://gRNbMjYwMDo0YzAwOjgwOjg6OmFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2600:4c00:80:8::a]",
+              "IP": "2600:4c00:80:8::a"}],
+    "info": ["DNSCry.pt Atlanta - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-auckland-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xODUuOTkuMTMzLjExMg",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.99.133.112",
+              "IP": "185.99.133.112"}],
+    "info": ["DNSCry.pt Auckland - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-auckland-ipv6",
+    "sdns": [{"stamp": "sdns://gRxbMmEwNjoxMjgwOmJlZTE6Mjo6ZWUxMjoyMDhd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a06:1280:bee1:2::ee12:208]",
+              "IP": "2a06:1280:bee1:2::ee12:208"}],
+    "info": ["DNSCry.pt Auckland - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-bengaluru-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xNjAuMTkxLjE4Mi4yMTY",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "160.191.182.216",
+              "IP": "160.191.182.216"}],
+    "info": ["DNSCry.pt Bengaluru - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-bratislava-ipv4",
+    "sdns": [{"stamp": "sdns://gQ45NS4xMzEuMjAyLjEwNQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "95.131.202.105",
+              "IP": "95.131.202.105"}],
+    "info": ["DNSCry.pt Bratislava - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-bratislava-ipv6",
+    "sdns": [{"stamp": "sdns://gR1bMmEwNTo1NTAyOjo1OTA2Ojk3Zjg6MmQwZToxXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a05:5502::5906:97f8:2d0e:1]",
+              "IP": "2a05:5502::5906:97f8:2d0e:1"}],
+    "info": ["DNSCry.pt Bratislava - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-brisbane-ipv4",
+    "sdns": [{"stamp": "sdns://gQ40My4yMjQuMTgwLjEzNw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "43.224.180.137",
+              "IP": "43.224.180.137"}],
+    "info": ["DNSCry.pt Brisbane - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-brisbane-ipv6",
+    "sdns": [{"stamp": "sdns://gSJbMjQwNDo5NDAwOjE6MDoyMTY6M2VmZjpmZWY2OjcxOTRd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2404:9400:1:0:216:3eff:fef6:7194]",
+              "IP": "2404:9400:1:0:216:3eff:fef6:7194"}],
+    "info": ["DNSCry.pt Brisbane - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-brussels-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xOTIuMTIxLjE3MC4xNTE",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "192.121.170.151",
+              "IP": "192.121.170.151"}],
+    "info": ["DNSCry.pt Brussels - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-brussels-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMmEwMzpmODA6MzI6NTJkOTo6MV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:f80:32:52d9::1]",
+              "IP": "2a03:f80:32:52d9::1"}],
+    "info": ["DNSCry.pt Brussels - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-bucharest-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xODUuOTMuMjIxLjE2Nw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.93.221.167",
+              "IP": "185.93.221.167"}],
+    "info": ["DNSCry.pt Bucharest - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-bucharest-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMmEwZDo5ZWMyOjA6ZjAzZDo6YzQ5ZV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0d:9ec2:0:f03d::c49e]",
+              "IP": "2a0d:9ec2:0:f03d::c49e"}],
+    "info": ["DNSCry.pt Bucharest - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-calgary-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0yMy4xMzMuNjQuMTIx",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "23.133.64.121",
+              "IP": "23.133.64.121"}],
+    "info": ["DNSCry.pt Calgary - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-calgary-ipv6",
+    "sdns": [{"stamp": "sdns://gRZbMjYwMjpmZWQyOmZlMDoyODM6OjFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fed2:fe0:283::1]",
+              "IP": "2602:fed2:fe0:283::1"}],
+    "info": ["DNSCry.pt Calgary - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-chicago-ipv4",
+    "sdns": [{"stamp": "sdns://gQ00NS40MS4yMDQuMjA0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "45.41.204.204",
+              "IP": "45.41.204.204"}],
+    "info": ["DNSCry.pt Chicago - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-chicago-ipv6",
+    "sdns": [{"stamp": "sdns://gR9bMjYwMjpmZWE3OmUwYzplOmJmZjo2OjcwOjE5NGNd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fea7:e0c:e:bff:6:70:194c]",
+              "IP": "2602:fea7:e0c:e:bff:6:70:194c"}],
+    "info": ["DNSCry.pt Chicago - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-chisinau-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xNzYuMTIzLjEwLjEwNQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "176.123.10.105",
+              "IP": "176.123.10.105"}],
+    "info": ["DNSCry.pt Chișinău - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-chisinau-ipv6",
+    "sdns": [{"stamp": "sdns://gR1bMjAwMTo2Nzg6NmQ0OjUwODA6OjNkZWE6MTA5XQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2001:678:6d4:5080::3dea:109]",
+              "IP": "2001:678:6d4:5080::3dea:109"}],
+    "info": ["DNSCry.pt Chișinău - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-copenhagen-ipv4",
+    "sdns": [{"stamp": "sdns://gQs4NS4xMjAuODQuNQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "85.120.84.5",
+              "IP": "85.120.84.5"}],
+    "info": ["DNSCry.pt Copenhagen - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-copenhagen-ipv6",
+    "sdns": [{"stamp": "sdns://gR5bMmEwZToxZDgwOjMxOjhhNTY6MDpiMGU6NWU6MF0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0e:1d80:31:8a56:0:b0e:5e:0]",
+              "IP": "2a0e:1d80:31:8a56:0:b0e:5e:0"}],
+    "info": ["DNSCry.pt Copenhagen - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-coventry-ipv4",
+    "sdns": [{"stamp": "sdns://gQ00NS4xNTUuMzcuMTY1",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "45.155.37.165",
+              "IP": "45.155.37.165"}],
+    "info": ["DNSCry.pt Coventry - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-coventry-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMmEwZDpkOGMwOjA6ZjA0Mzo6NjkyN10",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0d:d8c0:0:f043::6927]",
+              "IP": "2a0d:d8c0:0:f043::6927"}],
+    "info": ["DNSCry.pt Coventry - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-dallas-ipv6",
+    "sdns": [{"stamp": "sdns://gRNbMjYwMjpmYjk0OjE6Mzk6OmFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fb94:1:39::a]",
+              "IP": "2602:fb94:1:39::a"}],
+    "info": ["DNSCry.pt Dallas - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-denver-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8yMTYuMTIwLjIwMS4xMDU",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "216.120.201.105",
+              "IP": "216.120.201.105"}],
+    "info": ["DNSCry.pt Denver - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-denver-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMjYwNzphNjgwOjY6ZjAxNjo6M2EyNV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2607:a680:6:f016::3a25]",
+              "IP": "2607:a680:6:f016::3a25"}],
+    "info": ["DNSCry.pt Denver - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-dublin-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xOTQuMjYuMjEzLjE1",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "194.26.213.15",
+              "IP": "194.26.213.15"}],
+    "info": ["DNSCry.pt Dublin - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-dublin-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMmEwOTpjZDQ2OmY6NDI5ZTo6NV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a09:cd46:f:429e::5]",
+              "IP": "2a09:cd46:f:429e::5"}],
+    "info": ["DNSCry.pt Dublin - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-durham-ipv4",
+    "sdns": [{"stamp": "sdns://gQwzOC40NS42NC4xMTc",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "38.45.64.117",
+              "IP": "38.45.64.117"}],
+    "info": ["DNSCry.pt Durham - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-durham-ipv6",
+    "sdns": [{"stamp": "sdns://gR1bMjAwMTo1NTA6NWEwMDo1ZWI6OmRiNTpmMDAxXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2001:550:5a00:5eb::db5:f001]",
+              "IP": "2001:550:5a00:5eb::db5:f001"}],
+    "info": ["DNSCry.pt Durham - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-dusseldorf-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xODUuMjQ0LjI3LjEzNg",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.244.27.136",
+              "IP": "185.244.27.136"}],
+    "info": ["DNSCry.pt Düsseldorf - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-dusseldorf-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMmEwZjo1NzA3OmFhODE6NWUzYzo6MV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0f:5707:aa81:5e3c::1]",
+              "IP": "2a0f:5707:aa81:5e3c::1"}],
+    "info": ["DNSCry.pt Düsseldorf - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-dusseldorf02-ipv4",
+    "sdns": [{"stamp": "sdns://gQ00NS4xMzMuNzUuMTIy",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "45.133.75.122",
+              "IP": "45.133.75.122"}],
+    "info": ["DNSCry.pt Düsseldorf 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-flint-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xNDcuMTg5LjE0MC4xMzY",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "147.189.140.136",
+              "IP": "147.189.140.136"}],
+    "info": ["DNSCry.pt Flint - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-flint-ipv6",
+    "sdns": [{"stamp": "sdns://gRtbMjYwNjo2NjgwOjI5OjE6OjU4NTk6YTM3Yl0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2606:6680:29:1::5859:a37b]",
+              "IP": "2606:6680:29:1::5859:a37b"}],
+    "info": ["DNSCry.pt Flint - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-frankfurt-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xOTQuNTAuMTkuMTUw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "194.50.19.150",
+              "IP": "194.50.19.150"}],
+    "info": ["DNSCry.pt Frankfurt - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-frankfurt-ipv6",
+    "sdns": [{"stamp": "sdns://gSNbMmEwZjo1NzA3OmFiODA6MzM0ZToyOjI6MmNkMjphOGJjXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0f:5707:ab80:334e:2:2:2cd2:a8bc]",
+              "IP": "2a0f:5707:ab80:334e:2:2:2cd2:a8bc"}],
+    "info": ["DNSCry.pt Frankfurt - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-frankfurt02-ipv4",
+    "sdns": [{"stamp": "sdns://gQ00NS4xNDcuNTEuMTIz",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "45.147.51.123",
+              "IP": "45.147.51.123"}],
+    "info": ["DNSCry.pt Frankfurt 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-frankfurt02-ipv6",
+    "sdns": [{"stamp": "sdns://gRRbMmEwNzpkODg0OjEwMDo6MzQ0XQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a07:d884:100::344]",
+              "IP": "2a07:d884:100::344"}],
+    "info": ["DNSCry.pt Frankfurt 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-fremont-ipv4",
+    "sdns": [{"stamp": "sdns://gQwyMy4xMzQuODguNzE",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "23.134.88.71",
+              "IP": "23.134.88.71"}],
+    "info": ["DNSCry.pt Fremont - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-fremont-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMjYwMjpmYmExOjEwMDo6NzE6MV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fba1:100::71:1]",
+              "IP": "2602:fba1:100::71:1"}],
+    "info": ["DNSCry.pt Fremont - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-fujairah-ipv4",
+    "sdns": [{"stamp": "sdns://gQ04OS4zNi4xNjIuMTg3",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "89.36.162.187",
+              "IP": "89.36.162.187"}],
+    "info": ["DNSCry.pt Fujairah - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-fujairah-ipv6",
+    "sdns": [{"stamp": "sdns://gShbMmEwNjpmOTAyOjQwMDE6MTAwOjkwMDA6OTAwMDozOWE0OjVmZWJd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a06:f902:4001:100:9000:9000:39a4:5feb]",
+              "IP": "2a06:f902:4001:100:9000:9000:39a4:5feb"}],
+    "info": ["DNSCry.pt Fujairah - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-geneva-ipv4",
+    "sdns": [{"stamp": "sdns://gQw0NS45MC41OS4xOTM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "45.90.59.193",
+              "IP": "45.90.59.193"}],
+    "info": ["DNSCry.pt Geneva - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-geneva-ipv6",
+    "sdns": [{"stamp": "sdns://gRBbMmEwNTo5NDA2OjphZTFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a05:9406::ae1]",
+              "IP": "2a05:9406::ae1"}],
+    "info": ["DNSCry.pt Geneva - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-grandrapids-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xODUuMTY1LjQ0LjE2NA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.165.44.164",
+              "IP": "185.165.44.164"}],
+    "info": ["DNSCry.pt Grand Rapids - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-grandrapids-ipv6",
+    "sdns": [{"stamp": "sdns://gRNbMjYwMjpmOTY0OjE6MjQ6OmFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:f964:1:24::a]",
+              "IP": "2602:f964:1:24::a"}],
+    "info": ["DNSCry.pt Grand Rapids - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-hafnarfjordur-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xNTEuMjM2LjI0LjE5MA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "151.236.24.190",
+              "IP": "151.236.24.190"}],
+    "info": ["DNSCry.pt Hafnarfjordur - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-hafnarfjordur-ipv6",
+    "sdns": [{"stamp": "sdns://gRZbMmEwMzpmODA6MzU0OjM4Yjc6OjFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:f80:354:38b7::1]",
+              "IP": "2a03:f80:354:38b7::1"}],
+    "info": ["DNSCry.pt Hafnarfjordur - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-halifax-ipv4",
+    "sdns": [{"stamp": "sdns://gQwyMy4xOTEuODAuNzI",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "23.191.80.72",
+              "IP": "23.191.80.72"}],
+    "info": ["DNSCry.pt Halifax - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-halifax-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMjYwMjpmYzFjOmZhMDoxMTo6MV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fc1c:fa0:11::1]",
+              "IP": "2602:fc1c:fa0:11::1"}],
+    "info": ["DNSCry.pt Halifax - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-hanoi-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xMDMuMTk5LjE2Ljkz",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "103.199.16.93",
+              "IP": "103.199.16.93"}],
+    "info": ["DNSCry.pt Hanoi - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-hanoi-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMjQwNDpmYmMwOjA6MTFjODo6YTMyNF0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2404:fbc0:0:11c8::a324]",
+              "IP": "2404:fbc0:0:11c8::a324"}],
+    "info": ["DNSCry.pt Hanoi - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-helsinki-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4zNy4yMjguMTI5LjE2MA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "37.228.129.160",
+              "IP": "37.228.129.160"}],
+    "info": ["DNSCry.pt Helsinki - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-helsinki-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMmEwNjoxNzAwOjE6M2E6OmNiYV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a06:1700:1:3a::cba]",
+              "IP": "2a06:1700:1:3a::cba"}],
+    "info": ["DNSCry.pt Helsinki - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-hochiminhcity-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xNTcuMjAuODMuMTM1",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "157.20.83.135",
+              "IP": "157.20.83.135"}],
+    "info": ["DNSCry.pt Ho-Chi-Minh City - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-hochiminhcity-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMjQwMDo2ZWEwOjA6MTFhZTo6YWRjNF0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2400:6ea0:0:11ae::adc4]",
+              "IP": "2400:6ea0:0:11ae::adc4"}],
+    "info": ["DNSCry.pt Ho-Chi-Minh City - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-hongkong-ipv4",
+    "sdns": [{"stamp": "sdns://gQs5Ni45LjIyOC4yNw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "96.9.228.27",
+              "IP": "96.9.228.27"}],
+    "info": ["DNSCry.pt Hong Kong - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-hongkong-ipv6",
+    "sdns": [{"stamp": "sdns://gRlbMjAwMTpkZjE6ODAxOmEwMjI6OmM0OmFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2001:df1:801:a022::c4:a]",
+              "IP": "2001:df1:801:a022::c4:a"}],
+    "info": ["DNSCry.pt Hong Kong - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-hongkong02-ipv4",
+    "sdns": [{"stamp": "sdns://gQw5MS4xMjQuMzAuMzE",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "91.124.30.31",
+              "IP": "91.124.30.31"}],
+    "info": ["DNSCry.pt Hong Kong 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-hongkong02-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMjYwMjpmYTY3OjEwMToyMDo6YV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fa67:101:20::a]",
+              "IP": "2602:fa67:101:20::a"}],
+    "info": ["DNSCry.pt Hong Kong 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-houston-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4yMDkuMTM1LjE3MC41MQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "209.135.170.51",
+              "IP": "209.135.170.51"}],
+    "info": ["DNSCry.pt Houston - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-houston-ipv6",
+    "sdns": [{"stamp": "sdns://gRRbMjYwMjpmOWYzOjA6Mjo6MTkzXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:f9f3:0:2::193]",
+              "IP": "2602:f9f3:0:2::193"}],
+    "info": ["DNSCry.pt Houston - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-hudiksvall-ipv4",
+    "sdns": [{"stamp": "sdns://gQ45NS4xNDMuMTk2LjE5MA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "95.143.196.190",
+              "IP": "95.143.196.190"}],
+    "info": ["DNSCry.pt Hudiksvall - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-hudiksvall-ipv6",
+    "sdns": [{"stamp": "sdns://gRxbMmEwMzpkNzgwOjA6MTk2OjozZTg0OjU2YWZd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:d780:0:196::3e84:56af]",
+              "IP": "2a03:d780:0:196::3e84:56af"}],
+    "info": ["DNSCry.pt Hudiksvall - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-islamabad-ipv6",
+    "sdns": [{"stamp": "sdns://gRdbMjAwMTpkZjI6ZDQwOjE3OjpiYWJhXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2001:df2:d40:17::baba]",
+              "IP": "2001:df2:d40:17::baba"}],
+    "info": ["DNSCry.pt Islamabad - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-jacksonville-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xMDQuMjI1LjEyOS4xMDY",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "104.225.129.106",
+              "IP": "104.225.129.106"}],
+    "info": ["DNSCry.pt Jacksonville - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-jacksonville-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMjYwNzphNjgwOjQ6ZjAwMzo6ZWMzMl0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2607:a680:4:f003::ec32]",
+              "IP": "2607:a680:4:f003::ec32"}],
+    "info": ["DNSCry.pt Jacksonville - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-johannesburg-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xNjkuMjM5LjEyOC4xMjQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "169.239.128.124",
+              "IP": "169.239.128.124"}],
+    "info": ["DNSCry.pt Johannesburg - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-johannesburg-ipv6",
+    "sdns": [{"stamp": "sdns://gRRbMmMwZjpmNTMwOjpkMDA6MTg4XQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2c0f:f530::d00:188]",
+              "IP": "2c0f:f530::d00:188"}],
+    "info": ["DNSCry.pt Johannesburg - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-johor-ipv4",
+    "sdns": [{"stamp": "sdns://gQ00NS4yNDkuOTEuMTUw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "45.249.91.150",
+              "IP": "45.249.91.150"}],
+    "info": ["DNSCry.pt Johor - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-johor-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMjAwMTpkZjQ6MTg0MDo5Zjo6YV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2001:df4:1840:9f::a]",
+              "IP": "2001:df4:1840:9f::a"}],
+    "info": ["DNSCry.pt Johor - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-kansascity-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0yMy4xNTAuNDAuMTIx",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "23.150.40.121",
+              "IP": "23.150.40.121"}],
+    "info": ["DNSCry.pt Kansas City - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-kansascity-ipv6",
+    "sdns": [{"stamp": "sdns://gRlbMjYwMjoyYjc6ZDAxOmMyOTU6OmI6MThd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:2b7:d01:c295::b:18]",
+              "IP": "2602:2b7:d01:c295::b:18"}],
+    "info": ["DNSCry.pt Kansas City - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-kharkiv-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xOTMuMjM4LjE1My4xNw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "193.238.153.17",
+              "IP": "193.238.153.17"}],
+    "info": ["DNSCry.pt Kharkiv - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-kharkiv-ipv6",
+    "sdns": [{"stamp": "sdns://gRRbMmEwMjoyN2E4OmZlZWQ6OjgxXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a02:27a8:feed::81]",
+              "IP": "2a02:27a8:feed::81"}],
+    "info": ["DNSCry.pt Kharkiv - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-kyiv-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0yMTcuMTIuMjIxLjYx",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "217.12.221.61",
+              "IP": "217.12.221.61"}],
+    "info": ["DNSCry.pt Kyiv - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-kyiv-ipv6",
+    "sdns": [{"stamp": "sdns://gRBbMmEwMjoyN2FkOjoyMDFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a02:27ad::201]",
+              "IP": "2a02:27ad::201"}],
+    "info": ["DNSCry.pt Kyiv - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-lagos-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xNzYuOTcuMTkyLjEy",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "176.97.192.12",
+              "IP": "176.97.192.12"}],
+    "info": ["DNSCry.pt Lagos - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-lagos-ipv6",
+    "sdns": [{"stamp": "sdns://gR9bMmEwNjpmOTAxOjQwMDE6MTAwOjoyZDZjOjczNmFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a06:f901:4001:100::2d6c:736a]",
+              "IP": "2a06:f901:4001:100::2d6c:736a"}],
+    "info": ["DNSCry.pt Lagos - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-lasvegas-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0yMDkuMTQxLjQ1LjI3",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "209.141.45.27",
+              "IP": "209.141.45.27"}],
+    "info": ["DNSCry.pt Las Vegas - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-lasvegas-ipv6",
+    "sdns": [{"stamp": "sdns://gSVbMjYwNTo2NDAwOjIwOjIyNTg6N2FjYjo5MWZmOjIwOTg6YTld",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2605:6400:20:2258:7acb:91ff:2098:a9]",
+              "IP": "2605:6400:20:2258:7acb:91ff:2098:a9"}],
+    "info": ["DNSCry.pt Las Vegas - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-libertylake-ipv4",
+    "sdns": [{"stamp": "sdns://gQwyMy4xODQuNDguMTk",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "23.184.48.19",
+              "IP": "23.184.48.19"}],
+    "info": ["DNSCry.pt Liberty Lake - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-libertylake-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMjYwMjpmYzI0OjE4OjMzZjI6OmFiMV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fc24:18:33f2::ab1]",
+              "IP": "2602:fc24:18:33f2::ab1"}],
+    "info": ["DNSCry.pt Liberty Lake - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-lima02-ipv4",
+    "sdns": [{"stamp": "sdns://gQw4Ny4xMjEuOTkuMjM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "87.121.99.23",
+              "IP": "87.121.99.23"}],
+    "info": ["DNSCry.pt Lima 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-lima02-ipv6",
+    "sdns": [{"stamp": "sdns://gRNbMmEwMzo5MGMwOjU1NTo6NzJd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:90c0:555::72]",
+              "IP": "2a03:90c0:555::72"}],
+    "info": ["DNSCry.pt Lima 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-lisbon-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xODUuMjE5LjEzMC4y",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.219.130.2",
+              "IP": "185.219.130.2"}],
+    "info": ["DNSCry.pt Lisbon - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-lisbon-ipv6",
+    "sdns": [{"stamp": "sdns://gRpbMmEwZTpiYzAwOjoxODU6MjE5OjEzMDoyXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0e:bc00::185:219:130:2]",
+              "IP": "2a0e:bc00::185:219:130:2"}],
+    "info": ["DNSCry.pt Lisbon - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-london-ipv4",
+    "sdns": [{"stamp": "sdns://gQw0NS42Ny44NC4xMzI",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "45.67.84.132",
+              "IP": "45.67.84.132"}],
+    "info": ["DNSCry.pt London - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-london-ipv6",
+    "sdns": [{"stamp": "sdns://gRRbMmEwNTo0MTQwOjcwMDplOjphXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a05:4140:700:e::a]",
+              "IP": "2a05:4140:700:e::a"}],
+    "info": ["DNSCry.pt London - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-losangeles-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0yMTYuNzMuMTU2LjUy",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "216.73.156.52",
+              "IP": "216.73.156.52"}],
+    "info": ["DNSCry.pt Los Angeles - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-losangeles-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMjYwMjpmYWZkOjkwMjoyMDo6YV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fafd:902:20::a]",
+              "IP": "2602:fafd:902:20::a"}],
+    "info": ["DNSCry.pt Los Angeles - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-losangeles02-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xMDQuMjAwLjY3LjE5NA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "104.200.67.194",
+              "IP": "104.200.67.194"}],
+    "info": ["DNSCry.pt Los Angeles 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-losangeles02-ipv6",
+    "sdns": [{"stamp": "sdns://gRdbMjYwMjpmZjc1Ojc6Yjc5OjpiNGI0XQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:ff75:7:b79::b4b4]",
+              "IP": "2602:ff75:7:b79::b4b4"}],
+    "info": ["DNSCry.pt Los Angeles 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-luxembourg-ipv4",
+    "sdns": [{"stamp": "sdns://gQw0NS44MC4yMDkuNTU",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "45.80.209.55",
+              "IP": "45.80.209.55"}],
+    "info": ["DNSCry.pt Luxembourg - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-luxembourg-ipv6",
+    "sdns": [{"stamp": "sdns://gRNbMmEwMzo5MGMwOjg1OjoxMDJd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:90c0:85::102]",
+              "IP": "2a03:90c0:85::102"}],
+    "info": ["DNSCry.pt Luxembourg - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-madrid-ipv4",
+    "sdns": [{"stamp": "sdns://gQ01LjEzNC4xMTguMTk4",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "5.134.118.198",
+              "IP": "5.134.118.198"}],
+    "info": ["DNSCry.pt Madrid - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-madrid-ipv6",
+    "sdns": [{"stamp": "sdns://gRtbMmEwMzpjN2MwOjUyOjI2NDE6MTgwOjoxM10",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:c7c0:52:2641:180::13]",
+              "IP": "2a03:c7c0:52:2641:180::13"}],
+    "info": ["DNSCry.pt Madrid - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-manchester-ipv4",
+    "sdns": [{"stamp": "sdns://gQ04MS4xODEuMTA4LjQw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "81.181.108.40",
+              "IP": "81.181.108.40"}],
+    "info": ["DNSCry.pt Manchester - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-manchester-ipv6",
+    "sdns": [{"stamp": "sdns://gR1bMmEwZToxZDgwOjU6ODJlOTo1Njc4OjkxMDo6XQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0e:1d80:5:82e9:5678:910::]",
+              "IP": "2a0e:1d80:5:82e9:5678:910::"}],
+    "info": ["DNSCry.pt Manchester - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-miami-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xMjguMjU0LjIwNy41MA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "128.254.207.50",
+              "IP": "128.254.207.50"}],
+    "info": ["DNSCry.pt Miami - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-miami-ipv6",
+    "sdns": [{"stamp": "sdns://gRRbMjYwMjpmYWZkOmZiMjoxOjphXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fafd:fb2:1::a]",
+              "IP": "2602:fafd:fb2:1::a"}],
+    "info": ["DNSCry.pt Miami - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-montreal-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xNDcuMTg5LjEzNi4xODM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "147.189.136.183",
+              "IP": "147.189.136.183"}],
+    "info": ["DNSCry.pt Montreal - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-montreal-ipv6",
+    "sdns": [{"stamp": "sdns://gRpbMjYwNjo2NjgwOjQ1OjE6OmY3OGM6OWIwXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2606:6680:45:1::f78c:9b0]",
+              "IP": "2606:6680:45:1::f78c:9b0"}],
+    "info": ["DNSCry.pt Montreal - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-moscow-ipv4",
+    "sdns": [{"stamp": "sdns://gQ45My4xODMuMTA1LjEwOQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "93.183.105.109",
+              "IP": "93.183.105.109"}],
+    "info": ["DNSCry.pt Moscow - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-moscow-ipv6",
+    "sdns": [{"stamp": "sdns://gRRbMmEwYzpjNTgwOjA6MTo6MjoxXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0c:c580:0:1::2:1]",
+              "IP": "2a0c:c580:0:1::2:1"}],
+    "info": ["DNSCry.pt Moscow - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-mumbai-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xMDMuMTExLjExNC4yNQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "103.111.114.25",
+              "IP": "103.111.114.25"}],
+    "info": ["DNSCry.pt Mumbai - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-mumbai-ipv6",
+    "sdns": [{"stamp": "sdns://gR9bMmEwNjpmOTAyOjgwMDE6MTAwOjoxNzU3OmU2MTdd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a06:f902:8001:100::1757:e617]",
+              "IP": "2a06:f902:8001:100::1757:e617"}],
+    "info": ["DNSCry.pt Mumbai - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-munich-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xOTQuMzkuMjA1LjEw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "194.39.205.10",
+              "IP": "194.39.205.10"}],
+    "info": ["DNSCry.pt Munich - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-munich-ipv6",
+    "sdns": [{"stamp": "sdns://gRpbMmEwYzo4ZmMwOjE3NDk6NjY6MTg6OjE2XQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0c:8fc0:1749:66:18::16]",
+              "IP": "2a0c:8fc0:1749:66:18::16"}],
+    "info": ["DNSCry.pt Munich - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-naaldwijk-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0yMy4xMzcuMjQ5LjI2",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "23.137.249.26",
+              "IP": "23.137.249.26"}],
+    "info": ["DNSCry.pt Naaldwijk - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-naaldwijk-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMjYwMjpmYzI0OjEyOjk4NzM6OmFiMV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fc24:12:9873::ab1]",
+              "IP": "2602:fc24:12:9873::ab1"}],
+    "info": ["DNSCry.pt Naaldwijk - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-nuremberg-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0yMDIuNjEuMjM2LjY3",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "202.61.236.67",
+              "IP": "202.61.236.67"}],
+    "info": ["DNSCry.pt Nuremberg - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-nuremberg-ipv6",
+    "sdns": [{"stamp": "sdns://gSVbMmEwMzo0MDAwOjVjOjUxOjI0Yjk6NTFmZjpmZTgwOmYzYTdd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:4000:5c:51:24b9:51ff:fe80:f3a7]",
+              "IP": "2a03:4000:5c:51:24b9:51ff:fe80:f3a7"}],
+    "info": ["DNSCry.pt Nuremberg - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-oradea-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xOTMuMzIuODcuMTI3",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "193.32.87.127",
+              "IP": "193.32.87.127"}],
+    "info": ["DNSCry.pt Oradea - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-oradea-ipv6",
+    "sdns": [{"stamp": "sdns://gR5bMmEwZDo4MTQzOjA6MTI0OjI5MTU6YWY6MDoxOF0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0d:8143:0:124:2915:af:0:18]",
+              "IP": "2a0d:8143:0:124:2915:af:0:18"}],
+    "info": ["DNSCry.pt Oradea - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-ottoville-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xMDQuMjM0LjIzMS4yMzk",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "104.234.231.239",
+              "IP": "104.234.231.239"}],
+    "info": ["DNSCry.pt Ottoville - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-ottoville-ipv6",
+    "sdns": [{"stamp": "sdns://gRNbMjYwMjpmOTUzOjY6MjU6OmFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:f953:6:25::a]",
+              "IP": "2602:f953:6:25::a"}],
+    "info": ["DNSCry.pt Ottoville - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-paris-ipv4",
+    "sdns": [{"stamp": "sdns://gQs4OS4xMTcuMi4xNw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "89.117.2.17",
+              "IP": "89.117.2.17"}],
+    "info": ["DNSCry.pt Paris - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-paris-ipv6",
+    "sdns": [{"stamp": "sdns://gR5bMjQwMjpkMGMwOjIyOjZjZDA6NDo0OjQ6NWI4MV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2402:d0c0:22:6cd0:4:4:4:5b81]",
+              "IP": "2402:d0c0:22:6cd0:4:4:4:5b81"}],
+    "info": ["DNSCry.pt Paris - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-philadelphia-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xNTQuMTYuMTU5LjIy",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "154.16.159.22",
+              "IP": "154.16.159.22"}],
+    "info": ["DNSCry.pt Philadelphia - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-philadelphia-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMjYwNDpiZjAwOjIxMDoxMjo6Ml0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2604:bf00:210:12::2]",
+              "IP": "2604:bf00:210:12::2"}],
+    "info": ["DNSCry.pt Philadelphia - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-phoenix-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xNzMuMjQ5LjIwMy41Mg",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "173.249.203.52",
+              "IP": "173.249.203.52"}],
+    "info": ["DNSCry.pt Phoenix - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-phoenix-ipv6",
+    "sdns": [{"stamp": "sdns://gRtbMjYwNzoxZTQwOjE6MTBhNDo6MTk6Y2E4NF0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2607:1e40:1:10a4::19:ca84]",
+              "IP": "2607:1e40:1:10a4::19:ca84"}],
+    "info": ["DNSCry.pt Phoenix - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-portedwards-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xNzYuMTExLjIxOS4xMjY",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "176.111.219.126",
+              "IP": "176.111.219.126"}],
+    "info": ["DNSCry.pt Port Edwards - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-portedwards-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMjAwMTo0NzA6MWYxMToyYmI6OmIyM10",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2001:470:1f11:2bb::b23]",
+              "IP": "2001:470:1f11:2bb::b23"}],
+    "info": ["DNSCry.pt Port Edwards - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-portland-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xMDMuMTI0LjEwNi4yMzM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "103.124.106.233",
+              "IP": "103.124.106.233"}],
+    "info": ["DNSCry.pt Portland - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-portland-ipv6",
+    "sdns": [{"stamp": "sdns://gSFbMjQwMjpkMGMwOjE2OmExZTY6MDpiODkzOmJmNzpkZF0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2402:d0c0:16:a1e6:0:b893:bf7:dd]",
+              "IP": "2402:d0c0:16:a1e6:0:b893:bf7:dd"}],
+    "info": ["DNSCry.pt Portland - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-prague-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xOTUuMTIzLjI0NS4xOQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "195.123.245.19",
+              "IP": "195.123.245.19"}],
+    "info": ["DNSCry.pt Prague - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-prague-ipv6",
+    "sdns": [{"stamp": "sdns://gRBbMmEwNTo5NDAzOjo5OTld",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a05:9403::999]",
+              "IP": "2a05:9403::999"}],
+    "info": ["DNSCry.pt Prague - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-redditch-ipv4",
+    "sdns": [{"stamp": "sdns://gQw0NS42Ny44NS4yMTk",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "45.67.85.219",
+              "IP": "45.67.85.219"}],
+    "info": ["DNSCry.pt Redditch - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-redditch-ipv6",
+    "sdns": [{"stamp": "sdns://gRRbMmEwNTo0MTQwOjE5OjUzOjphXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a05:4140:19:53::a]",
+              "IP": "2a05:4140:19:53::a"}],
+    "info": ["DNSCry.pt Redditch - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-riga-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xOTUuMTIzLjIxMi4yMDA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "195.123.212.200",
+              "IP": "195.123.212.200"}],
+    "info": ["DNSCry.pt Riga - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-riga-ipv6",
+    "sdns": [{"stamp": "sdns://gRFbMmEwMjoyN2FjOjoxMjQ5XQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a02:27ac::1249]",
+              "IP": "2a02:27ac::1249"}],
+    "info": ["DNSCry.pt Riga - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-saltlakecity-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xMDMuMTE0LjE2Mi42NQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "103.114.162.65",
+              "IP": "103.114.162.65"}],
+    "info": ["DNSCry.pt Salt Lake City - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-saltlakecity-ipv6",
+    "sdns": [{"stamp": "sdns://gSFbMjQwMjpkMGMwOjE4OmM4ZmY6MDpiODkzOmJmNzpkZF0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2402:d0c0:18:c8ff:0:b893:bf7:dd]",
+              "IP": "2402:d0c0:18:c8ff:0:b893:bf7:dd"}],
+    "info": ["DNSCry.pt Salt Lake City - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-sandefjord-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xOTQuMzIuMTA3LjQ4",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "194.32.107.48",
+              "IP": "194.32.107.48"}],
+    "info": ["DNSCry.pt Sandefjord - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-sandefjord-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMmEwMzo5NGUwOjI3MWY6OjViMV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:94e0:271f::5b1]",
+              "IP": "2a03:94e0:271f::5b1"}],
+    "info": ["DNSCry.pt Sandefjord - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-santaclara-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xNzYuMTExLjIyMy4xNjc",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "176.111.223.167",
+              "IP": "176.111.223.167"}],
+    "info": ["DNSCry.pt Santa Clara - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-santaclara-ipv6",
+    "sdns": [{"stamp": "sdns://gRtbMjYwNjo2NjgwOjM1OjE6OjUwNmQ6OGNlMl0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2606:6680:35:1::506d:8ce2]",
+              "IP": "2606:6680:35:1::506d:8ce2"}],
+    "info": ["DNSCry.pt Santa Clara - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-saopaulo-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xMDguMTgxLjY5LjE1Mw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "108.181.69.153",
+              "IP": "108.181.69.153"}],
+    "info": ["DNSCry.pt Sao Paulo - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-saopaulo-ipv6",
+    "sdns": [{"stamp": "sdns://gR5bMjYwNDo2NjAwOmZkMDA6OTA6OjFiOGI6M2EzY10",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2604:6600:fd00:90::1b8b:3a3c]",
+              "IP": "2604:6600:fd00:90::1b8b:3a3c"}],
+    "info": ["DNSCry.pt Sao Paulo - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-seattle-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8yMDkuMTgyLjIyNS4xMDM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "209.182.225.103",
+              "IP": "209.182.225.103"}],
+    "info": ["DNSCry.pt Seattle - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-seattle-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMjYwNzphNjgwOjk6ZjAwNTo6ODZlN10",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2607:a680:9:f005::86e7]",
+              "IP": "2607:a680:9:f005::86e7"}],
+    "info": ["DNSCry.pt Seattle - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-seoul-ipv4",
+    "sdns": [{"stamp": "sdns://gQ05Mi4zOC4xMzUuMTI4",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "92.38.135.128",
+              "IP": "92.38.135.128"}],
+    "info": ["DNSCry.pt Seoul - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-seoul-ipv6",
+    "sdns": [{"stamp": "sdns://gRNbMmEwMzo5MGMwOjEyNTo6ODhd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:90c0:125::88]",
+              "IP": "2a03:90c0:125::88"}],
+    "info": ["DNSCry.pt Seoul - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-singapore-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0yMy4yNy4xMDEuMTkx",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "23.27.101.191",
+              "IP": "23.27.101.191"}],
+    "info": ["DNSCry.pt Singapore - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-singapore-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMjYwNjpmYzQwOjQwMDM6Zjo6YV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2606:fc40:4003:f::a]",
+              "IP": "2606:fc40:4003:f::a"}],
+    "info": ["DNSCry.pt Singapore - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-singapore02-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xMDMuMTc5LjQ0Ljcz",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "103.179.44.73",
+              "IP": "103.179.44.73"}],
+    "info": ["DNSCry.pt Singapore 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-singapore02-ipv6",
+    "sdns": [{"stamp": "sdns://gRNbMjQwMTo0NTIwOjExMjI6OmFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2401:4520:1122::a]",
+              "IP": "2401:4520:1122::a"}],
+    "info": ["DNSCry.pt Singapore 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-sofia-ipv4",
+    "sdns": [{"stamp": "sdns://gQs3OS4xMjQuNzcuMw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "79.124.77.3",
+              "IP": "79.124.77.3"}],
+    "info": ["DNSCry.pt Sofia - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-sofia-ipv6",
+    "sdns": [{"stamp": "sdns://gRZbMmEwMTo4NzQwOjE6NDA6OjhhMjVd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a01:8740:1:40::8a25]",
+              "IP": "2a01:8740:1:40::8a25"}],
+    "info": ["DNSCry.pt Sofia - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-spokane-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xMDQuMzYuODYuMTgx",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "104.36.86.181",
+              "IP": "104.36.86.181"}],
+    "info": ["DNSCry.pt Spokane - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-spokane-ipv6",
+    "sdns": [{"stamp": "sdns://gRRbMjYwNjphOGMwOjM6MjAyOjphXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2606:a8c0:3:202::a]",
+              "IP": "2606:a8c0:3:202::a"}],
+    "info": ["DNSCry.pt Spokane - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-stockholm-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xODUuMTk1LjIzNi42Mg",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.195.236.62",
+              "IP": "185.195.236.62"}],
+    "info": ["DNSCry.pt Stockholm - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-stockholm-ipv6",
+    "sdns": [{"stamp": "sdns://gRZbMmEwOTpiMjgwOmZlMDE6MzU6OmFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a09:b280:fe01:35::a]",
+              "IP": "2a09:b280:fe01:35::a"}],
+    "info": ["DNSCry.pt Stockholm - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-sydney-ipv4",
+    "sdns": [{"stamp": "sdns://gQw4NC4zMy4xNS4xMDA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "84.33.15.100",
+              "IP": "84.33.15.100"}],
+    "info": ["DNSCry.pt Sydney - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-sydney-ipv6",
+    "sdns": [{"stamp": "sdns://gR9bMmEwYzo4ZmMxOjgwMDQ6NTUzOjoxNDVhOmJiZjld",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0c:8fc1:8004:553::145a:bbf9]",
+              "IP": "2a0c:8fc1:8004:553::145a:bbf9"}],
+    "info": ["DNSCry.pt Sydney - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-sydney02-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xOTUuMTE0LjE0Ljc0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "195.114.14.74",
+              "IP": "195.114.14.74"}],
+    "info": ["DNSCry.pt Sydney 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-sydney02-ipv6",
+    "sdns": [{"stamp": "sdns://gRhbMjQwMjo3MzQwOjUwMDA6NjIwMDo6YV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2402:7340:5000:6200::a]",
+              "IP": "2402:7340:5000:6200::a"}],
+    "info": ["DNSCry.pt Sydney 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-taipeh-ipv4",
+    "sdns": [{"stamp": "sdns://gQ4xMDMuMTMxLjE4OS4xMQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "103.131.189.11",
+              "IP": "103.131.189.11"}],
+    "info": ["DNSCry.pt Taipeh - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-taipeh-ipv6",
+    "sdns": [{"stamp": "sdns://gRpbMjQwMzpjZmMwOjEwMDQ6MzY5Ojo1YjIxXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2403:cfc0:1004:369::5b21]",
+              "IP": "2403:cfc0:1004:369::5b21"}],
+    "info": ["DNSCry.pt Taipeh - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-tallinn-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xODUuMTk0LjUzLjIy",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "185.194.53.22",
+              "IP": "185.194.53.22"}],
+    "info": ["DNSCry.pt Tallinn - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-tallinn-ipv6",
+    "sdns": [{"stamp": "sdns://gRJbMmEwNDo2ZjAwOjQ6OjE3YV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a04:6f00:4::17a]",
+              "IP": "2a04:6f00:4::17a"}],
+    "info": ["DNSCry.pt Tallinn - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-tampa-ipv4",
+    "sdns": [{"stamp": "sdns://gQ8xNjUuMTQwLjExNy4yNDg",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "165.140.117.248",
+              "IP": "165.140.117.248"}],
+    "info": ["DNSCry.pt Tampa - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-tampa-ipv6",
+    "sdns": [{"stamp": "sdns://gRlbMjYwMjpmY2MwOjIyMjI6OWQyZTo6NTNd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fcc0:2222:9d2e::53]",
+              "IP": "2602:fcc0:2222:9d2e::53"}],
+    "info": ["DNSCry.pt Tampa - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-taos-ipv4",
+    "sdns": [{"stamp": "sdns://gQ42My4xMzMuMjIzLjEzOA",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "63.133.223.138",
+              "IP": "63.133.223.138"}],
+    "info": ["DNSCry.pt Taos - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-taos-ipv6",
+    "sdns": [{"stamp": "sdns://gRtbMjYwNjo2NjgwOjUzOjE6Ojg0NmE6YmQ3OV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2606:6680:53:1::846a:bd79]",
+              "IP": "2606:6680:53:1::846a:bd79"}],
+    "info": ["DNSCry.pt Taos - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-tbilisi-ipv6",
+    "sdns": [{"stamp": "sdns://gRpbMmExMjplMzQwOjMwMDo6YmMzNDo5M2U0XQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a12:e340:300::bc34:93e4]",
+              "IP": "2a12:e340:300::bc34:93e4"}],
+    "info": ["DNSCry.pt Tbilisi - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-tokyo-ipv4",
+    "sdns": [{"stamp": "sdns://gQw0NS42Ny44Ni4xMjM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "45.67.86.123",
+              "IP": "45.67.86.123"}],
+    "info": ["DNSCry.pt Tokyo - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-tokyo-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMjYwNjpmYzQwOjQwMDI6ZDo6YV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2606:fc40:4002:d::a]",
+              "IP": "2606:fc40:4002:d::a"}],
+    "info": ["DNSCry.pt Tokyo - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-tokyo02-ipv4",
+    "sdns": [{"stamp": "sdns://gQwxMDMuMTc5LjQ1LjY",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "103.179.45.6",
+              "IP": "103.179.45.6"}],
+    "info": ["DNSCry.pt Tokyo 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-tokyo02-ipv6",
+    "sdns": [{"stamp": "sdns://gRNbMmEwYTo2MDQwOjk3M2Q6OmFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a0a:6040:973d::a]",
+              "IP": "2a0a:6040:973d::a"}],
+    "info": ["DNSCry.pt Tokyo 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-toronto-ipv4",
+    "sdns": [{"stamp": "sdns://gQwyMy4xMzQuODkuMjM",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "23.134.89.23",
+              "IP": "23.134.89.23"}],
+    "info": ["DNSCry.pt Toronto - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-toronto-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMjYwMjpmYmExOmQwMDo6MjM6MV0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2602:fba1:d00::23:1]",
+              "IP": "2602:fba1:d00::23:1"}],
+    "info": ["DNSCry.pt Toronto - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-tuusula-ipv4",
+    "sdns": [{"stamp": "sdns://gQ02NS4yMS4yNTIuMjAx",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "65.21.252.201",
+              "IP": "65.21.252.201"}],
+    "info": ["DNSCry.pt Tuusula - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-tuusula-ipv6",
+    "sdns": [{"stamp": "sdns://gRdbMmEwMTo0Zjk6YzAxMTpiODRlOjoxXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a01:4f9:c011:b84e::1]",
+              "IP": "2a01:4f9:c011:b84e::1"}],
+    "info": ["DNSCry.pt Tuusula - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-valdivia-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0yMTYuNzMuMTU5LjI2",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "216.73.159.26",
+              "IP": "216.73.159.26"}],
+    "info": ["DNSCry.pt Valdivia - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-valdivia-ipv6",
+    "sdns": [{"stamp": "sdns://gRVbMmEwNjphMDA2OmQxZDE6OjExNl0",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a06:a006:d1d1::116]",
+              "IP": "2a06:a006:d1d1::116"}],
+    "info": ["DNSCry.pt Valdivia - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-vancouver-ipv4",
+    "sdns": [{"stamp": "sdns://gQwyMy4xNTQuODEuOTI",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "23.154.81.92",
+              "IP": "23.154.81.92"}],
+    "info": ["DNSCry.pt Vancouver - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-vilnius-ipv4",
+    "sdns": [{"stamp": "sdns://gQ0xNjIuMjU0Ljg2LjEz",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "162.254.86.13",
+              "IP": "162.254.86.13"}],
+    "info": ["DNSCry.pt Vilnius - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-vilnius-ipv6",
+    "sdns": [{"stamp": "sdns://gRdbMmExMzo5NDAxOjA6MTo6M2Q1ODoxXQ",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a13:9401:0:1::3d58:1]",
+              "IP": "2a13:9401:0:1::3d58:1"}],
+    "info": ["DNSCry.pt Vilnius - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-warsaw02-ipv4",
+    "sdns": [{"stamp": "sdns://gQ44OC4yMTguMjA2LjEzNw",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "88.218.206.137",
+              "IP": "88.218.206.137"}],
+    "info": ["DNSCry.pt Warsaw 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-warsaw02-ipv6",
+    "sdns": [{"stamp": "sdns://gRZbMmEwOTpiMjgwOmZlMDA6MjQ6OmFd",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a09:b280:fe00:24::a]",
+              "IP": "2a09:b280:fe00:24::a"}],
+    "info": ["DNSCry.pt Warsaw 02 - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  },
+  {
+    "name": "dnscry.pt-anon-yerevan-ipv4",
+    "sdns": [{"stamp": "sdns://gQ04NS45MC4yMDcuMTk5",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "85.90.207.199",
+              "IP": "85.90.207.199"}],
+    "info": ["DNSCry.pt Yerevan - DNSCrypt, no filter, no logs, DNSSEC support (IPv4 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv4"
+  },
+  {
+    "name": "dnscry.pt-anon-yerevan-ipv6",
+    "sdns": [{"stamp": "sdns://gRlbMmEwMzo5MGMwOjVmMToyOTAzOjo1Mzld",
+              "protocol": "DNSCryptRelay", "flags": "None", "address": "[2a03:90c0:5f1:2903::539]",
+              "IP": "2a03:90c0:5f1:2903::539"}],
+    "info": ["DNSCry.pt Yerevan - DNSCrypt, no filter, no logs, DNSSEC support (IPv6 server)",
+             "https://www.dnscry.pt"],
+    "flags": "NoFilter|NoLog|DNSSEC|DNSCrypt|IPv6"
+  }
+]

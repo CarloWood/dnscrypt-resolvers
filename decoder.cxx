@@ -1,4 +1,5 @@
 #include "sys.h"
+#include "ResolverFlags.h"
 #include "utils/BitSet.h"
 #include "utils/macros.h"
 #include <filesystem>
@@ -276,124 +277,6 @@ std::string escape_json_string(std::string_view s)
   }
   return escaped_s;
 }
-
-enum class ResolverFlags : uint32_t
-{
-  None                 = 0,
-  NoFilter             = 1 << 0,  // "no filter", "non-filtering", "unfiltered"
-  NoLog                = 1 << 1,  // "no logs", "non-logging", "zero logs"
-  NoPersistentLogs     = 1 << 2,  // "No persistent logs"
-  DNSSEC               = 1 << 3,  // "dnssec", "supports dnssec"
-  Do53                 = 1 << 4,  // Plain DNS server.
-  DNSCrypt             = 1 << 5,  // "dnscrypt"
-  DoH                  = 1 << 6,  // DoH, "DNS-over-HTTPS"
-  DoT                  = 1 << 7,  // DoT, "DNS-over-TLS"
-  DoQ                  = 1 << 8,  // DoQ - DNS-over-QUIC
-  oDoHRelay            = 1 << 9,  // oDoH relay
-  oDoHTarget           = 1 << 10,  // oDoH target
-  DNSCryptRelay        = 1 << 11, // DNSCrypt relay
-  IPv4                 = 1 << 12, // "ipv4"
-  IPv6                 = 1 << 13, // "ipv6"
-  NoECS                = 1 << 14, // "no ecs", "no edns client-subnet"
-  IncompatibleWithAnon = 1 << 15, // "incompatible with dns anonymization", "incompatible with anonymization"
-  GFWFiltering         = 1 << 16, // "gfw filtering", "gfw poisoning"
-  HTTP3                = 1 << 17, // "http/3", "doh3"
-  QNAMEMinimization    = 1 << 18, // "qname minimization"
-  MalwareBlocking      = 1 << 19, // "malware blocking", "malicious domains", "phishing"
-  AdBlocking           = 1 << 20, // "adblock", "blocks ads", "ad-filtering"
-  TrackingBlocking     = 1 << 21, // "blocks trackers"
-  SocialMediaBlocking  = 1 << 22, // "blocks social media"
-  FamilyFilter         = 1 << 23, // "adult content blocking", "family safety", "parental control"
-  Anycast              = 1 << 24, // "anycast"
-  NoPadding            = 1 << 25, // "no padding" - it is very unclear if servers not mentioning padding DO have padding however.
-};
-
-char const* to_string(ResolverFlags flag)
-{
-  using enum ResolverFlags;
-  switch (flag)
-  {
-    AI_CASE_RETURN(None);
-    AI_CASE_RETURN(NoFilter);
-    AI_CASE_RETURN(NoLog);
-    AI_CASE_RETURN(NoPersistentLogs);
-    AI_CASE_RETURN(DNSSEC);
-    AI_CASE_RETURN(Do53);
-    AI_CASE_RETURN(DoH);
-    AI_CASE_RETURN(DoT);
-    AI_CASE_RETURN(DoQ);
-    AI_CASE_RETURN(oDoHRelay);
-    AI_CASE_RETURN(oDoHTarget);
-    AI_CASE_RETURN(DNSCryptRelay);
-    AI_CASE_RETURN(IPv4);
-    AI_CASE_RETURN(IPv6);
-    AI_CASE_RETURN(NoECS);
-    AI_CASE_RETURN(IncompatibleWithAnon);
-    AI_CASE_RETURN(GFWFiltering);
-    AI_CASE_RETURN(HTTP3);
-    AI_CASE_RETURN(QNAMEMinimization);
-    AI_CASE_RETURN(MalwareBlocking);
-    AI_CASE_RETURN(AdBlocking);
-    AI_CASE_RETURN(TrackingBlocking);
-    AI_CASE_RETURN(SocialMediaBlocking);
-    AI_CASE_RETURN(FamilyFilter);
-    AI_CASE_RETURN(DNSCrypt);
-    AI_CASE_RETURN(Anycast);
-    AI_CASE_RETURN(NoPadding);
-  }
-  AI_NEVER_REACHED
-}
-
-std::string print_flags(ResolverFlags flags)
-{
-  std::string result;
-
-  using mask_type = std::underlying_type_t<ResolverFlags>;
-  utils::BitSet<mask_type> bits(static_cast<mask_type>(flags));
-
-  if (bits.none())
-    return "None";
-
-  std::string separator;
-  for (auto it = bits.begin(); it != bits.end(); ++it)
-  {
-    result += separator + to_string(static_cast<ResolverFlags>((*it)()));
-    separator = "|";
-  }
-
-  return result;
-}
-
-// Helper operators for bitmask manipulation.
-constexpr inline ResolverFlags operator|(ResolverFlags a, ResolverFlags b)
-{
-  return static_cast<ResolverFlags>(static_cast<uint32_t>(a) | static_cast<uint32_t>(b));
-}
-
-constexpr inline ResolverFlags& operator|=(ResolverFlags& a, ResolverFlags b)
-{
-  a = a | b;
-  return a;
-}
-
-constexpr inline ResolverFlags operator&(ResolverFlags a, ResolverFlags b)
-{
-  return static_cast<ResolverFlags>(static_cast<uint32_t>(a) & static_cast<uint32_t>(b));
-}
-
-constexpr inline ResolverFlags& operator&=(ResolverFlags& a, ResolverFlags b)
-{
-  a = a & b;
-  return a;
-}
-
-constexpr inline ResolverFlags operator~(ResolverFlags a)
-{
-  return static_cast<ResolverFlags>(~static_cast<uint32_t>(a));
-}
-
-constexpr ResolverFlags protocols = ResolverFlags::Do53 | ResolverFlags::DNSCrypt | ResolverFlags::DoH | ResolverFlags::DoT | ResolverFlags::DoQ |
-  ResolverFlags::oDoHRelay | ResolverFlags::oDoHTarget | ResolverFlags::DNSCryptRelay;
 
 // Helper to convert string to lowercase.
 std::string toLower(std::string s)
@@ -1133,6 +1016,7 @@ void DnsEntry::print_on(std::ostream& os, char const* indentation) const
       process_ip(extract_hostname(sdns.address_), os, sep, indentation);
     else if (!sdns.hostname_port_.empty())
       process_ip(hostname_to_ip(std::string{extract_hostname(sdns.hostname_port_)}, (flags_ & ResolverFlags::IPv6) == ResolverFlags::IPv6), os, sep, indentation);
+    os << "}";
     sep = ",\n" + std::string(indentation) + "         ";
   }
   os << "],\n";
@@ -1375,8 +1259,9 @@ void process_next_entry(DnsEntry& current_entry, std::string& data, std::vector<
       // Lets not print a warning about the description containing DoT or DoQ, because that seems to be kinda normal (only sdns for DoH are given).
       if ((extra_flags & ~(DoT|DoQ)) == None)
         continue;
-      std::cerr << "Warning: Inconsistent flags in SDNS '" << sdns.encoding_ << "'. "
-        "The following flags are set in the description but not in the sdns: " << print_flags(extra_flags) << std::endl;
+      if ((sdns.flags_ & DNSCryptRelay) == None)
+        std::cerr << "Warning: Inconsistent flags in SDNS '" << sdns.encoding_ << "'. "
+          "The following flags are set in the description but not in the sdns: " << print_flags(extra_flags) << std::endl;
     }
   }
   // Remove flags that are set in any of the SDNS from the entry flags.
@@ -1387,136 +1272,140 @@ void process_next_entry(DnsEntry& current_entry, std::string& data, std::vector<
 int main()
 {
   Debug(NAMESPACE_DEBUG::init());
-  std::string input_filename_str   = "public-resolvers.md";
-  std::string output_json_filename = "public-resolvers.json";
 
-  std::filesystem::path input_filepath(input_filename_str);
+  std::array<std::string, 2> input_filename_str = { "relays.md", "public-resolvers.md" };
+  std::array<std::string, 2> output_json_filename = { "relays.json", "public-resolvers.json" };
 
-  // 1. Check if the file exists.
-  if (!std::filesystem::exists(input_filepath))
+  for (int file = 0; file < 2; ++file)
   {
-    std::cerr << std::format("Error: File '{}' does not exist.\n", input_filepath.string());
-    return EXIT_FAILURE;
-  }
+    std::filesystem::path input_filepath(input_filename_str[file]);
 
-  // 2. Open the file
-  std::ifstream inputFile(input_filepath);  // Automatically opens in text mode
-
-  // Check if the file was successfully opened
-  if (!inputFile.is_open())
-  {
-    std::cerr << "Error: Could not open file '" << input_filepath << "'. Check permissions.\n";
-    return EXIT_FAILURE;
-  }
-
-  std::cout << "\n--- Reading file: " << input_filepath << " ---\n";
-
-  std::string line;
-  std::string data;
-  unsigned int line_number             = 0;
-  std::string const entry_start_prefix = "## ";
-  std::string const dns_stamp_prefix = "sdns://";
-  bool header                          = true;
-  bool saw_empty_line                  = true;
-
-  std::vector<DnsEntry> entries;
-  DnsEntry current_entry;       // The current entry being parsed.
-
-  while (std::getline(inputFile, line))
-  {
-    ++line_number;
-    std::string const trimmed_line = trim(line);
-
-    // Skip empty lines.
-    if (trimmed_line.empty())
+    // 1. Check if the file exists.
+    if (!std::filesystem::exists(input_filepath))
     {
-      if (!header && !data.empty())
+      std::cerr << std::format("Error: File '{}' does not exist.\n", input_filepath.string());
+      return EXIT_FAILURE;
+    }
+
+    // 2. Open the file
+    std::ifstream inputFile(input_filepath);  // Automatically opens in text mode
+
+    // Check if the file was successfully opened
+    if (!inputFile.is_open())
+    {
+      std::cerr << "Error: Could not open file '" << input_filepath << "'. Check permissions.\n";
+      return EXIT_FAILURE;
+    }
+
+    std::cout << "\n--- Reading file: " << input_filepath << " ---\n";
+
+    std::string line;
+    std::string data;
+    unsigned int line_number             = 0;
+    std::string const entry_start_prefix = "## ";
+    std::string const dns_stamp_prefix = "sdns://";
+    bool header                          = true;
+    bool saw_empty_line                  = true;
+
+    std::vector<DnsEntry> entries;
+    DnsEntry current_entry;       // The current entry being parsed.
+
+    while (std::getline(inputFile, line))
+    {
+      ++line_number;
+      std::string const trimmed_line = trim(line);
+
+      // Skip empty lines.
+      if (trimmed_line.empty())
       {
-        current_entry.process(data);
-        data.clear();
+        if (!header && !data.empty())
+        {
+          current_entry.process(data);
+          data.clear();
+        }
+        saw_empty_line = true;
+        continue;
       }
-      saw_empty_line = true;
-      continue;
-    }
 
-    // Start of a new entry?
-    if (line.starts_with(entry_start_prefix))
-    {
-      // If this is not the first entry, store the previously collected one.
-      if (!header)
-        process_next_entry(current_entry, data, entries);
-      // We're no longer in the header section.
-      header = false;
-
-      // Start new entry.
-      current_entry = DnsEntry{trim(line.substr(entry_start_prefix.length()))};
-      continue;
-    }
-    else if (header)
-      continue;
-
-    // We are processing lines for an existing entry.
-    if (line.starts_with(dns_stamp_prefix))
-    {
-      if (!data.empty())
+      // Start of a new entry?
+      if (line.starts_with(entry_start_prefix))
       {
-        current_entry.process(data);
-        data.clear();
+        // If this is not the first entry, store the previously collected one.
+        if (!header)
+          process_next_entry(current_entry, data, entries);
+        // We're no longer in the header section.
+        header = false;
+
+        // Start new entry.
+        current_entry = DnsEntry{trim(line.substr(entry_start_prefix.length()))};
+        continue;
       }
-      current_entry.process_sdns(trimmed_line);
+      else if (header)
+        continue;
+
+      // We are processing lines for an existing entry.
+      if (line.starts_with(dns_stamp_prefix))
+      {
+        if (!data.empty())
+        {
+          current_entry.process(data);
+          data.clear();
+        }
+        current_entry.process_sdns(trimmed_line);
+      }
+      else if (saw_empty_line)
+        data = line;
+      else
+        data += " " + line;
+
+      saw_empty_line = false;
     }
-    else if (saw_empty_line)
-      data = line;
+
+    // Add the last processed entry if it exists.
+    if (!header && !current_entry.name_.empty())
+      process_next_entry(current_entry, data, entries);
+
+    inputFile.close();
+
+    if (inputFile.bad())
+      std::cerr << "\nError: Critical read error occurred from '" << input_filepath << "'.\n";
+    else if (inputFile.fail() && !inputFile.eof())
+      std::cerr << "\nError: Non-critical read error from '" << input_filepath << "'.\n";
     else
-      data += " " + line;
+     std::cout << std::format("\n--- Finished reading {} lines from {}. Found {} entries. ---\n", line_number, input_filepath.string(), entries.size());
 
-    saw_empty_line = false;
+    // Write the collected entry names to the JSON output file.
+    std::ofstream outputFile(output_json_filename[file]);
+    if (!outputFile.is_open())
+    {
+      std::cerr << "Error: Could not open output file '" << output_json_filename[file] << "' for writing.\n";
+      return EXIT_FAILURE;
+    }
+
+    std::cout << "--- Writing entries to JSON file: " << output_json_filename[file] << " ---\n";
+
+    outputFile << "[\n";
+
+    char const* separator = "  ";
+    for (DnsEntry const& entry : entries)
+    {
+      outputFile << separator << "{\n";
+      entry.print_on(outputFile, "    ");
+      outputFile << "  }";
+      separator = ",\n  ";
+    }
+
+    outputFile << "\n]\n";
+    outputFile.close();
+
+    if (outputFile.fail())
+    {
+      std::cerr << "Error: An error occurred while writing to '" << output_json_filename[file] << "'.\n";
+      return EXIT_FAILURE;
+    }
+
+    std::cout << std::format("--- Successfully wrote {} entries to {} ---\n", entries.size(), output_json_filename[file]);
   }
-
-  // Add the last processed entry if it exists.
-  if (!header && !current_entry.name_.empty())
-    process_next_entry(current_entry, data, entries);
-
-  inputFile.close();
-
-  if (inputFile.bad())
-    std::cerr << "\nError: Critical read error occurred from '" << input_filepath << "'.\n";
-  else if (inputFile.fail() && !inputFile.eof())
-    std::cerr << "\nError: Non-critical read error from '" << input_filepath << "'.\n";
-  else
-   std::cout << std::format("\n--- Finished reading {} lines from {}. Found {} entries. ---\n", line_number, input_filepath.string(), entries.size());
-
-  // Write the collected entry names to the JSON output file.
-  std::ofstream outputFile(output_json_filename);
-  if (!outputFile.is_open())
-  {
-    std::cerr << "Error: Could not open output file '" << output_json_filename << "' for writing.\n";
-    return EXIT_FAILURE;
-  }
-
-  std::cout << "--- Writing entries to JSON file: " << output_json_filename << " ---\n";
-
-  outputFile << "[\n";
-
-  char const* separator = "  ";
-  for (DnsEntry const& entry : entries)
-  {
-    outputFile << separator << "{\n";
-    entry.print_on(outputFile, "    ");
-    outputFile << "  }";
-    separator = ",\n  ";
-  }
-
-  outputFile << "\n]\n";
-  outputFile.close();
-
-  if (outputFile.fail())
-  {
-    std::cerr << "Error: An error occurred while writing to '" << output_json_filename << "'.\n";
-    return EXIT_FAILURE;
-  }
-
-  std::cout << std::format("--- Successfully wrote {} entries to {} ---\n", entries.size(), output_json_filename);
 
   return EXIT_SUCCESS;
 }
