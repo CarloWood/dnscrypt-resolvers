@@ -2,8 +2,6 @@
 #include "utils/to_string.h"
 #include "ResolverFlags.h"
 
-using utils::enums::to_string;
-
 std::string print_flags(ResolverFlags flags)
 {
   std::string result;
@@ -18,7 +16,7 @@ std::string print_flags(ResolverFlags flags)
   for (auto it = bits.begin(); it != bits.end(); ++it)
   {
     result += separator;
-    result += to_string(static_cast<ResolverFlags>((*it)()));
+    result += utils::to_string(static_cast<ResolverFlags>((*it)()));
     separator = "|";
   }
 
